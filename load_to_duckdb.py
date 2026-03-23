@@ -13,6 +13,7 @@ tables = {
     'raw_deals':         'data/raw/deals.csv',
     'raw_subscriptions': 'data/raw/subscriptions.csv',
     'raw_activities':    'data/raw/activities.csv',
+    'raw_stage_history': 'data/raw/stage_history.csv',
 }
 
 print("Carregando tabelas no DuckDB...\n")

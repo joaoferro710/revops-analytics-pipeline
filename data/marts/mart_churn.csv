@@ -1,0 +1,156 @@
+subscription_id,company_id,company_name,segment,industry,plan,mrr,status,is_churned,start_date,end_date,churned_mrr,days_active
+SUB-DEAL-0195,COMP-0002,Macedo,SMB,SaaS,Starter,199,Active,False,2024-04-13,,0,
+SUB-DEAL-0429,COMP-0006,Santos - EI,SMB,E-commerce,Starter,199,Active,False,2022-06-05,,0,
+SUB-DEAL-0222,COMP-0019,Farias S/A,Mid-Market,SaaS,Pro,1499,Churned,True,2025-02-06,2025-11-01,1499,268
+SUB-DEAL-0526,COMP-0020,Moura - EI,Mid-Market,Healthtech,Growth,599,Active,False,2022-10-11,,0,
+SUB-DEAL-0381,COMP-0021,Nogueira S/A,SMB,Edtech,Enterprise,3999,Active,False,2023-09-24,,0,
+SUB-DEAL-0205,COMP-0026,Garcia,SMB,SaaS,Starter,199,Active,False,2024-03-09,,0,
+SUB-DEAL-0036,COMP-0028,Guerra,SMB,Edtech,Starter,199,Churned,True,2025-02-20,2025-09-12,199,204
+SUB-DEAL-0365,COMP-0031,Aragão Martins - EI,SMB,Healthtech,Growth,599,Active,False,2023-08-26,,0,
+SUB-DEAL-0207,COMP-0032,Câmara Cunha S.A.,SMB,E-commerce,Starter,199,Active,False,2024-08-20,,0,
+SUB-DEAL-0232,COMP-0033,Marques - EI,SMB,SaaS,Growth,599,Churned,True,2023-01-09,2023-06-02,599,144
+SUB-DEAL-0361,COMP-0034,Novaes,Mid-Market,Fintech,Starter,199,Active,False,2023-08-12,,0,
+SUB-DEAL-0017,COMP-0035,Barros,SMB,Edtech,Starter,199,Active,False,2024-02-24,,0,
+SUB-DEAL-0269,COMP-0037,Cavalcanti e Filhos,SMB,Fintech,Growth,599,Churned,True,2024-02-13,2024-05-05,599,82
+SUB-DEAL-0228,COMP-0039,Fogaça,Mid-Market,Fintech,Starter,199,Active,False,2025-01-09,,0,
+SUB-DEAL-0267,COMP-0041,da Costa Nascimento S.A.,Enterprise,Fintech,Enterprise,3999,Active,False,2024-09-27,,0,
+SUB-DEAL-0318,COMP-0042,Nogueira,Enterprise,E-commerce,Starter,199,Active,False,2024-04-04,,0,
+SUB-DEAL-0434,COMP-0044,Cirino,SMB,Edtech,Growth,599,Active,False,2022-11-29,,0,
+SUB-DEAL-0394,COMP-0049,Gonçalves,SMB,Healthtech,Enterprise,3999,Churned,True,2024-03-15,2024-06-08,3999,85
+SUB-DEAL-0403,COMP-0051,da Cunha Brito e Filhos,SMB,SaaS,Starter,199,Active,False,2025-01-06,,0,
+SUB-DEAL-0063,COMP-0052,Dias,SMB,E-commerce,Starter,199,Active,False,2024-03-19,,0,
+SUB-DEAL-0410,COMP-0056,Almeida Ltda.,SMB,Edtech,Pro,1499,Active,False,2024-10-28,,0,
+SUB-DEAL-0590,COMP-0057,da Luz - ME,Enterprise,Fintech,Growth,599,Active,False,2022-04-21,,0,
+SUB-DEAL-0011,COMP-0058,Casa Grande Rios Ltda.,SMB,Fintech,Enterprise,3999,Churned,True,2024-01-27,2024-09-04,3999,221
+SUB-DEAL-0576,COMP-0059,Jesus - ME,SMB,SaaS,Enterprise,3999,Active,False,2022-08-02,,0,
+SUB-DEAL-0279,COMP-0061,Ramos,Mid-Market,Edtech,Enterprise,3999,Active,False,2023-04-30,,0,
+SUB-DEAL-0153,COMP-0064,Abreu Garcia e Filhos,SMB,Edtech,Starter,199,Active,False,2025-02-16,,0,
+SUB-DEAL-0284,COMP-0065,Silveira - ME,Enterprise,SaaS,Enterprise,3999,Active,False,2024-03-19,,0,
+SUB-DEAL-0462,COMP-0066,Moraes Siqueira Ltda.,SMB,Fintech,Growth,599,Churned,True,2022-06-05,2022-12-14,599,192
+SUB-DEAL-0442,COMP-0067,Mendes,Enterprise,Edtech,Enterprise,3999,Active,False,2023-07-11,,0,
+SUB-DEAL-0536,COMP-0069,Freitas Cassiano Ltda.,SMB,E-commerce,Growth,599,Active,False,2023-12-10,,0,
+SUB-DEAL-0139,COMP-0071,da Luz,SMB,SaaS,Starter,199,Active,False,2023-04-12,,0,
+SUB-DEAL-0168,COMP-0073,Cardoso,SMB,Edtech,Enterprise,3999,Churned,True,2022-04-14,2022-10-06,3999,175
+SUB-DEAL-0386,COMP-0074,Lima,Enterprise,SaaS,Pro,1499,Active,False,2022-07-04,,0,
+SUB-DEAL-0416,COMP-0079,Dias,SMB,Edtech,Pro,1499,Active,False,2023-04-27,,0,
+SUB-DEAL-0471,COMP-0080,Costa,SMB,E-commerce,Growth,599,Active,False,2022-09-20,,0,
+SUB-DEAL-0121,COMP-0081,Pinto Ltda.,SMB,SaaS,Enterprise,3999,Churned,True,2023-05-14,2023-09-23,3999,132
+SUB-DEAL-0554,COMP-0082,Câmara S/A,Mid-Market,SaaS,Enterprise,3999,Active,False,2023-01-20,,0,
+SUB-DEAL-0321,COMP-0085,da Paz Gonçalves - ME,SMB,Fintech,Starter,199,Active,False,2023-05-07,,0,
+SUB-DEAL-0176,COMP-0090,Pereira Freitas e Filhos,Enterprise,Fintech,Enterprise,3999,Active,False,2023-01-15,,0,
+SUB-DEAL-0128,COMP-0094,Nunes,Mid-Market,Fintech,Starter,199,Active,False,2023-10-24,,0,
+SUB-DEAL-0357,COMP-0097,Siqueira da Rosa S.A.,Mid-Market,E-commerce,Starter,199,Active,False,2024-11-29,,0,
+SUB-DEAL-0404,COMP-0098,Ribeiro,SMB,Edtech,Enterprise,3999,Active,False,2022-12-13,,0,
+SUB-DEAL-0265,COMP-0099,Sousa,SMB,E-commerce,Starter,199,Active,False,2024-05-17,,0,
+SUB-DEAL-0420,COMP-0104,Pires S/A,Enterprise,Edtech,Pro,1499,Churned,True,2023-09-28,2024-02-16,1499,141
+SUB-DEAL-0597,COMP-0108,Gonçalves - ME,SMB,Fintech,Enterprise,3999,Active,False,2023-05-08,,0,
+SUB-DEAL-0362,COMP-0110,Alves - ME,SMB,SaaS,Growth,599,Churned,True,2023-12-28,2024-03-06,599,69
+SUB-DEAL-0461,COMP-0112,Almeida - ME,SMB,Healthtech,Pro,1499,Active,False,2023-06-28,,0,
+SUB-DEAL-0135,COMP-0120,Martins S/A,Mid-Market,SaaS,Growth,599,Active,False,2023-04-28,,0,
+SUB-DEAL-0225,COMP-0122,Barros S/A,SMB,SaaS,Pro,1499,Churned,True,2023-05-15,2023-11-19,1499,188
+SUB-DEAL-0234,COMP-0123,Jesus e Filhos,Mid-Market,Edtech,Enterprise,3999,Active,False,2024-06-06,,0,
+SUB-DEAL-0583,COMP-0125,Martins Vieira Ltda.,Mid-Market,Edtech,Growth,599,Active,False,2023-07-12,,0,
+SUB-DEAL-0264,COMP-0127,Cardoso,Mid-Market,E-commerce,Starter,199,Churned,True,2022-10-13,2023-07-15,199,275
+SUB-DEAL-0237,COMP-0130,Guerra Silveira - EI,SMB,Edtech,Growth,599,Active,False,2024-06-29,,0,
+SUB-DEAL-0580,COMP-0135,Cardoso,SMB,E-commerce,Pro,1499,Active,False,2023-12-06,,0,
+SUB-DEAL-0233,COMP-0136,Borges,Mid-Market,Healthtech,Pro,1499,Churned,True,2024-05-13,2025-04-23,1499,345
+SUB-DEAL-0308,COMP-0137,Leão Ltda.,SMB,E-commerce,Growth,599,Active,False,2023-02-23,,0,
+SUB-DEAL-0530,COMP-0138,Peixoto,SMB,E-commerce,Enterprise,3999,Active,False,2025-01-18,,0,
+SUB-DEAL-0531,COMP-0143,Moreira,SMB,E-commerce,Starter,199,Churned,True,2023-02-16,2023-12-24,199,311
+SUB-DEAL-0304,COMP-0144,Nascimento,SMB,Healthtech,Enterprise,3999,Active,False,2024-04-17,,0,
+SUB-DEAL-0366,COMP-0145,Marques - EI,SMB,Edtech,Starter,199,Active,False,2024-02-15,,0,
+SUB-DEAL-0309,COMP-0146,Farias Castro e Filhos,SMB,SaaS,Enterprise,3999,Active,False,2022-12-29,,0,
+SUB-DEAL-0446,COMP-0147,Moreira Macedo Ltda.,Enterprise,Fintech,Pro,1499,Active,False,2022-05-27,,0,
+SUB-DEAL-0257,COMP-0149,Araújo - ME,SMB,E-commerce,Starter,199,Active,False,2023-07-06,,0,
+SUB-DEAL-0585,COMP-0153,Cavalcanti,SMB,E-commerce,Starter,199,Active,False,2024-08-19,,0,
+SUB-DEAL-0493,COMP-0154,da Mota,Mid-Market,Edtech,Growth,599,Active,False,2024-11-29,,0,
+SUB-DEAL-0539,COMP-0161,Lopes,SMB,Healthtech,Enterprise,3999,Active,False,2023-04-28,,0,
+SUB-DEAL-0487,COMP-0164,Lima Rios - ME,SMB,Edtech,Starter,199,Active,False,2024-03-19,,0,
+SUB-DEAL-0202,COMP-0165,Aragão - ME,SMB,Fintech,Enterprise,3999,Active,False,2022-03-11,,0,
+SUB-DEAL-0187,COMP-0166,Novais,Mid-Market,Healthtech,Enterprise,3999,Active,False,2022-12-26,,0,
+SUB-DEAL-0018,COMP-0167,Martins da Paz e Filhos,Mid-Market,Healthtech,Starter,199,Active,False,2023-12-17,,0,
+SUB-DEAL-0312,COMP-0171,Fogaça,SMB,Healthtech,Growth,599,Active,False,2022-08-22,,0,
+SUB-DEAL-0147,COMP-0173,da Rocha Fernandes e Filhos,SMB,Edtech,Starter,199,Churned,True,2023-03-26,2023-06-22,199,88
+SUB-DEAL-0270,COMP-0176,da Rocha Guerra S/A,SMB,Fintech,Growth,599,Active,False,2024-02-13,,0,
+SUB-DEAL-0266,COMP-0178,Rocha Rios S.A.,Enterprise,Edtech,Starter,199,Churned,True,2024-02-19,2024-09-14,199,208
+SUB-DEAL-0522,COMP-0181,Mendes Sá - ME,SMB,SaaS,Pro,1499,Active,False,2024-06-13,,0,
+SUB-DEAL-0214,COMP-0182,da Mata,SMB,SaaS,Starter,199,Active,False,2022-09-22,,0,
+SUB-DEAL-0481,COMP-0186,da Luz,Mid-Market,Healthtech,Growth,599,Active,False,2025-04-11,,0,
+SUB-DEAL-0339,COMP-0190,Pacheco Alves e Filhos,SMB,Edtech,Enterprise,3999,Active,False,2022-06-04,,0,
+SUB-DEAL-0565,COMP-0191,Duarte,SMB,Healthtech,Enterprise,3999,Churned,True,2023-06-13,2024-05-10,3999,332
+SUB-DEAL-0043,COMP-0193,Pimenta,Mid-Market,Healthtech,Enterprise,3999,Active,False,2022-06-27,,0,
+SUB-DEAL-0514,COMP-0194,Martins,Enterprise,Edtech,Starter,199,Active,False,2022-08-23,,0,
+SUB-DEAL-0379,COMP-0206,Ramos Lima - ME,Mid-Market,Healthtech,Pro,1499,Active,False,2024-05-06,,0,
+SUB-DEAL-0460,COMP-0208,da Cunha,Mid-Market,E-commerce,Enterprise,3999,Active,False,2024-08-28,,0,
+SUB-DEAL-0230,COMP-0209,da Conceição Pires - EI,SMB,Healthtech,Pro,1499,Active,False,2023-02-14,,0,
+SUB-DEAL-0219,COMP-0212,da Luz Ltda.,Mid-Market,Edtech,Enterprise,3999,Churned,True,2024-03-06,2025-01-03,3999,303
+SUB-DEAL-0348,COMP-0216,Aragão,SMB,Edtech,Pro,1499,Active,False,2022-12-18,,0,
+SUB-DEAL-0484,COMP-0218,Pastor - ME,SMB,SaaS,Enterprise,3999,Active,False,2022-12-08,,0,
+SUB-DEAL-0249,COMP-0219,Nunes S.A.,Mid-Market,Fintech,Pro,1499,Active,False,2022-02-24,,0,
+SUB-DEAL-0112,COMP-0220,Azevedo,SMB,E-commerce,Starter,199,Churned,True,2025-05-10,2025-11-15,199,189
+SUB-DEAL-0317,COMP-0223,Melo S.A.,Mid-Market,E-commerce,Pro,1499,Active,False,2023-06-23,,0,
+SUB-DEAL-0104,COMP-0225,Lopes,SMB,E-commerce,Starter,199,Active,False,2023-10-15,,0,
+SUB-DEAL-0160,COMP-0226,Peixoto,Mid-Market,Healthtech,Starter,199,Active,False,2023-03-24,,0,
+SUB-DEAL-0397,COMP-0227,Sampaio,SMB,Edtech,Pro,1499,Active,False,2023-11-07,,0,
+SUB-DEAL-0066,COMP-0229,Aragão,SMB,Fintech,Enterprise,3999,Active,False,2023-03-29,,0,
+SUB-DEAL-0436,COMP-0230,Costa Macedo - EI,SMB,Healthtech,Starter,199,Churned,True,2022-08-22,2022-12-05,199,105
+SUB-DEAL-0529,COMP-0231,Vasconcelos,Enterprise,Fintech,Pro,1499,Active,False,2023-04-02,,0,
+SUB-DEAL-0149,COMP-0233,Silveira - ME,Mid-Market,Healthtech,Growth,599,Churned,True,2024-10-28,2025-10-11,599,348
+SUB-DEAL-0538,COMP-0234,Cunha Ltda.,Enterprise,SaaS,Enterprise,3999,Active,False,2024-10-14,,0,
+SUB-DEAL-0223,COMP-0239,Campos,Mid-Market,Fintech,Growth,599,Active,False,2023-05-19,,0,
+SUB-DEAL-0283,COMP-0243,Araújo Oliveira Ltda.,SMB,Fintech,Pro,1499,Churned,True,2024-08-28,2025-07-08,1499,314
+SUB-DEAL-0003,COMP-0244,Gonçalves,SMB,Fintech,Starter,199,Active,False,2024-05-05,,0,
+SUB-DEAL-0224,COMP-0246,Teixeira,Enterprise,Fintech,Growth,599,Churned,True,2024-06-05,2025-03-01,599,269
+SUB-DEAL-0058,COMP-0247,Rios,Mid-Market,Healthtech,Growth,599,Active,False,2023-10-05,,0,
+SUB-DEAL-0259,COMP-0249,Azevedo e Filhos,SMB,E-commerce,Pro,1499,Churned,True,2022-06-22,2023-03-22,1499,273
+SUB-DEAL-0089,COMP-0250,Cardoso,Mid-Market,Healthtech,Enterprise,3999,Active,False,2024-09-28,,0,
+SUB-DEAL-0157,COMP-0253,Leão Siqueira S.A.,SMB,E-commerce,Enterprise,3999,Churned,True,2023-11-23,2024-09-25,3999,307
+SUB-DEAL-0374,COMP-0254,Camargo,SMB,Edtech,Growth,599,Churned,True,2022-07-23,2023-06-23,599,335
+SUB-DEAL-0373,COMP-0256,Viana Lima - EI,SMB,Fintech,Enterprise,3999,Active,False,2024-08-31,,0,
+SUB-DEAL-0192,COMP-0258,Oliveira,SMB,E-commerce,Growth,599,Churned,True,2022-07-25,2023-03-08,599,226
+SUB-DEAL-0024,COMP-0259,Guerra,Enterprise,E-commerce,Growth,599,Churned,True,2023-05-11,2024-02-12,599,277
+SUB-DEAL-0469,COMP-0261,Sampaio,SMB,E-commerce,Enterprise,3999,Active,False,2023-05-31,,0,
+SUB-DEAL-0244,COMP-0265,Pereira,SMB,Healthtech,Pro,1499,Churned,True,2024-01-29,2024-08-15,1499,199
+SUB-DEAL-0323,COMP-0266,da Paz Sampaio - EI,SMB,Healthtech,Enterprise,3999,Active,False,2022-07-02,,0,
+SUB-DEAL-0105,COMP-0268,Cardoso,SMB,Edtech,Pro,1499,Churned,True,2023-12-08,2024-06-14,1499,189
+SUB-DEAL-0492,COMP-0272,Albuquerque,SMB,Fintech,Enterprise,3999,Active,False,2022-11-29,,0,
+SUB-DEAL-0231,COMP-0273,Brito,SMB,E-commerce,Starter,199,Active,False,2023-10-26,,0,
+SUB-DEAL-0490,COMP-0275,da Cruz,Mid-Market,Edtech,Pro,1499,Active,False,2024-03-14,,0,
+SUB-DEAL-0186,COMP-0278,Borges,Enterprise,E-commerce,Growth,599,Churned,True,2023-01-12,2023-10-10,599,271
+SUB-DEAL-0533,COMP-0279,Andrade e Filhos,SMB,E-commerce,Pro,1499,Active,False,2022-11-09,,0,
+SUB-DEAL-0206,COMP-0282,Cavalcante,Mid-Market,Fintech,Enterprise,3999,Active,False,2024-04-09,,0,
+SUB-DEAL-0124,COMP-0283,Leão,SMB,Edtech,Pro,1499,Active,False,2024-03-07,,0,
+SUB-DEAL-0211,COMP-0285,Costa e Filhos,Mid-Market,Edtech,Pro,1499,Active,False,2024-05-22,,0,
+SUB-DEAL-0591,COMP-0288,Andrade das Neves S/A,SMB,Fintech,Starter,199,Active,False,2025-01-14,,0,
+SUB-DEAL-0046,COMP-0290,Lima Ribeiro e Filhos,Mid-Market,Edtech,Growth,599,Active,False,2023-03-19,,0,
+SUB-DEAL-0443,COMP-0292,Oliveira da Cunha S/A,SMB,Fintech,Starter,199,Active,False,2024-05-10,,0,
+SUB-DEAL-0326,COMP-0298,Nunes S.A.,SMB,Edtech,Growth,599,Active,False,2022-11-12,,0,
+SUB-DEAL-0387,COMP-0006,Santos - EI,SMB,E-commerce,Pro,1499,Churned,True,2022-11-16,2023-07-11,1499,237
+SUB-DEAL-0068,COMP-0020,Moura - EI,Mid-Market,Healthtech,Enterprise,3999,Churned,True,2023-05-25,2023-07-12,3999,48
+SUB-DEAL-0123,COMP-0026,Garcia,SMB,SaaS,Pro,1499,Churned,True,2022-03-23,2022-09-10,1499,171
+SUB-DEAL-0253,COMP-0041,da Costa Nascimento S.A.,Enterprise,Fintech,Enterprise,3999,Active,False,2024-06-24,,0,
+SUB-DEAL-0093,COMP-0042,Nogueira,Enterprise,E-commerce,Enterprise,3999,Churned,True,2022-10-03,2023-06-29,3999,269
+SUB-DEAL-0423,COMP-0044,Cirino,SMB,Edtech,Pro,1499,Active,False,2024-11-28,,0,
+SUB-DEAL-0432,COMP-0057,da Luz - ME,Enterprise,Fintech,Enterprise,3999,Active,False,2022-11-16,,0,
+SUB-DEAL-0535,COMP-0069,Freitas Cassiano Ltda.,SMB,E-commerce,Growth,599,Churned,True,2022-09-16,2023-07-29,599,316
+SUB-DEAL-0087,COMP-0071,da Luz,SMB,SaaS,Pro,1499,Active,False,2022-08-15,,0,
+SUB-DEAL-0037,COMP-0081,Pinto Ltda.,SMB,SaaS,Enterprise,3999,Active,False,2024-05-14,,0,
+SUB-DEAL-0069,COMP-0104,Pires S/A,Enterprise,Edtech,Starter,199,Active,False,2022-05-31,,0,
+SUB-DEAL-0194,COMP-0108,Gonçalves - ME,SMB,Fintech,Pro,1499,Churned,True,2023-10-02,2024-06-06,1499,248
+SUB-DEAL-0300,COMP-0125,Martins Vieira Ltda.,Mid-Market,Edtech,Pro,1499,Active,False,2025-05-21,,0,
+SUB-DEAL-0076,COMP-0130,Guerra Silveira - EI,SMB,Edtech,Pro,1499,Active,False,2023-12-21,,0,
+SUB-DEAL-0182,COMP-0138,Peixoto,SMB,E-commerce,Pro,1499,Active,False,2023-03-17,,0,
+SUB-DEAL-0170,COMP-0171,Fogaça,SMB,Healthtech,Starter,199,Active,False,2023-01-30,,0,
+SUB-DEAL-0359,COMP-0181,Mendes Sá - ME,SMB,SaaS,Growth,599,Active,False,2023-09-24,,0,
+SUB-DEAL-0080,COMP-0191,Duarte,SMB,Healthtech,Starter,199,Active,False,2024-11-07,,0,
+SUB-DEAL-0119,COMP-0230,Costa Macedo - EI,SMB,Healthtech,Pro,1499,Active,False,2023-07-14,,0,
+SUB-DEAL-0060,COMP-0234,Cunha Ltda.,Enterprise,SaaS,Starter,199,Churned,True,2023-09-15,2023-12-04,199,80
+SUB-DEAL-0171,COMP-0261,Sampaio,SMB,E-commerce,Starter,199,Churned,True,2022-11-17,2023-05-25,199,189
+SUB-DEAL-0033,COMP-0265,Pereira,SMB,Healthtech,Pro,1499,Active,False,2023-11-07,,0,
+SUB-DEAL-0082,COMP-0272,Albuquerque,SMB,Fintech,Enterprise,3999,Churned,True,2024-01-10,2024-03-02,3999,52
+SUB-DEAL-0196,COMP-0273,Brito,SMB,E-commerce,Enterprise,3999,Active,False,2023-04-03,,0,
+SUB-DEAL-0023,COMP-0104,Pires S/A,Enterprise,Edtech,Starter,199,Active,False,2022-11-21,,0,
+SUB-DEAL-0178,COMP-0125,Martins Vieira Ltda.,Mid-Market,Edtech,Pro,1499,Active,False,2024-10-14,,0,
+SUB-DEAL-0166,COMP-0171,Fogaça,SMB,Healthtech,Enterprise,3999,Active,False,2024-08-31,,0,
+SUB-DEAL-0022,COMP-0181,Mendes Sá - ME,SMB,SaaS,Enterprise,3999,Active,False,2023-06-27,,0,
+SUB-DEAL-0065,COMP-0273,Brito,SMB,E-commerce,Enterprise,3999,Active,False,2022-01-22,,0,

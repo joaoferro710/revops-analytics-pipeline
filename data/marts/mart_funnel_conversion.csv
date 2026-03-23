@@ -1,0 +1,6 @@
+stage,order_num,total_deals,next_stage_deals,conversion_pct
+Prospecting,1,600,526,87.7
+Qualified,2,526,399,75.9
+Proposal,3,399,265,66.4
+Negotiation,4,265,155,58.5
+Closed Won,5,155,,

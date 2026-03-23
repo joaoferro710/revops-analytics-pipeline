@@ -1,0 +1,601 @@
+deal_id,company_id,company_name,segment,industry,employees,plan,stage,stage_order,amount,created_at,closed_at,is_closed,is_won,won_amount,days_to_close,sales_cycle_bucket,deal_quarter,deal_month,close_quarter,is_open,total_activities,total_calls,total_emails,total_meetings,total_demos,positive_outcomes,negative_outcomes,positive_outcome_pct
+DEAL-0001,COMP-0204,Mendonça,Mid-Market,Fintech,3864,Starter,Prospecting,1,1592,2024-04-19,,False,False,0,,Em andamento,Q2 2024,2024-04,,True,5,2,1,0,1,2,2,40.0
+DEAL-0002,COMP-0249,Azevedo e Filhos,SMB,E-commerce,4823,Pro,Negotiation,4,1499,2022-01-20,,False,False,0,,Em andamento,Q1 2022,2022-01,,True,8,2,0,0,2,2,0,25.0
+DEAL-0003,COMP-0244,Gonçalves,SMB,Fintech,1402,Starter,Closed Won,5,1393,2024-02-10,2024-05-05,True,True,1393,85,61 a 90 dias,Q1 2024,2024-02,Q2 2024,False,10,1,4,2,1,2,6,20.0
+DEAL-0004,COMP-0280,Casa Grande Rezende Ltda.,Enterprise,Healthtech,760,Enterprise,Negotiation,4,63984,2023-05-03,,False,False,0,,Em andamento,Q2 2023,2023-05,,True,2,0,0,1,1,0,1,0.0
+DEAL-0005,COMP-0125,Martins Vieira Ltda.,Mid-Market,Edtech,3662,Starter,Closed Lost,6,398,2022-10-19,2023-01-05,True,False,0,78,61 a 90 dias,Q4 2022,2022-10,Q1 2023,False,9,0,1,2,2,2,4,22.2
+DEAL-0006,COMP-0036,Souza,SMB,SaaS,2983,Pro,Closed Lost,6,22485,2024-11-30,2025-03-22,True,False,0,112,Mais de 90 dias,Q4 2024,2024-11,Q1 2025,False,3,1,0,1,0,0,1,0.0
+DEAL-0007,COMP-0156,Vargas S/A,Mid-Market,SaaS,3451,Starter,Closed Lost,6,3383,2022-06-23,2022-11-25,True,False,0,155,Mais de 90 dias,Q2 2022,2022-06,Q4 2022,False,6,2,1,1,0,3,2,50.0
+DEAL-0008,COMP-0268,Cardoso,SMB,Edtech,4609,Starter,Qualified,2,3781,2024-03-18,,False,False,0,,Em andamento,Q1 2024,2024-03,,True,3,2,0,0,1,0,2,0.0
+DEAL-0009,COMP-0090,Pereira Freitas e Filhos,Enterprise,Fintech,1949,Growth,Negotiation,4,4792,2024-06-09,,False,False,0,,Em andamento,Q2 2024,2024-06,,True,4,2,0,2,0,2,1,50.0
+DEAL-0010,COMP-0242,da Conceição,SMB,SaaS,2413,Enterprise,Proposal,3,91977,2023-10-08,,False,False,0,,Em andamento,Q4 2023,2023-10,,True,9,1,1,3,3,3,2,33.3
+DEAL-0011,COMP-0058,Casa Grande Rios Ltda.,SMB,Fintech,3295,Enterprise,Closed Won,5,35991,2023-10-31,2024-01-27,True,True,35991,88,61 a 90 dias,Q4 2023,2023-10,Q1 2024,False,6,1,1,2,0,1,2,16.7
+DEAL-0012,COMP-0254,Camargo,SMB,Edtech,411,Growth,Qualified,2,11381,2023-02-20,,False,False,0,,Em andamento,Q1 2023,2023-02,,True,4,0,2,1,1,2,2,50.0
+DEAL-0013,COMP-0068,Sampaio e Filhos,Mid-Market,Healthtech,4791,Growth,Qualified,2,8985,2022-08-05,,False,False,0,,Em andamento,Q3 2022,2022-08,,True,7,2,4,1,0,1,6,14.3
+DEAL-0014,COMP-0298,Nunes S.A.,SMB,Edtech,4356,Starter,Negotiation,4,3582,2024-04-12,,False,False,0,,Em andamento,Q2 2024,2024-04,,True,8,1,2,1,3,1,1,12.5
+DEAL-0015,COMP-0078,Vargas - EI,SMB,SaaS,4542,Enterprise,Proposal,3,39990,2023-03-02,,False,False,0,,Em andamento,Q1 2023,2023-03,,True,4,2,1,0,1,2,2,50.0
+DEAL-0016,COMP-0273,Brito,SMB,E-commerce,4435,Starter,Negotiation,4,1194,2022-09-03,,False,False,0,,Em andamento,Q3 2022,2022-09,,True,8,1,3,2,2,4,1,50.0
+DEAL-0017,COMP-0035,Barros,SMB,Edtech,14,Starter,Closed Won,5,1393,2023-09-16,2024-02-24,True,True,1393,161,Mais de 90 dias,Q3 2023,2023-09,Q1 2024,False,7,0,2,0,4,1,4,14.3
+DEAL-0018,COMP-0167,Martins da Paz e Filhos,Mid-Market,Healthtech,3681,Starter,Closed Won,5,4577,2023-11-03,2023-12-17,True,True,4577,44,31 a 60 dias,Q4 2023,2023-11,Q4 2023,False,10,1,2,6,1,1,5,10.0
+DEAL-0019,COMP-0245,Fonseca - ME,SMB,Healthtech,1982,Enterprise,Qualified,2,67983,2023-12-30,,False,False,0,,Em andamento,Q4 2023,2023-12,,True,9,4,2,2,1,4,2,44.4
+DEAL-0020,COMP-0202,Pereira S/A,SMB,Edtech,4819,Pro,Prospecting,1,8994,2023-09-05,,False,False,0,,Em andamento,Q3 2023,2023-09,,True,10,2,4,0,1,5,1,50.0
+DEAL-0021,COMP-0141,Lopes,SMB,Healthtech,1121,Enterprise,Prospecting,1,71982,2024-04-08,,False,False,0,,Em andamento,Q2 2024,2024-04,,True,4,0,2,1,0,2,1,50.0
+DEAL-0022,COMP-0181,Mendes Sá - ME,SMB,SaaS,2078,Enterprise,Closed Won,5,15996,2023-05-27,2023-06-27,True,True,15996,31,31 a 60 dias,Q2 2023,2023-05,Q2 2023,False,7,2,2,2,0,3,3,42.9
+DEAL-0023,COMP-0104,Pires S/A,Enterprise,Edtech,1624,Starter,Closed Won,5,398,2022-10-14,2022-11-21,True,True,398,38,31 a 60 dias,Q4 2022,2022-10,Q4 2022,False,5,0,2,0,2,4,1,80.0
+DEAL-0024,COMP-0259,Guerra,Enterprise,E-commerce,3413,Growth,Closed Won,5,7787,2023-04-01,2023-05-11,True,True,7787,40,31 a 60 dias,Q2 2023,2023-04,Q2 2023,False,6,1,0,1,2,3,3,50.0
+DEAL-0025,COMP-0260,Melo S.A.,SMB,Edtech,3007,Pro,Proposal,3,4497,2022-06-22,,False,False,0,,Em andamento,Q2 2022,2022-06,,True,3,1,1,1,0,1,1,33.3
+DEAL-0026,COMP-0189,Sales,Mid-Market,E-commerce,675,Growth,Prospecting,1,12579,2022-05-13,,False,False,0,,Em andamento,Q2 2022,2022-05,,True,3,0,0,0,1,0,2,0.0
+DEAL-0027,COMP-0038,Casa Grande - EI,SMB,Healthtech,576,Starter,Proposal,3,2189,2022-09-21,,False,False,0,,Em andamento,Q3 2022,2022-09,,True,5,1,2,1,1,2,2,40.0
+DEAL-0028,COMP-0087,Andrade,SMB,SaaS,2535,Starter,Qualified,2,1194,2024-08-02,,False,False,0,,Em andamento,Q3 2024,2024-08,,True,6,1,3,1,0,3,1,50.0
+DEAL-0029,COMP-0143,Moreira,SMB,E-commerce,2774,Enterprise,Closed Lost,6,3999,2024-06-06,2024-09-22,True,False,0,108,Mais de 90 dias,Q2 2024,2024-06,Q3 2024,False,9,1,2,1,3,6,1,66.7
+DEAL-0030,COMP-0094,Nunes,Mid-Market,Fintech,1644,Growth,Proposal,3,7188,2024-05-23,,False,False,0,,Em andamento,Q2 2024,2024-05,,True,9,6,0,1,1,4,1,44.4
+DEAL-0031,COMP-0196,Albuquerque e Filhos,Mid-Market,SaaS,498,Pro,Qualified,2,13491,2023-01-19,,False,False,0,,Em andamento,Q1 2023,2023-01,,True,6,1,0,0,2,3,2,50.0
+DEAL-0032,COMP-0038,Casa Grande - EI,SMB,Healthtech,576,Starter,Proposal,3,3980,2022-11-01,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,8,1,3,0,1,3,1,37.5
+DEAL-0033,COMP-0265,Pereira,SMB,Healthtech,124,Pro,Closed Won,5,23984,2023-05-19,2023-11-07,True,True,23984,172,Mais de 90 dias,Q2 2023,2023-05,Q4 2023,False,5,0,2,2,1,3,1,60.0
+DEAL-0034,COMP-0189,Sales,Mid-Market,E-commerce,675,Starter,Proposal,3,597,2024-09-08,,False,False,0,,Em andamento,Q3 2024,2024-09,,True,2,1,0,0,1,0,1,0.0
+DEAL-0035,COMP-0042,Nogueira,Enterprise,E-commerce,3598,Enterprise,Proposal,3,27993,2022-10-09,,False,False,0,,Em andamento,Q4 2022,2022-10,,True,4,0,1,1,1,1,3,25.0
+DEAL-0036,COMP-0028,Guerra,SMB,Edtech,3844,Starter,Closed Won,5,2587,2024-12-12,2025-02-20,True,True,2587,70,61 a 90 dias,Q4 2024,2024-12,Q1 2025,False,8,1,4,2,0,1,5,12.5
+DEAL-0037,COMP-0081,Pinto Ltda.,SMB,SaaS,766,Enterprise,Closed Won,5,47988,2024-01-06,2024-05-14,True,True,47988,129,Mais de 90 dias,Q1 2024,2024-01,Q2 2024,False,3,1,0,0,0,1,1,33.3
+DEAL-0038,COMP-0162,Martins e Filhos,SMB,Healthtech,2672,Enterprise,Closed Lost,6,35991,2024-10-25,2025-01-22,True,False,0,89,61 a 90 dias,Q4 2024,2024-10,Q1 2025,False,9,1,2,3,2,2,4,22.2
+DEAL-0039,COMP-0172,Martins Cunha e Filhos,SMB,SaaS,1587,Growth,Qualified,2,599,2023-10-16,,False,False,0,,Em andamento,Q4 2023,2023-10,,True,3,1,1,1,0,1,0,33.3
+DEAL-0040,COMP-0264,Farias S/A,Mid-Market,Fintech,3265,Enterprise,Closed Lost,6,67983,2023-07-30,2023-08-20,True,False,0,21,Ate 30 dias,Q3 2023,2023-07,Q3 2023,False,4,0,0,1,2,1,1,25.0
+DEAL-0041,COMP-0042,Nogueira,Enterprise,E-commerce,3598,Growth,Proposal,3,2396,2023-04-22,,False,False,0,,Em andamento,Q2 2023,2023-04,,True,9,1,2,2,2,2,3,22.2
+DEAL-0042,COMP-0193,Pimenta,Mid-Market,Healthtech,593,Pro,Qualified,2,26982,2023-05-09,,False,False,0,,Em andamento,Q2 2023,2023-05,,True,7,3,1,2,0,2,2,28.6
+DEAL-0043,COMP-0193,Pimenta,Mid-Market,Healthtech,593,Enterprise,Closed Won,5,47988,2022-04-25,2022-06-27,True,True,47988,63,61 a 90 dias,Q2 2022,2022-04,Q2 2022,False,4,1,1,1,1,2,1,50.0
+DEAL-0044,COMP-0087,Andrade,SMB,SaaS,2535,Growth,Closed Lost,6,11381,2022-12-22,2023-02-12,True,False,0,52,31 a 60 dias,Q4 2022,2022-12,Q1 2023,False,9,0,1,2,2,2,3,22.2
+DEAL-0045,COMP-0141,Lopes,SMB,Healthtech,1121,Starter,Proposal,3,4577,2024-01-05,,False,False,0,,Em andamento,Q1 2024,2024-01,,True,7,1,4,0,0,2,2,28.6
+DEAL-0046,COMP-0290,Lima Ribeiro e Filhos,Mid-Market,Edtech,941,Growth,Closed Won,5,9584,2022-10-19,2023-03-19,True,True,9584,151,Mais de 90 dias,Q4 2022,2022-10,Q1 2023,False,10,2,3,1,3,3,4,30.0
+DEAL-0047,COMP-0284,Jesus,Mid-Market,Fintech,2701,Enterprise,Negotiation,4,7998,2022-12-26,,False,False,0,,Em andamento,Q4 2022,2022-12,,True,7,1,1,1,3,2,3,28.6
+DEAL-0048,COMP-0010,Lopes,Mid-Market,Healthtech,4402,Growth,Prospecting,1,599,2023-04-22,,False,False,0,,Em andamento,Q2 2023,2023-04,,True,6,1,2,1,1,2,2,33.3
+DEAL-0049,COMP-0192,Rodrigues,SMB,Fintech,2370,Pro,Negotiation,4,29980,2022-01-02,,False,False,0,,Em andamento,Q1 2022,2022-01,,True,8,3,1,1,3,4,2,50.0
+DEAL-0050,COMP-0080,Costa,SMB,E-commerce,4150,Pro,Qualified,2,34477,2022-09-25,,False,False,0,,Em andamento,Q3 2022,2022-09,,True,6,0,0,2,2,2,3,33.3
+DEAL-0051,COMP-0254,Camargo,SMB,Edtech,411,Starter,Qualified,2,199,2023-10-25,,False,False,0,,Em andamento,Q4 2023,2023-10,,True,4,1,1,1,0,1,0,25.0
+DEAL-0052,COMP-0040,Moreira,SMB,Edtech,3476,Starter,Qualified,2,3383,2022-10-18,,False,False,0,,Em andamento,Q4 2022,2022-10,,True,8,2,1,5,0,3,5,37.5
+DEAL-0053,COMP-0057,da Luz - ME,Enterprise,Fintech,1372,Enterprise,Closed Lost,6,75981,2022-05-29,2022-09-08,True,False,0,102,Mais de 90 dias,Q2 2022,2022-05,Q3 2022,False,7,4,0,0,1,2,3,28.6
+DEAL-0054,COMP-0033,Marques - EI,SMB,SaaS,2454,Pro,Qualified,2,7495,2023-09-11,,False,False,0,,Em andamento,Q3 2023,2023-09,,True,10,2,3,4,1,6,2,60.0
+DEAL-0055,COMP-0123,Jesus e Filhos,Mid-Market,Edtech,4588,Enterprise,Closed Lost,6,83979,2024-06-13,2024-11-30,True,False,0,170,Mais de 90 dias,Q2 2024,2024-06,Q4 2024,False,6,2,2,0,1,3,1,50.0
+DEAL-0056,COMP-0290,Lima Ribeiro e Filhos,Mid-Market,Edtech,941,Growth,Proposal,3,13178,2024-01-01,,False,False,0,,Em andamento,Q1 2024,2024-01,,True,9,3,3,1,0,4,2,44.4
+DEAL-0057,COMP-0108,Gonçalves - ME,SMB,Fintech,3454,Enterprise,Negotiation,4,39990,2022-12-26,,False,False,0,,Em andamento,Q4 2022,2022-12,,True,5,1,1,0,0,2,2,40.0
+DEAL-0058,COMP-0247,Rios,Mid-Market,Healthtech,2101,Growth,Closed Won,5,14376,2023-08-27,2023-10-05,True,True,14376,39,31 a 60 dias,Q3 2023,2023-08,Q4 2023,False,5,1,1,2,0,1,2,20.0
+DEAL-0059,COMP-0206,Ramos Lima - ME,Mid-Market,Healthtech,757,Starter,Prospecting,1,1194,2024-03-12,,False,False,0,,Em andamento,Q1 2024,2024-03,,True,5,1,1,1,1,2,1,40.0
+DEAL-0060,COMP-0234,Cunha Ltda.,Enterprise,SaaS,1190,Starter,Closed Won,5,3184,2023-03-29,2023-09-15,True,True,3184,170,Mais de 90 dias,Q1 2023,2023-03,Q3 2023,False,3,0,0,1,1,0,1,0.0
+DEAL-0061,COMP-0197,Pires,Mid-Market,Edtech,4672,Growth,Qualified,2,7188,2022-06-09,,False,False,0,,Em andamento,Q2 2022,2022-06,,True,9,1,2,2,3,3,2,33.3
+DEAL-0062,COMP-0049,Gonçalves,SMB,Healthtech,3344,Starter,Closed Lost,6,4577,2022-12-10,2023-05-28,True,False,0,169,Mais de 90 dias,Q4 2022,2022-12,Q2 2023,False,4,0,1,1,2,2,1,50.0
+DEAL-0063,COMP-0052,Dias,SMB,E-commerce,905,Starter,Closed Won,5,1791,2023-11-19,2024-03-19,True,True,1791,121,Mais de 90 dias,Q4 2023,2023-11,Q1 2024,False,6,0,0,1,2,1,1,16.7
+DEAL-0064,COMP-0114,Souza,SMB,Edtech,2755,Pro,Qualified,2,13491,2022-05-19,,False,False,0,,Em andamento,Q2 2022,2022-05,,True,5,2,2,0,0,3,1,60.0
+DEAL-0065,COMP-0273,Brito,SMB,E-commerce,4435,Enterprise,Closed Won,5,59985,2022-01-03,2022-01-22,True,True,59985,19,Ate 30 dias,Q1 2022,2022-01,Q1 2022,False,3,0,1,1,1,0,2,0.0
+DEAL-0066,COMP-0229,Aragão,SMB,Fintech,3375,Enterprise,Closed Won,5,51987,2022-12-07,2023-03-29,True,True,51987,112,Mais de 90 dias,Q4 2022,2022-12,Q1 2023,False,9,1,2,3,2,2,3,22.2
+DEAL-0067,COMP-0133,Santos,SMB,Fintech,3451,Starter,Proposal,3,3184,2024-02-08,,False,False,0,,Em andamento,Q1 2024,2024-02,,True,6,0,1,0,1,1,2,16.7
+DEAL-0068,COMP-0020,Moura - EI,Mid-Market,Healthtech,2203,Enterprise,Closed Won,5,11997,2023-04-07,2023-05-25,True,True,11997,48,31 a 60 dias,Q2 2023,2023-04,Q2 2023,False,9,0,3,4,1,4,2,44.4
+DEAL-0069,COMP-0104,Pires S/A,Enterprise,Edtech,1624,Starter,Closed Won,5,2189,2022-03-10,2022-05-31,True,True,2189,82,61 a 90 dias,Q1 2022,2022-03,Q2 2022,False,5,2,1,1,0,3,1,60.0
+DEAL-0070,COMP-0048,Pacheco Pinto - ME,SMB,Edtech,4730,Starter,Proposal,3,2189,2022-08-03,,False,False,0,,Em andamento,Q3 2022,2022-08,,True,10,2,1,2,4,0,4,0.0
+DEAL-0071,COMP-0237,Pires,Mid-Market,E-commerce,4381,Growth,Qualified,2,14376,2024-02-08,,False,False,0,,Em andamento,Q1 2024,2024-02,,True,3,0,0,1,0,2,0,66.7
+DEAL-0072,COMP-0275,da Cruz,Mid-Market,Edtech,3353,Pro,Prospecting,1,29980,2022-07-10,,False,False,0,,Em andamento,Q3 2022,2022-07,,True,3,0,0,1,0,1,1,33.3
+DEAL-0073,COMP-0079,Dias,SMB,Edtech,1735,Enterprise,Closed Lost,6,83979,2024-09-15,2024-09-29,True,False,0,14,Ate 30 dias,Q3 2024,2024-09,Q3 2024,False,8,1,1,2,1,1,3,12.5
+DEAL-0074,COMP-0181,Mendes Sá - ME,SMB,SaaS,2078,Growth,Qualified,2,1198,2024-06-08,,False,False,0,,Em andamento,Q2 2024,2024-06,,True,10,3,1,3,2,2,5,20.0
+DEAL-0075,COMP-0095,Almeida Novaes Ltda.,SMB,Fintech,1836,Growth,Qualified,2,8386,2023-02-25,,False,False,0,,Em andamento,Q1 2023,2023-02,,True,5,2,2,0,1,2,0,40.0
+DEAL-0076,COMP-0130,Guerra Silveira - EI,SMB,Edtech,670,Pro,Closed Won,5,14990,2023-06-28,2023-12-21,True,True,14990,176,Mais de 90 dias,Q2 2023,2023-06,Q4 2023,False,9,2,3,2,2,3,5,33.3
+DEAL-0077,COMP-0081,Pinto Ltda.,SMB,SaaS,766,Enterprise,Qualified,2,75981,2022-04-12,,False,False,0,,Em andamento,Q2 2022,2022-04,,True,3,1,0,0,1,1,2,33.3
+DEAL-0078,COMP-0263,Teixeira Vasconcelos S/A,Mid-Market,Healthtech,626,Growth,Negotiation,4,1198,2024-10-02,,False,False,0,,Em andamento,Q4 2024,2024-10,,True,3,0,1,0,0,1,1,33.3
+DEAL-0079,COMP-0219,Nunes S.A.,Mid-Market,Fintech,4092,Starter,Proposal,3,1990,2024-05-25,,False,False,0,,Em andamento,Q2 2024,2024-05,,True,3,1,0,1,0,0,1,0.0
+DEAL-0080,COMP-0191,Duarte,SMB,Healthtech,4874,Starter,Closed Won,5,199,2024-09-10,2024-11-07,True,True,199,58,31 a 60 dias,Q3 2024,2024-09,Q4 2024,False,4,0,1,2,1,1,2,25.0
+DEAL-0081,COMP-0167,Martins da Paz e Filhos,Mid-Market,Healthtech,3681,Starter,Qualified,2,3184,2023-08-21,,False,False,0,,Em andamento,Q3 2023,2023-08,,True,3,0,0,2,1,1,2,33.3
+DEAL-0082,COMP-0272,Albuquerque,SMB,Fintech,4413,Enterprise,Closed Won,5,63984,2023-09-24,2024-01-10,True,True,63984,108,Mais de 90 dias,Q3 2023,2023-09,Q1 2024,False,9,1,1,2,3,2,2,22.2
+DEAL-0083,COMP-0184,Rezende,Mid-Market,E-commerce,707,Enterprise,Closed Lost,6,23994,2023-06-27,2023-07-27,True,False,0,30,Ate 30 dias,Q2 2023,2023-06,Q3 2023,False,3,2,0,0,1,1,0,33.3
+DEAL-0084,COMP-0227,Sampaio,SMB,Edtech,4461,Pro,Proposal,3,8994,2024-02-21,,False,False,0,,Em andamento,Q1 2024,2024-02,,True,3,0,1,1,1,1,1,33.3
+DEAL-0085,COMP-0271,Dias,SMB,SaaS,2503,Enterprise,Proposal,3,59985,2023-06-24,,False,False,0,,Em andamento,Q2 2023,2023-06,,True,10,0,4,1,2,1,6,10.0
+DEAL-0086,COMP-0261,Sampaio,SMB,E-commerce,1357,Starter,Proposal,3,995,2023-07-05,,False,False,0,,Em andamento,Q3 2023,2023-07,,True,7,0,2,2,3,3,0,42.9
+DEAL-0087,COMP-0071,da Luz,SMB,SaaS,86,Pro,Closed Won,5,26982,2022-07-18,2022-08-15,True,True,26982,28,Ate 30 dias,Q3 2022,2022-07,Q3 2022,False,6,1,1,2,0,4,0,66.7
+DEAL-0088,COMP-0154,da Mota,Mid-Market,Edtech,346,Starter,Proposal,3,2587,2023-04-11,,False,False,0,,Em andamento,Q2 2023,2023-04,,True,9,3,0,3,3,6,3,66.7
+DEAL-0089,COMP-0250,Cardoso,Mid-Market,Healthtech,2058,Enterprise,Closed Won,5,75981,2024-05-07,2024-09-28,True,True,75981,144,Mais de 90 dias,Q2 2024,2024-05,Q3 2024,False,5,1,0,2,2,2,3,40.0
+DEAL-0090,COMP-0051,da Cunha Brito e Filhos,SMB,SaaS,816,Starter,Closed Lost,6,2587,2024-09-02,2024-11-24,True,False,0,83,61 a 90 dias,Q3 2024,2024-09,Q4 2024,False,8,1,3,1,0,1,4,12.5
+DEAL-0091,COMP-0210,Santos,SMB,E-commerce,2077,Growth,Closed Lost,6,2396,2022-03-13,2022-07-26,True,False,0,135,Mais de 90 dias,Q1 2022,2022-03,Q3 2022,False,6,2,1,1,1,1,3,16.7
+DEAL-0092,COMP-0272,Albuquerque,SMB,Fintech,4413,Growth,Closed Lost,6,4193,2024-07-08,2024-08-28,True,False,0,51,31 a 60 dias,Q3 2024,2024-07,Q3 2024,False,4,0,1,2,1,2,1,50.0
+DEAL-0093,COMP-0042,Nogueira,Enterprise,E-commerce,3598,Enterprise,Closed Won,5,11997,2022-09-16,2022-10-03,True,True,11997,17,Ate 30 dias,Q3 2022,2022-09,Q4 2022,False,6,3,0,0,2,4,0,66.7
+DEAL-0094,COMP-0056,Almeida Ltda.,SMB,Edtech,130,Growth,Closed Lost,6,11980,2024-06-10,2024-08-07,True,False,0,58,31 a 60 dias,Q2 2024,2024-06,Q3 2024,False,6,2,1,0,2,3,1,50.0
+DEAL-0095,COMP-0168,Rezende S/A,SMB,Fintech,3322,Starter,Proposal,3,2587,2022-05-18,,False,False,0,,Em andamento,Q2 2022,2022-05,,True,3,2,0,1,0,0,2,0.0
+DEAL-0096,COMP-0016,da Conceição,SMB,E-commerce,594,Pro,Negotiation,4,25483,2023-10-30,,False,False,0,,Em andamento,Q4 2023,2023-10,,True,5,0,1,1,1,4,1,80.0
+DEAL-0097,COMP-0255,Moreira S.A.,Mid-Market,E-commerce,1895,Enterprise,Negotiation,4,15996,2022-01-26,,False,False,0,,Em andamento,Q1 2022,2022-01,,True,3,0,1,1,1,1,0,33.3
+DEAL-0098,COMP-0248,Aragão,Mid-Market,Healthtech,2366,Starter,Proposal,3,796,2022-10-31,,False,False,0,,Em andamento,Q4 2022,2022-10,,True,9,0,3,3,1,4,3,44.4
+DEAL-0099,COMP-0185,da Paz,SMB,Healthtech,4976,Pro,Negotiation,4,26982,2022-07-26,,False,False,0,,Em andamento,Q3 2022,2022-07,,True,8,3,2,1,2,3,1,37.5
+DEAL-0100,COMP-0062,Garcia,SMB,Fintech,489,Enterprise,Closed Lost,6,83979,2024-04-21,2024-07-04,True,False,0,74,61 a 90 dias,Q2 2024,2024-04,Q3 2024,False,5,0,1,1,2,0,2,0.0
+DEAL-0101,COMP-0136,Borges,Mid-Market,Healthtech,4419,Starter,Negotiation,4,1194,2024-08-26,,False,False,0,,Em andamento,Q3 2024,2024-08,,True,8,3,1,1,2,2,3,25.0
+DEAL-0102,COMP-0057,da Luz - ME,Enterprise,Fintech,1372,Enterprise,Proposal,3,7998,2022-10-22,,False,False,0,,Em andamento,Q4 2022,2022-10,,True,6,0,2,1,1,3,2,50.0
+DEAL-0103,COMP-0014,Mendes Ltda.,Enterprise,Fintech,837,Growth,Proposal,3,1198,2023-11-10,,False,False,0,,Em andamento,Q4 2023,2023-11,,True,10,2,3,2,2,3,3,30.0
+DEAL-0104,COMP-0225,Lopes,SMB,E-commerce,4818,Starter,Closed Won,5,2189,2023-07-05,2023-10-15,True,True,2189,102,Mais de 90 dias,Q3 2023,2023-07,Q4 2023,False,8,2,0,1,3,3,4,37.5
+DEAL-0105,COMP-0268,Cardoso,SMB,Edtech,4609,Pro,Closed Won,5,23984,2023-09-13,2023-12-08,True,True,23984,86,61 a 90 dias,Q3 2023,2023-09,Q4 2023,False,5,2,1,0,1,3,1,60.0
+DEAL-0106,COMP-0066,Moraes Siqueira Ltda.,SMB,Fintech,3317,Growth,Closed Lost,6,5990,2022-07-21,2022-09-24,True,False,0,65,61 a 90 dias,Q3 2022,2022-07,Q3 2022,False,6,2,1,0,3,4,0,66.7
+DEAL-0107,COMP-0294,Ramos,Mid-Market,Healthtech,894,Pro,Closed Lost,6,35976,2024-06-26,2024-09-23,True,False,0,89,61 a 90 dias,Q2 2024,2024-06,Q3 2024,False,8,0,2,0,2,0,4,0.0
+DEAL-0108,COMP-0125,Martins Vieira Ltda.,Mid-Market,Edtech,3662,Growth,Proposal,3,8985,2022-07-02,,False,False,0,,Em andamento,Q3 2022,2022-07,,True,5,0,1,0,3,1,3,20.0
+DEAL-0109,COMP-0251,Barbosa,Mid-Market,Fintech,3161,Enterprise,Qualified,2,67983,2024-04-13,,False,False,0,,Em andamento,Q2 2024,2024-04,,True,7,3,1,0,2,2,3,28.6
+DEAL-0110,COMP-0262,Farias Aragão Ltda.,Enterprise,Healthtech,2427,Growth,Closed Lost,6,1797,2022-04-26,2022-09-11,True,False,0,138,Mais de 90 dias,Q2 2022,2022-04,Q3 2022,False,8,3,2,2,1,1,4,12.5
+DEAL-0111,COMP-0045,Pereira,SMB,SaaS,591,Enterprise,Proposal,3,19995,2024-11-03,,False,False,0,,Em andamento,Q4 2024,2024-11,,True,5,1,1,1,0,3,0,60.0
+DEAL-0112,COMP-0220,Azevedo,SMB,E-commerce,3413,Starter,Closed Won,5,1194,2024-12-09,2025-05-10,True,True,1194,152,Mais de 90 dias,Q4 2024,2024-12,Q2 2025,False,3,0,0,1,0,2,0,66.7
+DEAL-0113,COMP-0094,Nunes,Mid-Market,Fintech,1644,Starter,Qualified,2,1592,2023-02-16,,False,False,0,,Em andamento,Q1 2023,2023-02,,True,2,0,0,0,0,0,1,0.0
+DEAL-0114,COMP-0154,da Mota,Mid-Market,Edtech,346,Pro,Prospecting,1,34477,2022-04-14,,False,False,0,,Em andamento,Q2 2022,2022-04,,True,2,0,1,0,1,1,0,50.0
+DEAL-0115,COMP-0252,Araújo S/A,SMB,Healthtech,4695,Enterprise,Qualified,2,67983,2024-01-25,,False,False,0,,Em andamento,Q1 2024,2024-01,,True,3,0,2,0,0,3,0,100.0
+DEAL-0116,COMP-0092,Pimenta Ferreira - EI,SMB,E-commerce,3382,Starter,Proposal,3,1592,2022-09-11,,False,False,0,,Em andamento,Q3 2022,2022-09,,True,4,0,1,2,0,1,1,25.0
+DEAL-0117,COMP-0192,Rodrigues,SMB,Fintech,2370,Growth,Proposal,3,9584,2024-07-02,,False,False,0,,Em andamento,Q3 2024,2024-07,,True,4,0,1,0,2,3,0,75.0
+DEAL-0118,COMP-0276,Moura e Filhos,SMB,E-commerce,1789,Pro,Negotiation,4,8994,2023-12-18,,False,False,0,,Em andamento,Q4 2023,2023-12,,True,6,1,0,2,3,2,3,33.3
+DEAL-0119,COMP-0230,Costa Macedo - EI,SMB,Healthtech,3133,Pro,Closed Won,5,1499,2023-06-14,2023-07-14,True,True,1499,30,Ate 30 dias,Q2 2023,2023-06,Q3 2023,False,7,0,4,1,1,3,2,42.9
+DEAL-0120,COMP-0283,Leão,SMB,Edtech,1707,Growth,Proposal,3,4792,2022-11-30,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,6,1,0,2,2,0,3,0.0
+DEAL-0121,COMP-0081,Pinto Ltda.,SMB,SaaS,766,Enterprise,Closed Won,5,67983,2023-02-28,2023-05-14,True,True,67983,75,61 a 90 dias,Q1 2023,2023-02,Q2 2023,False,10,1,2,2,2,4,4,40.0
+DEAL-0122,COMP-0014,Mendes Ltda.,Enterprise,Fintech,837,Enterprise,Prospecting,1,19995,2022-01-19,,False,False,0,,Em andamento,Q1 2022,2022-01,,True,6,1,1,2,0,2,1,33.3
+DEAL-0123,COMP-0026,Garcia,SMB,SaaS,908,Pro,Closed Won,5,29980,2022-01-18,2022-03-23,True,True,29980,64,61 a 90 dias,Q1 2022,2022-01,Q1 2022,False,9,0,2,2,3,4,2,44.4
+DEAL-0124,COMP-0283,Leão,SMB,Edtech,1707,Pro,Closed Won,5,20986,2023-09-18,2024-03-07,True,True,20986,171,Mais de 90 dias,Q3 2023,2023-09,Q1 2024,False,4,0,1,0,1,1,1,25.0
+DEAL-0125,COMP-0021,Nogueira S/A,SMB,Edtech,2587,Pro,Closed Lost,6,10493,2023-12-16,2024-04-18,True,False,0,124,Mais de 90 dias,Q4 2023,2023-12,Q2 2024,False,8,3,0,1,3,2,3,25.0
+DEAL-0126,COMP-0058,Casa Grande Rios Ltda.,SMB,Fintech,3295,Enterprise,Negotiation,4,75981,2024-12-02,,False,False,0,,Em andamento,Q4 2024,2024-12,,True,2,1,1,0,0,0,2,0.0
+DEAL-0127,COMP-0246,Teixeira,Enterprise,Fintech,1912,Pro,Qualified,2,26982,2024-11-13,,False,False,0,,Em andamento,Q4 2024,2024-11,,True,8,0,2,3,0,3,0,37.5
+DEAL-0128,COMP-0094,Nunes,Mid-Market,Fintech,1644,Starter,Closed Won,5,3184,2023-08-02,2023-10-24,True,True,3184,83,61 a 90 dias,Q3 2023,2023-08,Q4 2023,False,4,0,1,0,1,1,0,25.0
+DEAL-0129,COMP-0016,da Conceição,SMB,E-commerce,594,Pro,Prospecting,1,13491,2023-07-21,,False,False,0,,Em andamento,Q3 2023,2023-07,,True,7,2,1,1,3,1,5,14.3
+DEAL-0130,COMP-0001,Pinto,Mid-Market,SaaS,2263,Growth,Proposal,3,2995,2023-09-04,,False,False,0,,Em andamento,Q3 2023,2023-09,,True,9,2,3,2,0,1,7,11.1
+DEAL-0131,COMP-0279,Andrade e Filhos,SMB,E-commerce,1564,Starter,Negotiation,4,3980,2023-05-08,,False,False,0,,Em andamento,Q2 2023,2023-05,,True,2,1,1,0,0,1,1,50.0
+DEAL-0132,COMP-0174,da Cruz,SMB,Healthtech,2275,Growth,Proposal,3,14376,2023-10-17,,False,False,0,,Em andamento,Q4 2023,2023-10,,True,5,1,0,0,2,1,3,20.0
+DEAL-0133,COMP-0139,Duarte - ME,Mid-Market,Fintech,4385,Pro,Prospecting,1,13491,2024-10-15,,False,False,0,,Em andamento,Q4 2024,2024-10,,True,8,1,2,4,0,3,2,37.5
+DEAL-0134,COMP-0233,Silveira - ME,Mid-Market,Healthtech,826,Starter,Closed Lost,6,3781,2024-04-08,2024-07-23,True,False,0,106,Mais de 90 dias,Q2 2024,2024-04,Q3 2024,False,4,0,1,3,0,1,1,25.0
+DEAL-0135,COMP-0120,Martins S/A,Mid-Market,SaaS,3492,Growth,Closed Won,5,13178,2023-01-24,2023-04-28,True,True,13178,94,Mais de 90 dias,Q1 2023,2023-01,Q2 2023,False,3,0,1,0,1,1,2,33.3
+DEAL-0136,COMP-0293,da Cruz e Filhos,SMB,SaaS,508,Pro,Negotiation,4,25483,2024-09-01,,False,False,0,,Em andamento,Q3 2024,2024-09,,True,8,1,3,1,1,3,2,37.5
+DEAL-0137,COMP-0104,Pires S/A,Enterprise,Edtech,1624,Growth,Proposal,3,5990,2022-12-15,,False,False,0,,Em andamento,Q4 2022,2022-12,,True,4,0,0,2,1,2,2,50.0
+DEAL-0138,COMP-0146,Farias Castro e Filhos,SMB,SaaS,339,Pro,Prospecting,1,35976,2022-09-20,,False,False,0,,Em andamento,Q3 2022,2022-09,,True,5,1,0,0,3,2,1,40.0
+DEAL-0139,COMP-0071,da Luz,SMB,SaaS,86,Starter,Closed Won,5,1592,2023-01-10,2023-04-12,True,True,1592,92,Mais de 90 dias,Q1 2023,2023-01,Q2 2023,False,6,1,1,2,1,3,2,50.0
+DEAL-0140,COMP-0182,da Mata,SMB,SaaS,3292,Enterprise,Proposal,3,43989,2023-09-21,,False,False,0,,Em andamento,Q3 2023,2023-09,,True,6,0,0,2,3,1,2,16.7
+DEAL-0141,COMP-0279,Andrade e Filhos,SMB,E-commerce,1564,Enterprise,Proposal,3,15996,2023-08-26,,False,False,0,,Em andamento,Q3 2023,2023-08,,True,2,1,1,0,0,0,2,0.0
+DEAL-0142,COMP-0123,Jesus e Filhos,Mid-Market,Edtech,4588,Enterprise,Negotiation,4,27993,2022-05-26,,False,False,0,,Em andamento,Q2 2022,2022-05,,True,2,0,1,0,1,0,2,0.0
+DEAL-0143,COMP-0024,Mendes S/A,Mid-Market,Healthtech,4790,Pro,Negotiation,4,20986,2024-02-21,,False,False,0,,Em andamento,Q1 2024,2024-02,,True,9,0,3,4,2,3,4,33.3
+DEAL-0144,COMP-0112,Almeida - ME,SMB,Healthtech,1760,Growth,Prospecting,1,4193,2022-11-05,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,5,1,2,1,0,1,2,20.0
+DEAL-0145,COMP-0118,Rodrigues,SMB,Edtech,1602,Growth,Proposal,3,6589,2024-07-26,,False,False,0,,Em andamento,Q3 2024,2024-07,,True,5,1,0,0,1,2,3,40.0
+DEAL-0146,COMP-0202,Pereira S/A,SMB,Edtech,4819,Enterprise,Closed Lost,6,43989,2023-01-05,2023-02-01,True,False,0,27,Ate 30 dias,Q1 2023,2023-01,Q1 2023,False,4,0,2,1,0,3,1,75.0
+DEAL-0147,COMP-0173,da Rocha Fernandes e Filhos,SMB,Edtech,1526,Starter,Closed Won,5,199,2022-12-29,2023-03-26,True,True,199,87,61 a 90 dias,Q4 2022,2022-12,Q1 2023,False,10,1,1,2,3,2,3,20.0
+DEAL-0148,COMP-0289,Mendonça Albuquerque - ME,SMB,E-commerce,439,Growth,Negotiation,4,11381,2023-03-05,,False,False,0,,Em andamento,Q1 2023,2023-03,,True,5,1,1,2,1,4,1,80.0
+DEAL-0149,COMP-0233,Silveira - ME,Mid-Market,Healthtech,826,Growth,Closed Won,5,11980,2024-09-29,2024-10-28,True,True,11980,29,Ate 30 dias,Q3 2024,2024-09,Q4 2024,False,3,0,2,1,0,0,1,0.0
+DEAL-0150,COMP-0138,Peixoto,SMB,E-commerce,3322,Enterprise,Proposal,3,55986,2024-05-29,,False,False,0,,Em andamento,Q2 2024,2024-05,,True,3,1,1,0,1,2,0,66.7
+DEAL-0151,COMP-0033,Marques - EI,SMB,SaaS,2454,Starter,Closed Lost,6,3582,2024-02-25,2024-03-04,True,False,0,8,Ate 30 dias,Q1 2024,2024-02,Q1 2024,False,9,1,4,1,1,5,2,55.6
+DEAL-0152,COMP-0290,Lima Ribeiro e Filhos,Mid-Market,Edtech,941,Starter,Qualified,2,2189,2024-02-04,,False,False,0,,Em andamento,Q1 2024,2024-02,,True,8,1,3,1,1,2,3,25.0
+DEAL-0153,COMP-0064,Abreu Garcia e Filhos,SMB,Edtech,1299,Starter,Closed Won,5,4378,2024-12-23,2025-02-16,True,True,4378,55,31 a 60 dias,Q4 2024,2024-12,Q1 2025,False,5,1,1,1,1,3,1,60.0
+DEAL-0154,COMP-0184,Rezende,Mid-Market,E-commerce,707,Growth,Prospecting,1,13777,2023-05-25,,False,False,0,,Em andamento,Q2 2023,2023-05,,True,6,1,0,3,0,1,2,16.7
+DEAL-0155,COMP-0283,Leão,SMB,Edtech,1707,Starter,Closed Lost,6,2587,2023-10-02,2023-11-11,True,False,0,40,31 a 60 dias,Q4 2023,2023-10,Q4 2023,False,2,1,0,0,0,1,1,50.0
+DEAL-0156,COMP-0035,Barros,SMB,Edtech,14,Growth,Negotiation,4,1797,2023-09-19,,False,False,0,,Em andamento,Q3 2023,2023-09,,True,7,3,0,2,2,2,4,28.6
+DEAL-0157,COMP-0253,Leão Siqueira S.A.,SMB,E-commerce,189,Enterprise,Closed Won,5,95976,2023-09-03,2023-11-23,True,True,95976,81,61 a 90 dias,Q3 2023,2023-09,Q4 2023,False,3,2,0,0,1,2,1,66.7
+DEAL-0158,COMP-0061,Ramos,Mid-Market,Edtech,3996,Pro,Negotiation,4,20986,2024-12-09,,False,False,0,,Em andamento,Q4 2024,2024-12,,True,9,3,2,1,2,5,3,55.6
+DEAL-0159,COMP-0034,Novaes,Mid-Market,Fintech,3073,Enterprise,Closed Lost,6,47988,2022-10-02,2023-01-04,True,False,0,94,Mais de 90 dias,Q4 2022,2022-10,Q1 2023,False,5,4,1,0,0,2,0,40.0
+DEAL-0160,COMP-0226,Peixoto,Mid-Market,Healthtech,4422,Starter,Closed Won,5,1592,2022-12-04,2023-03-24,True,True,1592,110,Mais de 90 dias,Q4 2022,2022-12,Q1 2023,False,3,0,1,1,1,1,2,33.3
+DEAL-0161,COMP-0198,Santos,SMB,Healthtech,2501,Growth,Qualified,2,14376,2022-09-26,,False,False,0,,Em andamento,Q3 2022,2022-09,,True,9,3,2,1,1,2,3,22.2
+DEAL-0162,COMP-0046,Albuquerque,SMB,SaaS,2716,Growth,Prospecting,1,2396,2024-10-30,,False,False,0,,Em andamento,Q4 2024,2024-10,,True,5,1,1,1,0,1,2,20.0
+DEAL-0163,COMP-0245,Fonseca - ME,SMB,Healthtech,1982,Enterprise,Proposal,3,83979,2022-03-18,,False,False,0,,Em andamento,Q1 2022,2022-03,,True,9,1,1,1,3,1,5,11.1
+DEAL-0164,COMP-0253,Leão Siqueira S.A.,SMB,E-commerce,189,Starter,Proposal,3,3980,2024-12-31,,False,False,0,,Em andamento,Q4 2024,2024-12,,True,8,3,0,1,3,3,3,37.5
+DEAL-0165,COMP-0124,Farias - ME,Enterprise,Healthtech,4145,Starter,Closed Lost,6,398,2022-08-10,2023-01-31,True,False,0,174,Mais de 90 dias,Q3 2022,2022-08,Q1 2023,False,5,0,0,0,3,1,1,20.0
+DEAL-0166,COMP-0171,Fogaça,SMB,Healthtech,2229,Enterprise,Closed Won,5,15996,2024-05-03,2024-08-31,True,True,15996,120,Mais de 90 dias,Q2 2024,2024-05,Q3 2024,False,8,2,5,0,0,2,1,25.0
+DEAL-0167,COMP-0217,Guerra,SMB,SaaS,4534,Growth,Negotiation,4,4193,2024-08-29,,False,False,0,,Em andamento,Q3 2024,2024-08,,True,10,1,1,4,1,3,1,30.0
+DEAL-0168,COMP-0073,Cardoso,SMB,Edtech,2182,Enterprise,Closed Won,5,87978,2022-01-20,2022-04-14,True,True,87978,84,61 a 90 dias,Q1 2022,2022-01,Q2 2022,False,8,1,0,2,4,5,2,62.5
+DEAL-0169,COMP-0010,Lopes,Mid-Market,Healthtech,4402,Pro,Qualified,2,29980,2024-12-01,,False,False,0,,Em andamento,Q4 2024,2024-12,,True,6,0,2,2,2,0,2,0.0
+DEAL-0170,COMP-0171,Fogaça,SMB,Healthtech,2229,Starter,Closed Won,5,3383,2022-10-08,2023-01-30,True,True,3383,114,Mais de 90 dias,Q4 2022,2022-10,Q1 2023,False,2,1,0,0,0,1,1,50.0
+DEAL-0171,COMP-0261,Sampaio,SMB,E-commerce,1357,Starter,Closed Won,5,796,2022-08-30,2022-11-17,True,True,796,79,61 a 90 dias,Q3 2022,2022-08,Q4 2022,False,8,2,2,2,1,3,3,37.5
+DEAL-0172,COMP-0023,Brito Novaes - ME,SMB,Fintech,4608,Pro,Negotiation,4,25483,2023-02-14,,False,False,0,,Em andamento,Q1 2023,2023-02,,True,4,1,1,2,0,2,1,50.0
+DEAL-0173,COMP-0288,Andrade das Neves S/A,SMB,Fintech,4833,Pro,Closed Lost,6,8994,2024-01-04,2024-04-24,True,False,0,111,Mais de 90 dias,Q1 2024,2024-01,Q2 2024,False,7,2,1,1,1,3,1,42.9
+DEAL-0174,COMP-0153,Cavalcanti,SMB,E-commerce,4928,Growth,Prospecting,1,13777,2024-10-13,,False,False,0,,Em andamento,Q4 2024,2024-10,,True,9,2,0,2,2,2,4,22.2
+DEAL-0175,COMP-0064,Abreu Garcia e Filhos,SMB,Edtech,1299,Starter,Closed Lost,6,199,2023-11-09,2024-01-15,True,False,0,67,61 a 90 dias,Q4 2023,2023-11,Q1 2024,False,6,3,0,1,2,0,2,0.0
+DEAL-0176,COMP-0090,Pereira Freitas e Filhos,Enterprise,Fintech,1949,Enterprise,Closed Won,5,19995,2022-08-15,2023-01-15,True,True,19995,153,Mais de 90 dias,Q3 2022,2022-08,Q1 2023,False,3,1,0,0,1,1,1,33.3
+DEAL-0177,COMP-0062,Garcia,SMB,Fintech,489,Starter,Closed Lost,6,1791,2024-11-13,2024-12-09,True,False,0,26,Ate 30 dias,Q4 2024,2024-11,Q4 2024,False,3,1,1,0,0,2,0,66.7
+DEAL-0178,COMP-0125,Martins Vieira Ltda.,Mid-Market,Edtech,3662,Pro,Closed Won,5,22485,2024-07-24,2024-10-14,True,True,22485,82,61 a 90 dias,Q3 2024,2024-07,Q4 2024,False,7,1,3,1,2,1,1,14.3
+DEAL-0179,COMP-0091,Gomes,Enterprise,Fintech,3387,Starter,Prospecting,1,1990,2022-12-24,,False,False,0,,Em andamento,Q4 2022,2022-12,,True,4,1,1,1,1,0,3,0.0
+DEAL-0180,COMP-0183,Santos,SMB,SaaS,1252,Enterprise,Proposal,3,95976,2023-10-03,,False,False,0,,Em andamento,Q4 2023,2023-10,,True,4,2,1,0,1,1,1,25.0
+DEAL-0181,COMP-0117,Monteiro,SMB,Healthtech,606,Starter,Qualified,2,995,2022-04-04,,False,False,0,,Em andamento,Q2 2022,2022-04,,True,10,3,4,1,1,2,4,20.0
+DEAL-0182,COMP-0138,Peixoto,SMB,E-commerce,3322,Pro,Closed Won,5,22485,2022-12-16,2023-03-17,True,True,22485,91,Mais de 90 dias,Q4 2022,2022-12,Q1 2023,False,2,1,1,0,0,0,0,0.0
+DEAL-0183,COMP-0034,Novaes,Mid-Market,Fintech,3073,Pro,Closed Lost,6,16489,2023-07-04,2023-08-03,True,False,0,30,Ate 30 dias,Q3 2023,2023-07,Q3 2023,False,5,3,2,0,0,4,1,80.0
+DEAL-0184,COMP-0141,Lopes,SMB,Healthtech,1121,Enterprise,Qualified,2,59985,2024-03-31,,False,False,0,,Em andamento,Q1 2024,2024-03,,True,10,1,2,2,3,5,3,50.0
+DEAL-0185,COMP-0025,Rocha S.A.,SMB,Fintech,4184,Enterprise,Proposal,3,55986,2024-02-29,,False,False,0,,Em andamento,Q1 2024,2024-02,,True,2,0,1,1,0,1,1,50.0
+DEAL-0186,COMP-0278,Borges,Enterprise,E-commerce,4470,Growth,Closed Won,5,13777,2022-12-08,2023-01-12,True,True,13777,35,31 a 60 dias,Q4 2022,2022-12,Q1 2023,False,3,0,0,2,0,1,2,33.3
+DEAL-0187,COMP-0166,Novais,Mid-Market,Healthtech,4558,Enterprise,Closed Won,5,75981,2022-11-23,2022-12-26,True,True,75981,33,31 a 60 dias,Q4 2022,2022-11,Q4 2022,False,8,2,2,1,1,2,4,25.0
+DEAL-0188,COMP-0064,Abreu Garcia e Filhos,SMB,Edtech,1299,Growth,Negotiation,4,11980,2024-06-16,,False,False,0,,Em andamento,Q2 2024,2024-06,,True,5,2,1,1,1,3,1,60.0
+DEAL-0189,COMP-0056,Almeida Ltda.,SMB,Edtech,130,Starter,Proposal,3,4378,2024-01-05,,False,False,0,,Em andamento,Q1 2024,2024-01,,True,5,1,1,2,0,1,1,20.0
+DEAL-0190,COMP-0159,Siqueira,SMB,Edtech,2208,Enterprise,Closed Lost,6,15996,2022-09-25,2023-02-02,True,False,0,130,Mais de 90 dias,Q3 2022,2022-09,Q1 2023,False,5,2,0,0,1,1,3,20.0
+DEAL-0191,COMP-0091,Gomes,Enterprise,Fintech,3387,Starter,Closed Lost,6,1791,2024-06-21,2024-07-09,True,False,0,18,Ate 30 dias,Q2 2024,2024-06,Q3 2024,False,3,1,1,0,1,2,1,66.7
+DEAL-0192,COMP-0258,Oliveira,SMB,E-commerce,1086,Growth,Closed Won,5,13178,2022-01-26,2022-07-25,True,True,13178,180,Mais de 90 dias,Q1 2022,2022-01,Q3 2022,False,4,1,0,1,1,1,3,25.0
+DEAL-0193,COMP-0133,Santos,SMB,Fintech,3451,Starter,Closed Lost,6,2786,2024-11-29,2025-04-18,True,False,0,140,Mais de 90 dias,Q4 2024,2024-11,Q2 2025,False,5,1,1,1,2,2,0,40.0
+DEAL-0194,COMP-0108,Gonçalves - ME,SMB,Fintech,3454,Pro,Closed Won,5,32978,2023-05-25,2023-10-02,True,True,32978,130,Mais de 90 dias,Q2 2023,2023-05,Q4 2023,False,9,2,1,3,3,0,4,0.0
+DEAL-0195,COMP-0002,Macedo,SMB,SaaS,4477,Starter,Closed Won,5,199,2024-02-28,2024-04-13,True,True,199,45,31 a 60 dias,Q1 2024,2024-02,Q2 2024,False,9,1,2,1,3,5,0,55.6
+DEAL-0196,COMP-0273,Brito,SMB,E-commerce,4435,Enterprise,Closed Won,5,63984,2022-11-18,2023-04-03,True,True,63984,136,Mais de 90 dias,Q4 2022,2022-11,Q2 2023,False,10,2,2,2,3,2,5,20.0
+DEAL-0197,COMP-0250,Cardoso,Mid-Market,Healthtech,2058,Pro,Closed Lost,6,11992,2022-06-03,2022-10-13,True,False,0,132,Mais de 90 dias,Q2 2022,2022-06,Q4 2022,False,2,0,1,0,1,1,0,50.0
+DEAL-0198,COMP-0079,Dias,SMB,Edtech,1735,Starter,Proposal,3,3383,2023-07-24,,False,False,0,,Em andamento,Q3 2023,2023-07,,True,3,1,0,1,0,1,1,33.3
+DEAL-0199,COMP-0211,Cavalcanti S/A,SMB,Healthtech,4225,Enterprise,Qualified,2,31992,2024-02-15,,False,False,0,,Em andamento,Q1 2024,2024-02,,True,6,1,1,2,2,3,3,50.0
+DEAL-0200,COMP-0195,Garcia,SMB,Fintech,1230,Enterprise,Prospecting,1,11997,2024-06-28,,False,False,0,,Em andamento,Q2 2024,2024-06,,True,3,1,0,1,1,1,2,33.3
+DEAL-0201,COMP-0050,Sales,SMB,Healthtech,2912,Starter,Closed Lost,6,3184,2024-07-04,2024-09-29,True,False,0,87,61 a 90 dias,Q3 2024,2024-07,Q3 2024,False,4,3,0,0,1,2,2,50.0
+DEAL-0202,COMP-0165,Aragão - ME,SMB,Fintech,711,Enterprise,Closed Won,5,55986,2022-02-06,2022-03-11,True,True,55986,33,31 a 60 dias,Q1 2022,2022-02,Q1 2022,False,4,2,1,0,1,1,1,25.0
+DEAL-0203,COMP-0085,da Paz Gonçalves - ME,SMB,Fintech,4479,Starter,Prospecting,1,3980,2022-01-01,,False,False,0,,Em andamento,Q1 2022,2022-01,,True,6,0,4,0,1,3,2,50.0
+DEAL-0204,COMP-0069,Freitas Cassiano Ltda.,SMB,E-commerce,1683,Growth,Closed Lost,6,12579,2023-09-16,2024-01-31,True,False,0,137,Mais de 90 dias,Q3 2023,2023-09,Q1 2024,False,2,0,0,1,1,0,1,0.0
+DEAL-0205,COMP-0026,Garcia,SMB,SaaS,908,Starter,Closed Won,5,1592,2023-11-30,2024-03-09,True,True,1592,100,Mais de 90 dias,Q4 2023,2023-11,Q1 2024,False,7,0,2,2,2,2,2,28.6
+DEAL-0206,COMP-0282,Cavalcante,Mid-Market,Fintech,1041,Enterprise,Closed Won,5,91977,2023-11-11,2024-04-09,True,True,91977,150,Mais de 90 dias,Q4 2023,2023-11,Q2 2024,False,2,0,0,1,0,1,1,50.0
+DEAL-0207,COMP-0032,Câmara Cunha S.A.,SMB,E-commerce,4110,Starter,Closed Won,5,4378,2024-07-15,2024-08-20,True,True,4378,36,31 a 60 dias,Q3 2024,2024-07,Q3 2024,False,5,1,0,3,1,3,1,60.0
+DEAL-0208,COMP-0102,Cavalcanti,SMB,Edtech,1567,Pro,Qualified,2,31479,2023-12-01,,False,False,0,,Em andamento,Q4 2023,2023-12,,True,9,2,2,1,3,2,6,22.2
+DEAL-0209,COMP-0136,Borges,Mid-Market,Healthtech,4419,Pro,Closed Lost,6,34477,2023-08-21,2024-01-15,True,False,0,147,Mais de 90 dias,Q3 2023,2023-08,Q1 2024,False,10,1,3,3,2,7,2,70.0
+DEAL-0210,COMP-0054,Aparecida,SMB,E-commerce,3799,Enterprise,Qualified,2,19995,2022-12-03,,False,False,0,,Em andamento,Q4 2022,2022-12,,True,10,1,1,3,2,5,1,50.0
+DEAL-0211,COMP-0285,Costa e Filhos,Mid-Market,Edtech,33,Pro,Closed Won,5,29980,2024-04-18,2024-05-22,True,True,29980,34,31 a 60 dias,Q2 2024,2024-04,Q2 2024,False,7,1,1,2,1,1,3,14.3
+DEAL-0212,COMP-0259,Guerra,Enterprise,E-commerce,3413,Enterprise,Qualified,2,27993,2022-09-05,,False,False,0,,Em andamento,Q3 2022,2022-09,,True,10,1,2,3,3,4,2,40.0
+DEAL-0213,COMP-0057,da Luz - ME,Enterprise,Fintech,1372,Pro,Negotiation,4,5996,2023-01-26,,False,False,0,,Em andamento,Q1 2023,2023-01,,True,7,3,1,2,1,0,4,0.0
+DEAL-0214,COMP-0182,da Mata,SMB,SaaS,3292,Starter,Closed Won,5,2985,2022-04-06,2022-09-22,True,True,2985,169,Mais de 90 dias,Q2 2022,2022-04,Q3 2022,False,8,3,1,2,0,1,3,12.5
+DEAL-0215,COMP-0192,Rodrigues,SMB,Fintech,2370,Growth,Negotiation,4,9584,2024-10-29,,False,False,0,,Em andamento,Q4 2024,2024-10,,True,9,3,2,1,2,4,0,44.4
+DEAL-0216,COMP-0172,Martins Cunha e Filhos,SMB,SaaS,1587,Enterprise,Prospecting,1,75981,2022-04-10,,False,False,0,,Em andamento,Q2 2022,2022-04,,True,3,2,0,1,0,0,2,0.0
+DEAL-0217,COMP-0232,Dias Ltda.,SMB,Edtech,2729,Growth,Negotiation,4,13777,2024-11-07,,False,False,0,,Em andamento,Q4 2024,2024-11,,True,8,0,3,0,3,2,1,25.0
+DEAL-0218,COMP-0037,Cavalcanti e Filhos,SMB,Fintech,4657,Starter,Negotiation,4,2587,2022-09-20,,False,False,0,,Em andamento,Q3 2022,2022-09,,True,3,0,0,0,2,1,1,33.3
+DEAL-0219,COMP-0212,da Luz Ltda.,Mid-Market,Edtech,3794,Enterprise,Closed Won,5,55986,2023-10-22,2024-03-06,True,True,55986,136,Mais de 90 dias,Q4 2023,2023-10,Q1 2024,False,4,0,2,0,0,1,1,25.0
+DEAL-0220,COMP-0170,Aparecida,SMB,E-commerce,3495,Enterprise,Closed Lost,6,43989,2023-05-24,2023-08-09,True,False,0,77,61 a 90 dias,Q2 2023,2023-05,Q3 2023,False,3,1,1,0,0,1,2,33.3
+DEAL-0221,COMP-0226,Peixoto,Mid-Market,Healthtech,4422,Growth,Closed Lost,6,8386,2024-07-16,2024-08-26,True,False,0,41,31 a 60 dias,Q3 2024,2024-07,Q3 2024,False,2,0,1,0,0,1,0,50.0
+DEAL-0222,COMP-0019,Farias S/A,Mid-Market,SaaS,1886,Pro,Closed Won,5,34477,2024-11-15,2025-02-06,True,True,34477,83,61 a 90 dias,Q4 2024,2024-11,Q1 2025,False,5,1,1,2,1,2,3,40.0
+DEAL-0223,COMP-0239,Campos,Mid-Market,Fintech,2364,Growth,Closed Won,5,11980,2023-03-22,2023-05-19,True,True,11980,58,31 a 60 dias,Q1 2023,2023-03,Q2 2023,False,5,0,0,2,2,2,2,40.0
+DEAL-0224,COMP-0246,Teixeira,Enterprise,Fintech,1912,Growth,Closed Won,5,13777,2023-12-09,2024-06-05,True,True,13777,179,Mais de 90 dias,Q4 2023,2023-12,Q2 2024,False,10,4,1,1,1,3,4,30.0
+DEAL-0225,COMP-0122,Barros S/A,SMB,SaaS,3749,Pro,Closed Won,5,34477,2022-12-31,2023-05-15,True,True,34477,135,Mais de 90 dias,Q4 2022,2022-12,Q2 2023,False,8,1,0,1,3,3,5,37.5
+DEAL-0226,COMP-0245,Fonseca - ME,SMB,Healthtech,1982,Enterprise,Qualified,2,75981,2023-12-23,,False,False,0,,Em andamento,Q4 2023,2023-12,,True,8,2,2,2,1,4,2,50.0
+DEAL-0227,COMP-0119,Cirino Abreu - EI,SMB,Fintech,1218,Pro,Negotiation,4,20986,2024-05-04,,False,False,0,,Em andamento,Q2 2024,2024-05,,True,5,0,1,2,2,3,2,60.0
+DEAL-0228,COMP-0039,Fogaça,Mid-Market,Fintech,3903,Starter,Closed Won,5,2587,2024-12-06,2025-01-09,True,True,2587,34,31 a 60 dias,Q4 2024,2024-12,Q1 2025,False,6,0,1,2,1,1,2,16.7
+DEAL-0229,COMP-0061,Ramos,Mid-Market,Edtech,3996,Growth,Qualified,2,5391,2022-04-26,,False,False,0,,Em andamento,Q2 2022,2022-04,,True,4,1,0,1,0,2,2,50.0
+DEAL-0230,COMP-0209,da Conceição Pires - EI,SMB,Healthtech,4516,Pro,Closed Won,5,7495,2022-11-26,2023-02-14,True,True,7495,80,61 a 90 dias,Q4 2022,2022-11,Q1 2023,False,2,0,0,1,0,0,1,0.0
+DEAL-0231,COMP-0273,Brito,SMB,E-commerce,4435,Starter,Closed Won,5,2388,2023-08-28,2023-10-26,True,True,2388,59,31 a 60 dias,Q3 2023,2023-08,Q4 2023,False,9,3,2,2,1,4,1,44.4
+DEAL-0232,COMP-0033,Marques - EI,SMB,SaaS,2454,Growth,Closed Won,5,14376,2022-07-29,2023-01-09,True,True,14376,164,Mais de 90 dias,Q3 2022,2022-07,Q1 2023,False,6,0,1,0,2,1,2,16.7
+DEAL-0233,COMP-0136,Borges,Mid-Market,Healthtech,4419,Pro,Closed Won,5,34477,2024-03-07,2024-05-13,True,True,34477,67,61 a 90 dias,Q1 2024,2024-03,Q2 2024,False,5,2,1,0,0,1,4,20.0
+DEAL-0234,COMP-0123,Jesus e Filhos,Mid-Market,Edtech,4588,Enterprise,Closed Won,5,87978,2024-02-21,2024-06-06,True,True,87978,106,Mais de 90 dias,Q1 2024,2024-02,Q2 2024,False,5,2,2,0,1,2,1,40.0
+DEAL-0235,COMP-0166,Novais,Mid-Market,Healthtech,4558,Starter,Proposal,3,4776,2022-04-21,,False,False,0,,Em andamento,Q2 2022,2022-04,,True,10,1,2,3,2,3,1,30.0
+DEAL-0236,COMP-0102,Cavalcanti,SMB,Edtech,1567,Growth,Proposal,3,12579,2024-06-26,,False,False,0,,Em andamento,Q2 2024,2024-06,,True,7,1,2,1,2,5,1,71.4
+DEAL-0237,COMP-0130,Guerra Silveira - EI,SMB,Edtech,670,Growth,Closed Won,5,14376,2024-01-24,2024-06-29,True,True,14376,157,Mais de 90 dias,Q1 2024,2024-01,Q2 2024,False,8,0,3,3,2,5,1,62.5
+DEAL-0238,COMP-0173,da Rocha Fernandes e Filhos,SMB,Edtech,1526,Growth,Closed Lost,6,13178,2023-08-26,2023-12-25,True,False,0,121,Mais de 90 dias,Q3 2023,2023-08,Q4 2023,False,8,2,1,2,3,4,2,50.0
+DEAL-0239,COMP-0216,Aragão,SMB,Edtech,1970,Starter,Prospecting,1,2587,2022-12-22,,False,False,0,,Em andamento,Q4 2022,2022-12,,True,4,1,1,2,0,1,1,25.0
+DEAL-0240,COMP-0058,Casa Grande Rios Ltda.,SMB,Fintech,3295,Pro,Prospecting,1,7495,2023-07-26,,False,False,0,,Em andamento,Q3 2023,2023-07,,True,6,2,0,2,1,3,1,50.0
+DEAL-0241,COMP-0127,Cardoso,Mid-Market,E-commerce,4280,Starter,Qualified,2,2189,2023-06-07,,False,False,0,,Em andamento,Q2 2023,2023-06,,True,10,3,2,0,3,6,3,60.0
+DEAL-0242,COMP-0254,Camargo,SMB,Edtech,411,Starter,Negotiation,4,995,2022-11-14,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,10,0,3,4,3,5,1,50.0
+DEAL-0243,COMP-0255,Moreira S.A.,Mid-Market,E-commerce,1895,Pro,Closed Lost,6,23984,2022-04-15,2022-09-29,True,False,0,167,Mais de 90 dias,Q2 2022,2022-04,Q3 2022,False,7,1,1,4,0,3,3,42.9
+DEAL-0244,COMP-0265,Pereira,SMB,Healthtech,124,Pro,Closed Won,5,25483,2024-01-04,2024-01-29,True,True,25483,25,Ate 30 dias,Q1 2024,2024-01,Q1 2024,False,8,2,2,0,1,5,2,62.5
+DEAL-0245,COMP-0022,Andrade Carvalho e Filhos,Mid-Market,Healthtech,3768,Starter,Qualified,2,3383,2023-01-12,,False,False,0,,Em andamento,Q1 2023,2023-01,,True,5,0,0,0,4,1,3,20.0
+DEAL-0246,COMP-0263,Teixeira Vasconcelos S/A,Mid-Market,Healthtech,626,Starter,Qualified,2,2388,2024-04-06,,False,False,0,,Em andamento,Q2 2024,2024-04,,True,2,2,0,0,0,0,1,0.0
+DEAL-0247,COMP-0156,Vargas S/A,Mid-Market,SaaS,3451,Pro,Qualified,2,16489,2023-03-13,,False,False,0,,Em andamento,Q1 2023,2023-03,,True,2,1,0,0,1,0,2,0.0
+DEAL-0248,COMP-0200,Sales Castro S/A,SMB,Edtech,336,Enterprise,Proposal,3,71982,2023-03-24,,False,False,0,,Em andamento,Q1 2023,2023-03,,True,10,2,2,1,1,4,1,40.0
+DEAL-0249,COMP-0219,Nunes S.A.,Mid-Market,Fintech,4092,Pro,Closed Won,5,22485,2022-01-19,2022-02-24,True,True,22485,36,31 a 60 dias,Q1 2022,2022-01,Q1 2022,False,5,1,2,2,0,2,3,40.0
+DEAL-0250,COMP-0158,Santos,SMB,Edtech,2222,Starter,Qualified,2,4378,2023-05-15,,False,False,0,,Em andamento,Q2 2023,2023-05,,True,2,0,0,2,0,1,1,50.0
+DEAL-0251,COMP-0096,Mendes da Luz e Filhos,Mid-Market,Healthtech,2699,Enterprise,Closed Lost,6,35991,2024-02-21,2024-03-28,True,False,0,36,31 a 60 dias,Q1 2024,2024-02,Q1 2024,False,6,1,3,2,0,1,2,16.7
+DEAL-0252,COMP-0053,Rezende das Neves S/A,SMB,Edtech,3685,Starter,Negotiation,4,3383,2023-08-03,,False,False,0,,Em andamento,Q3 2023,2023-08,,True,6,1,0,1,3,3,1,50.0
+DEAL-0253,COMP-0041,da Costa Nascimento S.A.,Enterprise,Fintech,2563,Enterprise,Closed Won,5,63984,2024-02-07,2024-06-24,True,True,63984,138,Mais de 90 dias,Q1 2024,2024-02,Q2 2024,False,4,2,1,0,1,1,2,25.0
+DEAL-0254,COMP-0185,da Paz,SMB,Healthtech,4976,Pro,Prospecting,1,25483,2023-01-30,,False,False,0,,Em andamento,Q1 2023,2023-01,,True,4,1,1,0,2,1,2,25.0
+DEAL-0255,COMP-0089,Mendonça da Mata Ltda.,Mid-Market,SaaS,2907,Growth,Prospecting,1,10782,2022-07-16,,False,False,0,,Em andamento,Q3 2022,2022-07,,True,3,0,1,0,1,1,1,33.3
+DEAL-0256,COMP-0086,Borges,Mid-Market,Edtech,4536,Growth,Negotiation,4,13178,2022-05-15,,False,False,0,,Em andamento,Q2 2022,2022-05,,True,3,0,3,0,0,1,1,33.3
+DEAL-0257,COMP-0149,Araújo - ME,SMB,E-commerce,3031,Starter,Closed Won,5,1393,2023-03-13,2023-07-06,True,True,1393,115,Mais de 90 dias,Q1 2023,2023-03,Q3 2023,False,2,0,1,1,0,1,1,50.0
+DEAL-0258,COMP-0292,Oliveira da Cunha S/A,SMB,Fintech,365,Starter,Negotiation,4,4776,2024-06-10,,False,False,0,,Em andamento,Q2 2024,2024-06,,True,5,2,0,1,0,1,1,20.0
+DEAL-0259,COMP-0249,Azevedo e Filhos,SMB,E-commerce,4823,Pro,Closed Won,5,2998,2022-02-18,2022-06-22,True,True,2998,124,Mais de 90 dias,Q1 2022,2022-02,Q2 2022,False,10,1,6,2,1,6,2,60.0
+DEAL-0260,COMP-0165,Aragão - ME,SMB,Fintech,711,Growth,Prospecting,1,5391,2022-04-22,,False,False,0,,Em andamento,Q2 2022,2022-04,,True,7,3,2,1,0,2,3,28.6
+DEAL-0261,COMP-0204,Mendonça,Mid-Market,Fintech,3864,Pro,Negotiation,4,20986,2023-04-12,,False,False,0,,Em andamento,Q2 2023,2023-04,,True,6,0,1,3,2,3,3,50.0
+DEAL-0262,COMP-0020,Moura - EI,Mid-Market,Healthtech,2203,Enterprise,Proposal,3,43989,2024-04-08,,False,False,0,,Em andamento,Q2 2024,2024-04,,True,3,0,1,2,0,2,1,66.7
+DEAL-0263,COMP-0276,Moura e Filhos,SMB,E-commerce,1789,Starter,Prospecting,1,4179,2022-08-31,,False,False,0,,Em andamento,Q3 2022,2022-08,,True,8,1,0,2,2,2,1,25.0
+DEAL-0264,COMP-0127,Cardoso,Mid-Market,E-commerce,4280,Starter,Closed Won,5,4577,2022-05-10,2022-10-13,True,True,4577,156,Mais de 90 dias,Q2 2022,2022-05,Q4 2022,False,3,1,0,0,0,0,3,0.0
+DEAL-0265,COMP-0099,Sousa,SMB,E-commerce,1472,Starter,Closed Won,5,1990,2024-01-03,2024-05-17,True,True,1990,135,Mais de 90 dias,Q1 2024,2024-01,Q2 2024,False,5,1,2,1,1,2,0,40.0
+DEAL-0266,COMP-0178,Rocha Rios S.A.,Enterprise,Edtech,2403,Starter,Closed Won,5,1990,2023-09-10,2024-02-19,True,True,1990,162,Mais de 90 dias,Q3 2023,2023-09,Q1 2024,False,4,3,0,0,0,2,0,50.0
+DEAL-0267,COMP-0041,da Costa Nascimento S.A.,Enterprise,Fintech,2563,Enterprise,Closed Won,5,87978,2024-06-15,2024-09-27,True,True,87978,104,Mais de 90 dias,Q2 2024,2024-06,Q3 2024,False,2,0,1,0,1,0,1,0.0
+DEAL-0268,COMP-0294,Ramos,Mid-Market,Healthtech,894,Growth,Prospecting,1,2995,2022-11-17,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,3,1,1,0,1,2,1,66.7
+DEAL-0269,COMP-0037,Cavalcanti e Filhos,SMB,Fintech,4657,Growth,Closed Won,5,5990,2023-08-28,2024-02-13,True,True,5990,169,Mais de 90 dias,Q3 2023,2023-08,Q1 2024,False,3,1,1,0,1,1,1,33.3
+DEAL-0270,COMP-0176,da Rocha Guerra S/A,SMB,Fintech,2486,Growth,Closed Won,5,2396,2024-02-04,2024-02-13,True,True,2396,9,Ate 30 dias,Q1 2024,2024-02,Q1 2024,False,4,0,0,1,2,1,2,25.0
+DEAL-0271,COMP-0016,da Conceição,SMB,E-commerce,594,Starter,Prospecting,1,1990,2024-03-18,,False,False,0,,Em andamento,Q1 2024,2024-03,,True,2,0,1,0,0,1,1,50.0
+DEAL-0272,COMP-0133,Santos,SMB,Fintech,3451,Growth,Qualified,2,8386,2023-12-06,,False,False,0,,Em andamento,Q4 2023,2023-12,,True,8,2,1,1,2,3,3,37.5
+DEAL-0273,COMP-0200,Sales Castro S/A,SMB,Edtech,336,Growth,Closed Lost,6,3594,2024-11-15,2024-12-28,True,False,0,43,31 a 60 dias,Q4 2024,2024-11,Q4 2024,False,4,0,1,0,2,0,1,0.0
+DEAL-0274,COMP-0229,Aragão,SMB,Fintech,3375,Growth,Qualified,2,2396,2023-06-02,,False,False,0,,Em andamento,Q2 2023,2023-06,,True,8,4,1,1,0,3,2,37.5
+DEAL-0275,COMP-0291,Cardoso,SMB,E-commerce,4214,Enterprise,Qualified,2,83979,2022-04-22,,False,False,0,,Em andamento,Q2 2022,2022-04,,True,5,0,0,3,1,5,0,100.0
+DEAL-0276,COMP-0213,Camargo S/A,SMB,Edtech,2973,Starter,Negotiation,4,1791,2023-08-19,,False,False,0,,Em andamento,Q3 2023,2023-08,,True,6,1,1,2,1,3,1,50.0
+DEAL-0277,COMP-0016,da Conceição,SMB,E-commerce,594,Pro,Prospecting,1,17988,2024-09-24,,False,False,0,,Em andamento,Q3 2024,2024-09,,True,8,2,1,1,2,2,6,25.0
+DEAL-0278,COMP-0069,Freitas Cassiano Ltda.,SMB,E-commerce,1683,Starter,Qualified,2,1990,2023-04-26,,False,False,0,,Em andamento,Q2 2023,2023-04,,True,7,2,2,2,1,3,3,42.9
+DEAL-0279,COMP-0061,Ramos,Mid-Market,Edtech,3996,Enterprise,Closed Won,5,59985,2023-02-01,2023-04-30,True,True,59985,88,61 a 90 dias,Q1 2023,2023-02,Q2 2023,False,9,1,5,2,1,1,2,11.1
+DEAL-0280,COMP-0066,Moraes Siqueira Ltda.,SMB,Fintech,3317,Growth,Proposal,3,11381,2023-09-19,,False,False,0,,Em andamento,Q3 2023,2023-09,,True,8,2,0,2,2,1,6,12.5
+DEAL-0281,COMP-0010,Lopes,Mid-Market,Healthtech,4402,Enterprise,Negotiation,4,23994,2023-10-10,,False,False,0,,Em andamento,Q4 2023,2023-10,,True,10,1,5,1,2,4,2,40.0
+DEAL-0282,COMP-0091,Gomes,Enterprise,Fintech,3387,Growth,Prospecting,1,13777,2023-05-20,,False,False,0,,Em andamento,Q2 2023,2023-05,,True,7,2,2,0,2,2,1,28.6
+DEAL-0283,COMP-0243,Araújo Oliveira Ltda.,SMB,Fintech,2010,Pro,Closed Won,5,7495,2024-06-12,2024-08-28,True,True,7495,77,61 a 90 dias,Q2 2024,2024-06,Q3 2024,False,2,1,0,1,0,1,0,50.0
+DEAL-0284,COMP-0065,Silveira - ME,Enterprise,SaaS,1532,Enterprise,Closed Won,5,59985,2023-11-11,2024-03-19,True,True,59985,129,Mais de 90 dias,Q4 2023,2023-11,Q1 2024,False,2,1,0,0,1,1,0,50.0
+DEAL-0285,COMP-0195,Garcia,SMB,Fintech,1230,Enterprise,Proposal,3,71982,2023-09-18,,False,False,0,,Em andamento,Q3 2023,2023-09,,True,3,0,0,2,1,0,2,0.0
+DEAL-0286,COMP-0007,Ramos,Mid-Market,E-commerce,2286,Pro,Qualified,2,7495,2022-06-17,,False,False,0,,Em andamento,Q2 2022,2022-06,,True,6,2,0,2,2,2,2,33.3
+DEAL-0287,COMP-0236,Mendonça,Mid-Market,E-commerce,2783,Starter,Closed Lost,6,4776,2023-02-07,2023-04-22,True,False,0,74,61 a 90 dias,Q1 2023,2023-02,Q2 2023,False,7,1,2,1,0,1,4,14.3
+DEAL-0288,COMP-0085,da Paz Gonçalves - ME,SMB,Fintech,4479,Starter,Prospecting,1,3781,2022-02-08,,False,False,0,,Em andamento,Q1 2022,2022-02,,True,3,0,0,0,2,2,0,66.7
+DEAL-0289,COMP-0138,Peixoto,SMB,E-commerce,3322,Starter,Negotiation,4,3582,2023-03-12,,False,False,0,,Em andamento,Q1 2023,2023-03,,True,5,4,1,0,0,0,2,0.0
+DEAL-0290,COMP-0182,da Mata,SMB,SaaS,3292,Growth,Proposal,3,7188,2024-08-24,,False,False,0,,Em andamento,Q3 2024,2024-08,,True,2,0,1,1,0,0,1,0.0
+DEAL-0291,COMP-0122,Barros S/A,SMB,SaaS,3749,Growth,Proposal,3,8985,2023-08-19,,False,False,0,,Em andamento,Q3 2023,2023-08,,True,9,1,0,2,3,3,2,33.3
+DEAL-0292,COMP-0121,Silva,SMB,Edtech,3815,Enterprise,Negotiation,4,47988,2022-07-05,,False,False,0,,Em andamento,Q3 2022,2022-07,,True,3,0,1,0,1,0,2,0.0
+DEAL-0293,COMP-0135,Cardoso,SMB,E-commerce,2456,Growth,Negotiation,4,10183,2023-05-05,,False,False,0,,Em andamento,Q2 2023,2023-05,,True,10,1,2,2,3,2,2,20.0
+DEAL-0294,COMP-0122,Barros S/A,SMB,SaaS,3749,Growth,Qualified,2,11381,2022-11-23,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,5,1,2,1,0,1,2,20.0
+DEAL-0295,COMP-0213,Camargo S/A,SMB,Edtech,2973,Pro,Closed Lost,6,2998,2022-10-27,2023-03-06,True,False,0,130,Mais de 90 dias,Q4 2022,2022-10,Q1 2023,False,5,2,1,0,0,0,3,0.0
+DEAL-0296,COMP-0057,da Luz - ME,Enterprise,Fintech,1372,Growth,Qualified,2,1797,2024-09-25,,False,False,0,,Em andamento,Q3 2024,2024-09,,True,10,2,3,2,0,5,3,50.0
+DEAL-0297,COMP-0078,Vargas - EI,SMB,SaaS,4542,Starter,Proposal,3,4378,2023-04-25,,False,False,0,,Em andamento,Q2 2023,2023-04,,True,8,2,2,3,1,3,5,37.5
+DEAL-0298,COMP-0115,Costela Carvalho S/A,Mid-Market,Fintech,2552,Enterprise,Qualified,2,63984,2024-01-10,,False,False,0,,Em andamento,Q1 2024,2024-01,,True,3,0,2,1,0,1,0,33.3
+DEAL-0299,COMP-0155,Andrade S.A.,SMB,E-commerce,574,Pro,Closed Lost,6,5996,2022-04-06,2022-04-23,True,False,0,17,Ate 30 dias,Q2 2022,2022-04,Q2 2022,False,3,0,2,1,0,1,0,33.3
+DEAL-0300,COMP-0125,Martins Vieira Ltda.,Mid-Market,Edtech,3662,Pro,Closed Won,5,35976,2024-12-03,2025-05-21,True,True,35976,169,Mais de 90 dias,Q4 2024,2024-12,Q2 2025,False,2,0,1,0,1,2,0,100.0
+DEAL-0301,COMP-0236,Mendonça,Mid-Market,E-commerce,2783,Enterprise,Proposal,3,83979,2022-12-23,,False,False,0,,Em andamento,Q4 2022,2022-12,,True,8,1,1,2,2,3,3,37.5
+DEAL-0302,COMP-0067,Mendes,Enterprise,Edtech,2026,Pro,Proposal,3,19487,2022-06-09,,False,False,0,,Em andamento,Q2 2022,2022-06,,True,3,1,0,0,0,2,1,66.7
+DEAL-0303,COMP-0073,Cardoso,SMB,Edtech,2182,Enterprise,Closed Lost,6,47988,2023-04-02,2023-08-19,True,False,0,139,Mais de 90 dias,Q2 2023,2023-04,Q3 2023,False,7,1,2,2,1,3,3,42.9
+DEAL-0304,COMP-0144,Nascimento,SMB,Healthtech,2076,Enterprise,Closed Won,5,79980,2023-12-08,2024-04-17,True,True,79980,131,Mais de 90 dias,Q4 2023,2023-12,Q2 2024,False,8,1,0,3,2,2,2,25.0
+DEAL-0305,COMP-0233,Silveira - ME,Mid-Market,Healthtech,826,Enterprise,Prospecting,1,23994,2022-10-12,,False,False,0,,Em andamento,Q4 2022,2022-10,,True,3,1,0,1,0,0,2,0.0
+DEAL-0306,COMP-0251,Barbosa,Mid-Market,Fintech,3161,Pro,Qualified,2,10493,2024-11-19,,False,False,0,,Em andamento,Q4 2024,2024-11,,True,9,2,1,5,0,4,3,44.4
+DEAL-0307,COMP-0083,da Mota e Filhos,Mid-Market,E-commerce,1333,Pro,Qualified,2,29980,2022-11-19,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,3,1,2,0,0,0,1,0.0
+DEAL-0308,COMP-0137,Leão Ltda.,SMB,E-commerce,3580,Growth,Closed Won,5,8386,2022-08-31,2023-02-23,True,True,8386,176,Mais de 90 dias,Q3 2022,2022-08,Q1 2023,False,7,2,1,0,2,0,5,0.0
+DEAL-0309,COMP-0146,Farias Castro e Filhos,SMB,SaaS,339,Enterprise,Closed Won,5,63984,2022-08-21,2022-12-29,True,True,63984,130,Mais de 90 dias,Q3 2022,2022-08,Q4 2022,False,7,1,2,1,2,2,0,28.6
+DEAL-0310,COMP-0163,Leão,SMB,E-commerce,2126,Enterprise,Qualified,2,3999,2022-11-27,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,2,0,0,0,2,1,0,50.0
+DEAL-0311,COMP-0165,Aragão - ME,SMB,Fintech,711,Growth,Qualified,2,2995,2022-09-19,,False,False,0,,Em andamento,Q3 2022,2022-09,,True,10,0,3,4,1,2,3,20.0
+DEAL-0312,COMP-0171,Fogaça,SMB,Healthtech,2229,Growth,Closed Won,5,1198,2022-03-22,2022-08-22,True,True,1198,153,Mais de 90 dias,Q1 2022,2022-03,Q3 2022,False,2,1,1,0,0,2,0,100.0
+DEAL-0313,COMP-0224,Caldeira,Enterprise,Edtech,2198,Enterprise,Qualified,2,79980,2023-01-04,,False,False,0,,Em andamento,Q1 2023,2023-01,,True,7,0,4,0,1,4,0,57.1
+DEAL-0314,COMP-0221,Rezende Costa Ltda.,Enterprise,Fintech,3751,Pro,Closed Lost,6,4497,2022-02-08,2022-08-03,True,False,0,176,Mais de 90 dias,Q1 2022,2022-02,Q3 2022,False,4,2,1,0,1,1,3,25.0
+DEAL-0315,COMP-0224,Caldeira,Enterprise,Edtech,2198,Enterprise,Qualified,2,23994,2024-08-23,,False,False,0,,Em andamento,Q3 2024,2024-08,,True,10,2,1,2,4,4,2,40.0
+DEAL-0316,COMP-0150,Andrade Ltda.,Mid-Market,SaaS,1351,Growth,Qualified,2,11381,2024-04-21,,False,False,0,,Em andamento,Q2 2024,2024-04,,True,5,1,0,1,1,2,2,40.0
+DEAL-0317,COMP-0223,Melo S.A.,Mid-Market,E-commerce,3409,Pro,Closed Won,5,8994,2023-01-08,2023-06-23,True,True,8994,166,Mais de 90 dias,Q1 2023,2023-01,Q2 2023,False,7,1,2,1,2,4,2,57.1
+DEAL-0318,COMP-0042,Nogueira,Enterprise,E-commerce,3598,Starter,Closed Won,5,1592,2023-12-03,2024-04-04,True,True,1592,123,Mais de 90 dias,Q4 2023,2023-12,Q2 2024,False,5,0,2,2,0,2,0,40.0
+DEAL-0319,COMP-0220,Azevedo,SMB,E-commerce,3413,Starter,Proposal,3,199,2022-09-28,,False,False,0,,Em andamento,Q3 2022,2022-09,,True,5,1,1,1,2,1,2,20.0
+DEAL-0320,COMP-0096,Mendes da Luz e Filhos,Mid-Market,Healthtech,2699,Enterprise,Qualified,2,19995,2024-10-29,,False,False,0,,Em andamento,Q4 2024,2024-10,,True,5,1,1,1,0,1,3,20.0
+DEAL-0321,COMP-0085,da Paz Gonçalves - ME,SMB,Fintech,4479,Starter,Closed Won,5,3582,2022-12-30,2023-05-07,True,True,3582,128,Mais de 90 dias,Q4 2022,2022-12,Q2 2023,False,3,2,1,0,0,2,1,66.7
+DEAL-0322,COMP-0253,Leão Siqueira S.A.,SMB,E-commerce,189,Starter,Negotiation,4,3184,2022-08-29,,False,False,0,,Em andamento,Q3 2022,2022-08,,True,3,0,1,1,1,2,0,66.7
+DEAL-0323,COMP-0266,da Paz Sampaio - EI,SMB,Healthtech,3029,Enterprise,Closed Won,5,67983,2022-01-03,2022-07-02,True,True,67983,180,Mais de 90 dias,Q1 2022,2022-01,Q3 2022,False,6,2,1,0,1,3,0,50.0
+DEAL-0324,COMP-0122,Barros S/A,SMB,SaaS,3749,Enterprise,Proposal,3,31992,2022-03-30,,False,False,0,,Em andamento,Q1 2022,2022-03,,True,3,1,1,0,1,2,1,66.7
+DEAL-0325,COMP-0288,Andrade das Neves S/A,SMB,Fintech,4833,Pro,Closed Lost,6,28481,2024-09-14,2024-12-27,True,False,0,104,Mais de 90 dias,Q3 2024,2024-09,Q4 2024,False,8,0,3,3,2,5,3,62.5
+DEAL-0326,COMP-0298,Nunes S.A.,SMB,Edtech,4356,Growth,Closed Won,5,5391,2022-07-20,2022-11-12,True,True,5391,115,Mais de 90 dias,Q3 2022,2022-07,Q4 2022,False,10,1,1,5,2,3,3,30.0
+DEAL-0327,COMP-0136,Borges,Mid-Market,Healthtech,4419,Starter,Negotiation,4,1990,2023-04-22,,False,False,0,,Em andamento,Q2 2023,2023-04,,True,2,2,0,0,0,0,0,0.0
+DEAL-0328,COMP-0054,Aparecida,SMB,E-commerce,3799,Pro,Negotiation,4,10493,2024-04-16,,False,False,0,,Em andamento,Q2 2024,2024-04,,True,2,1,0,1,0,1,1,50.0
+DEAL-0329,COMP-0242,da Conceição,SMB,SaaS,2413,Starter,Prospecting,1,3383,2022-01-15,,False,False,0,,Em andamento,Q1 2022,2022-01,,True,5,0,0,2,1,1,2,20.0
+DEAL-0330,COMP-0256,Viana Lima - EI,SMB,Fintech,2063,Pro,Prospecting,1,20986,2023-02-25,,False,False,0,,Em andamento,Q1 2023,2023-02,,True,6,1,0,1,2,3,3,50.0
+DEAL-0331,COMP-0014,Mendes Ltda.,Enterprise,Fintech,837,Enterprise,Proposal,3,83979,2022-11-13,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,9,3,2,3,0,3,3,33.3
+DEAL-0332,COMP-0170,Aparecida,SMB,E-commerce,3495,Enterprise,Negotiation,4,75981,2023-06-20,,False,False,0,,Em andamento,Q2 2023,2023-06,,True,2,0,0,2,0,1,1,50.0
+DEAL-0333,COMP-0271,Dias,SMB,SaaS,2503,Enterprise,Proposal,3,27993,2023-07-19,,False,False,0,,Em andamento,Q3 2023,2023-07,,True,3,0,0,2,1,2,1,66.7
+DEAL-0334,COMP-0252,Araújo S/A,SMB,Healthtech,4695,Growth,Proposal,3,7188,2024-09-15,,False,False,0,,Em andamento,Q3 2024,2024-09,,True,9,1,1,3,2,1,2,11.1
+DEAL-0335,COMP-0145,Marques - EI,SMB,Edtech,436,Pro,Negotiation,4,14990,2024-09-17,,False,False,0,,Em andamento,Q3 2024,2024-09,,True,6,0,0,2,1,2,2,33.3
+DEAL-0336,COMP-0054,Aparecida,SMB,E-commerce,3799,Growth,Negotiation,4,13178,2024-03-26,,False,False,0,,Em andamento,Q1 2024,2024-03,,True,8,1,0,0,4,3,2,37.5
+DEAL-0337,COMP-0227,Sampaio,SMB,Edtech,4461,Enterprise,Qualified,2,91977,2023-04-16,,False,False,0,,Em andamento,Q2 2023,2023-04,,True,2,0,1,0,1,1,1,50.0
+DEAL-0338,COMP-0071,da Luz,SMB,SaaS,86,Enterprise,Closed Lost,6,43989,2022-07-25,2022-09-24,True,False,0,61,61 a 90 dias,Q3 2022,2022-07,Q3 2022,False,6,0,4,0,1,1,3,16.7
+DEAL-0339,COMP-0190,Pacheco Alves e Filhos,SMB,Edtech,624,Enterprise,Closed Won,5,83979,2022-04-17,2022-06-04,True,True,83979,48,31 a 60 dias,Q2 2022,2022-04,Q2 2022,False,10,4,3,1,2,5,3,50.0
+DEAL-0340,COMP-0005,Lima Fogaça S.A.,SMB,Edtech,3446,Growth,Prospecting,1,9584,2022-07-06,,False,False,0,,Em andamento,Q3 2022,2022-07,,True,10,4,1,0,2,5,3,50.0
+DEAL-0341,COMP-0076,da Mota Caldeira e Filhos,Mid-Market,Edtech,74,Starter,Closed Lost,6,1791,2024-06-10,2024-07-09,True,False,0,29,Ate 30 dias,Q2 2024,2024-06,Q3 2024,False,9,0,2,3,2,1,2,11.1
+DEAL-0342,COMP-0096,Mendes da Luz e Filhos,Mid-Market,Healthtech,2699,Starter,Qualified,2,4776,2022-06-13,,False,False,0,,Em andamento,Q2 2022,2022-06,,True,9,1,2,2,1,3,2,33.3
+DEAL-0343,COMP-0061,Ramos,Mid-Market,Edtech,3996,Pro,Proposal,3,34477,2024-03-31,,False,False,0,,Em andamento,Q1 2024,2024-03,,True,4,0,0,1,2,1,2,25.0
+DEAL-0344,COMP-0052,Dias,SMB,E-commerce,905,Enterprise,Closed Lost,6,59985,2022-04-28,2022-06-18,True,False,0,51,31 a 60 dias,Q2 2022,2022-04,Q2 2022,False,10,3,2,2,1,4,2,40.0
+DEAL-0345,COMP-0262,Farias Aragão Ltda.,Enterprise,Healthtech,2427,Pro,Prospecting,1,10493,2024-11-27,,False,False,0,,Em andamento,Q4 2024,2024-11,,True,4,0,2,0,2,1,1,25.0
+DEAL-0346,COMP-0100,Araújo Pinto - ME,SMB,Edtech,3569,Growth,Prospecting,1,11980,2024-11-11,,False,False,0,,Em andamento,Q4 2024,2024-11,,True,4,1,0,1,1,1,1,25.0
+DEAL-0347,COMP-0068,Sampaio e Filhos,Mid-Market,Healthtech,4791,Pro,Qualified,2,11992,2022-03-15,,False,False,0,,Em andamento,Q1 2022,2022-03,,True,9,2,2,1,1,5,1,55.6
+DEAL-0348,COMP-0216,Aragão,SMB,Edtech,1970,Pro,Closed Won,5,19487,2022-11-19,2022-12-18,True,True,19487,29,Ate 30 dias,Q4 2022,2022-11,Q4 2022,False,5,0,0,1,2,2,0,40.0
+DEAL-0349,COMP-0082,Câmara S/A,Mid-Market,SaaS,39,Enterprise,Proposal,3,75981,2024-03-20,,False,False,0,,Em andamento,Q1 2024,2024-03,,True,3,2,1,0,0,2,1,66.7
+DEAL-0350,COMP-0163,Leão,SMB,E-commerce,2126,Starter,Qualified,2,597,2022-02-01,,False,False,0,,Em andamento,Q1 2022,2022-02,,True,7,0,3,2,0,2,3,28.6
+DEAL-0351,COMP-0280,Casa Grande Rezende Ltda.,Enterprise,Healthtech,760,Pro,Negotiation,4,13491,2023-12-14,,False,False,0,,Em andamento,Q4 2023,2023-12,,True,9,0,5,2,1,3,4,33.3
+DEAL-0352,COMP-0086,Borges,Mid-Market,Edtech,4536,Enterprise,Qualified,2,51987,2023-02-03,,False,False,0,,Em andamento,Q1 2023,2023-02,,True,3,0,1,1,0,1,1,33.3
+DEAL-0353,COMP-0213,Camargo S/A,SMB,Edtech,2973,Growth,Negotiation,4,8386,2023-06-19,,False,False,0,,Em andamento,Q2 2023,2023-06,,True,10,2,1,0,4,4,2,40.0
+DEAL-0354,COMP-0226,Peixoto,Mid-Market,Healthtech,4422,Pro,Negotiation,4,16489,2022-05-29,,False,False,0,,Em andamento,Q2 2022,2022-05,,True,7,2,4,0,0,2,3,28.6
+DEAL-0355,COMP-0111,da Paz - ME,SMB,Edtech,4979,Pro,Closed Lost,6,34477,2024-11-17,2025-01-28,True,False,0,72,61 a 90 dias,Q4 2024,2024-11,Q1 2025,False,4,0,1,1,1,2,1,50.0
+DEAL-0356,COMP-0107,da Mota e Filhos,Mid-Market,E-commerce,3306,Enterprise,Proposal,3,31992,2024-02-12,,False,False,0,,Em andamento,Q1 2024,2024-02,,True,8,0,1,3,1,3,3,37.5
+DEAL-0357,COMP-0097,Siqueira da Rosa S.A.,Mid-Market,E-commerce,2886,Starter,Closed Won,5,3184,2024-07-28,2024-11-29,True,True,3184,124,Mais de 90 dias,Q3 2024,2024-07,Q4 2024,False,2,0,0,2,0,1,0,50.0
+DEAL-0358,COMP-0165,Aragão - ME,SMB,Fintech,711,Enterprise,Qualified,2,83979,2022-05-19,,False,False,0,,Em andamento,Q2 2022,2022-05,,True,4,1,0,1,0,3,1,75.0
+DEAL-0359,COMP-0181,Mendes Sá - ME,SMB,SaaS,2078,Growth,Closed Won,5,6589,2023-03-28,2023-09-24,True,True,6589,180,Mais de 90 dias,Q1 2023,2023-03,Q3 2023,False,9,2,0,3,4,5,3,55.6
+DEAL-0360,COMP-0267,Fogaça - EI,SMB,E-commerce,897,Starter,Proposal,3,4577,2023-12-25,,False,False,0,,Em andamento,Q4 2023,2023-12,,True,10,0,5,2,2,1,7,10.0
+DEAL-0361,COMP-0034,Novaes,Mid-Market,Fintech,3073,Starter,Closed Won,5,2587,2023-05-24,2023-08-12,True,True,2587,80,61 a 90 dias,Q2 2023,2023-05,Q3 2023,False,10,1,0,4,1,4,3,40.0
+DEAL-0362,COMP-0110,Alves - ME,SMB,SaaS,2499,Growth,Closed Won,5,9584,2023-12-02,2023-12-28,True,True,9584,26,Ate 30 dias,Q4 2023,2023-12,Q4 2023,False,6,2,1,0,2,2,1,33.3
+DEAL-0363,COMP-0111,da Paz - ME,SMB,Edtech,4979,Pro,Proposal,3,8994,2023-03-24,,False,False,0,,Em andamento,Q1 2023,2023-03,,True,10,5,2,2,1,2,6,20.0
+DEAL-0364,COMP-0129,Albuquerque,Mid-Market,Fintech,2235,Growth,Closed Lost,6,4792,2023-01-25,2023-06-08,True,False,0,134,Mais de 90 dias,Q1 2023,2023-01,Q2 2023,False,6,0,3,0,1,4,2,66.7
+DEAL-0365,COMP-0031,Aragão Martins - EI,SMB,Healthtech,1305,Growth,Closed Won,5,4193,2023-06-28,2023-08-26,True,True,4193,59,31 a 60 dias,Q2 2023,2023-06,Q3 2023,False,7,1,1,3,1,1,2,14.3
+DEAL-0366,COMP-0145,Marques - EI,SMB,Edtech,436,Starter,Closed Won,5,796,2023-12-31,2024-02-15,True,True,796,46,31 a 60 dias,Q4 2023,2023-12,Q1 2024,False,6,1,1,2,0,2,4,33.3
+DEAL-0367,COMP-0126,Marques,Mid-Market,Healthtech,3696,Starter,Closed Lost,6,3582,2024-10-05,2025-03-18,True,False,0,164,Mais de 90 dias,Q4 2024,2024-10,Q1 2025,False,4,0,1,0,1,1,3,25.0
+DEAL-0368,COMP-0233,Silveira - ME,Mid-Market,Healthtech,826,Pro,Closed Lost,6,23984,2024-09-14,2024-12-25,True,False,0,102,Mais de 90 dias,Q3 2024,2024-09,Q4 2024,False,10,1,2,4,1,2,4,20.0
+DEAL-0369,COMP-0110,Alves - ME,SMB,SaaS,2499,Growth,Closed Lost,6,10183,2023-07-17,2023-11-26,True,False,0,132,Mais de 90 dias,Q3 2023,2023-07,Q4 2023,False,7,0,0,1,1,3,3,42.9
+DEAL-0370,COMP-0179,Fonseca,Mid-Market,Healthtech,850,Growth,Proposal,3,1198,2023-03-31,,False,False,0,,Em andamento,Q1 2023,2023-03,,True,7,2,1,1,3,3,2,42.9
+DEAL-0371,COMP-0043,Mendes,SMB,Fintech,1850,Enterprise,Negotiation,4,71982,2024-05-16,,False,False,0,,Em andamento,Q2 2024,2024-05,,True,4,1,1,0,1,1,1,25.0
+DEAL-0372,COMP-0116,Gonçalves,Mid-Market,Fintech,210,Enterprise,Prospecting,1,87978,2023-12-13,,False,False,0,,Em andamento,Q4 2023,2023-12,,True,8,0,1,4,1,4,2,50.0
+DEAL-0373,COMP-0256,Viana Lima - EI,SMB,Fintech,2063,Enterprise,Closed Won,5,43989,2024-07-25,2024-08-31,True,True,43989,37,31 a 60 dias,Q3 2024,2024-07,Q3 2024,False,4,1,1,1,0,1,3,25.0
+DEAL-0374,COMP-0254,Camargo,SMB,Edtech,411,Growth,Closed Won,5,7787,2022-01-25,2022-07-23,True,True,7787,179,Mais de 90 dias,Q1 2022,2022-01,Q3 2022,False,8,1,1,1,3,2,2,25.0
+DEAL-0375,COMP-0253,Leão Siqueira S.A.,SMB,E-commerce,189,Pro,Negotiation,4,29980,2023-10-29,,False,False,0,,Em andamento,Q4 2023,2023-10,,True,8,1,1,2,1,2,0,25.0
+DEAL-0376,COMP-0118,Rodrigues,SMB,Edtech,1602,Pro,Closed Lost,6,11992,2023-01-19,2023-06-15,True,False,0,147,Mais de 90 dias,Q1 2023,2023-01,Q2 2023,False,5,0,2,1,0,1,3,20.0
+DEAL-0377,COMP-0062,Garcia,SMB,Fintech,489,Pro,Proposal,3,8994,2023-12-04,,False,False,0,,Em andamento,Q4 2023,2023-12,,True,8,2,2,1,3,1,2,12.5
+DEAL-0378,COMP-0182,da Mata,SMB,SaaS,3292,Enterprise,Negotiation,4,91977,2023-03-08,,False,False,0,,Em andamento,Q1 2023,2023-03,,True,7,0,3,3,0,3,3,42.9
+DEAL-0379,COMP-0206,Ramos Lima - ME,Mid-Market,Healthtech,757,Pro,Closed Won,5,22485,2024-01-18,2024-05-06,True,True,22485,109,Mais de 90 dias,Q1 2024,2024-01,Q2 2024,False,8,2,2,2,2,2,4,25.0
+DEAL-0380,COMP-0153,Cavalcanti,SMB,E-commerce,4928,Growth,Qualified,2,2396,2022-09-26,,False,False,0,,Em andamento,Q3 2022,2022-09,,True,2,0,0,0,1,0,1,0.0
+DEAL-0381,COMP-0021,Nogueira S/A,SMB,Edtech,2587,Enterprise,Closed Won,5,51987,2023-04-28,2023-09-24,True,True,51987,149,Mais de 90 dias,Q2 2023,2023-04,Q3 2023,False,5,1,0,2,1,0,2,0.0
+DEAL-0382,COMP-0074,Lima,Enterprise,SaaS,2011,Enterprise,Qualified,2,3999,2022-11-03,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,9,0,2,1,6,2,2,22.2
+DEAL-0383,COMP-0208,da Cunha,Mid-Market,E-commerce,3382,Growth,Qualified,2,12579,2024-10-20,,False,False,0,,Em andamento,Q4 2024,2024-10,,True,2,1,0,1,0,0,0,0.0
+DEAL-0384,COMP-0294,Ramos,Mid-Market,Healthtech,894,Enterprise,Negotiation,4,39990,2023-10-09,,False,False,0,,Em andamento,Q4 2023,2023-10,,True,10,1,2,4,3,2,4,20.0
+DEAL-0385,COMP-0051,da Cunha Brito e Filhos,SMB,SaaS,816,Enterprise,Proposal,3,15996,2022-04-08,,False,False,0,,Em andamento,Q2 2022,2022-04,,True,7,1,2,2,1,2,4,28.6
+DEAL-0386,COMP-0074,Lima,Enterprise,SaaS,2011,Pro,Closed Won,5,23984,2022-05-03,2022-07-04,True,True,23984,62,61 a 90 dias,Q2 2022,2022-05,Q3 2022,False,4,2,0,0,1,1,0,25.0
+DEAL-0387,COMP-0006,Santos - EI,SMB,E-commerce,63,Pro,Closed Won,5,13491,2022-07-17,2022-11-16,True,True,13491,122,Mais de 90 dias,Q3 2022,2022-07,Q4 2022,False,5,0,2,1,1,2,1,40.0
+DEAL-0388,COMP-0098,Ribeiro,SMB,Edtech,2722,Pro,Proposal,3,1499,2023-06-12,,False,False,0,,Em andamento,Q2 2023,2023-06,,True,5,2,2,0,0,2,2,40.0
+DEAL-0389,COMP-0087,Andrade,SMB,SaaS,2535,Growth,Proposal,3,11381,2023-12-21,,False,False,0,,Em andamento,Q4 2023,2023-12,,True,2,0,1,0,0,1,1,50.0
+DEAL-0390,COMP-0135,Cardoso,SMB,E-commerce,2456,Pro,Negotiation,4,17988,2022-12-24,,False,False,0,,Em andamento,Q4 2022,2022-12,,True,8,1,1,2,4,2,3,25.0
+DEAL-0391,COMP-0065,Silveira - ME,Enterprise,SaaS,1532,Enterprise,Proposal,3,95976,2024-11-11,,False,False,0,,Em andamento,Q4 2024,2024-11,,True,9,1,2,1,3,2,3,22.2
+DEAL-0392,COMP-0022,Andrade Carvalho e Filhos,Mid-Market,Healthtech,3768,Enterprise,Proposal,3,79980,2022-06-10,,False,False,0,,Em andamento,Q2 2022,2022-06,,True,6,1,2,1,1,4,1,66.7
+DEAL-0393,COMP-0068,Sampaio e Filhos,Mid-Market,Healthtech,4791,Growth,Proposal,3,12579,2022-10-24,,False,False,0,,Em andamento,Q4 2022,2022-10,,True,5,0,1,2,1,1,1,20.0
+DEAL-0394,COMP-0049,Gonçalves,SMB,Healthtech,3344,Enterprise,Closed Won,5,11997,2023-11-22,2024-03-15,True,True,11997,114,Mais de 90 dias,Q4 2023,2023-11,Q1 2024,False,6,2,2,0,1,1,2,16.7
+DEAL-0395,COMP-0203,Silveira,Enterprise,E-commerce,4730,Growth,Prospecting,1,6589,2023-12-05,,False,False,0,,Em andamento,Q4 2023,2023-12,,True,2,1,1,0,0,1,1,50.0
+DEAL-0396,COMP-0061,Ramos,Mid-Market,Edtech,3996,Pro,Proposal,3,29980,2023-08-20,,False,False,0,,Em andamento,Q3 2023,2023-08,,True,9,1,2,1,2,2,1,22.2
+DEAL-0397,COMP-0227,Sampaio,SMB,Edtech,4461,Pro,Closed Won,5,35976,2023-07-10,2023-11-07,True,True,35976,120,Mais de 90 dias,Q3 2023,2023-07,Q4 2023,False,10,4,2,1,1,3,4,30.0
+DEAL-0398,COMP-0038,Casa Grande - EI,SMB,Healthtech,576,Enterprise,Negotiation,4,23994,2024-07-11,,False,False,0,,Em andamento,Q3 2024,2024-07,,True,3,0,1,1,0,1,2,33.3
+DEAL-0399,COMP-0136,Borges,Mid-Market,Healthtech,4419,Growth,Qualified,2,14376,2022-02-17,,False,False,0,,Em andamento,Q1 2022,2022-02,,True,5,1,0,3,1,0,4,0.0
+DEAL-0400,COMP-0232,Dias Ltda.,SMB,Edtech,2729,Starter,Qualified,2,1393,2023-05-31,,False,False,0,,Em andamento,Q2 2023,2023-05,,True,3,1,0,1,0,1,1,33.3
+DEAL-0401,COMP-0120,Martins S/A,Mid-Market,SaaS,3492,Starter,Qualified,2,597,2022-07-30,,False,False,0,,Em andamento,Q3 2022,2022-07,,True,4,0,0,0,1,0,3,0.0
+DEAL-0402,COMP-0298,Nunes S.A.,SMB,Edtech,4356,Starter,Closed Lost,6,199,2024-08-27,2025-01-21,True,False,0,147,Mais de 90 dias,Q3 2024,2024-08,Q1 2025,False,5,3,1,0,0,3,0,60.0
+DEAL-0403,COMP-0051,da Cunha Brito e Filhos,SMB,SaaS,816,Starter,Closed Won,5,1791,2024-12-09,2025-01-06,True,True,1791,28,Ate 30 dias,Q4 2024,2024-12,Q1 2025,False,2,1,0,0,1,0,2,0.0
+DEAL-0404,COMP-0098,Ribeiro,SMB,Edtech,2722,Enterprise,Closed Won,5,39990,2022-06-22,2022-12-13,True,True,39990,174,Mais de 90 dias,Q2 2022,2022-06,Q4 2022,False,7,0,2,2,2,1,3,14.3
+DEAL-0405,COMP-0223,Melo S.A.,Mid-Market,E-commerce,3409,Enterprise,Qualified,2,83979,2023-08-05,,False,False,0,,Em andamento,Q3 2023,2023-08,,True,5,2,1,1,1,1,3,20.0
+DEAL-0406,COMP-0298,Nunes S.A.,SMB,Edtech,4356,Growth,Qualified,2,599,2024-12-14,,False,False,0,,Em andamento,Q4 2024,2024-12,,True,7,3,0,0,2,2,2,28.6
+DEAL-0407,COMP-0155,Andrade S.A.,SMB,E-commerce,574,Pro,Prospecting,1,23984,2024-01-01,,False,False,0,,Em andamento,Q1 2024,2024-01,,True,3,0,2,1,0,0,2,0.0
+DEAL-0408,COMP-0135,Cardoso,SMB,E-commerce,2456,Enterprise,Negotiation,4,19995,2023-07-12,,False,False,0,,Em andamento,Q3 2023,2023-07,,True,9,1,0,2,3,7,2,77.8
+DEAL-0409,COMP-0235,Pastor,Mid-Market,Fintech,622,Enterprise,Closed Lost,6,83979,2022-12-29,2023-06-05,True,False,0,158,Mais de 90 dias,Q4 2022,2022-12,Q2 2023,False,9,1,2,1,1,3,3,33.3
+DEAL-0410,COMP-0056,Almeida Ltda.,SMB,Edtech,130,Pro,Closed Won,5,17988,2024-06-09,2024-10-28,True,True,17988,141,Mais de 90 dias,Q2 2024,2024-06,Q4 2024,False,3,1,0,1,0,0,1,0.0
+DEAL-0411,COMP-0250,Cardoso,Mid-Market,Healthtech,2058,Starter,Negotiation,4,2985,2023-04-11,,False,False,0,,Em andamento,Q2 2023,2023-04,,True,2,0,0,2,0,1,0,50.0
+DEAL-0412,COMP-0002,Macedo,SMB,SaaS,4477,Pro,Proposal,3,7495,2024-04-24,,False,False,0,,Em andamento,Q2 2024,2024-04,,True,9,1,4,1,0,4,2,44.4
+DEAL-0413,COMP-0250,Cardoso,Mid-Market,Healthtech,2058,Growth,Proposal,3,7188,2022-01-01,,False,False,0,,Em andamento,Q1 2022,2022-01,,True,5,3,0,0,1,1,1,20.0
+DEAL-0414,COMP-0118,Rodrigues,SMB,Edtech,1602,Starter,Proposal,3,4577,2024-12-31,,False,False,0,,Em andamento,Q4 2024,2024-12,,True,5,2,0,1,2,1,1,20.0
+DEAL-0415,COMP-0166,Novais,Mid-Market,Healthtech,4558,Starter,Closed Lost,6,2786,2024-09-04,2024-11-26,True,False,0,83,61 a 90 dias,Q3 2024,2024-09,Q4 2024,False,4,0,0,1,1,1,2,25.0
+DEAL-0416,COMP-0079,Dias,SMB,Edtech,1735,Pro,Closed Won,5,10493,2023-04-19,2023-04-27,True,True,10493,8,Ate 30 dias,Q2 2023,2023-04,Q2 2023,False,6,0,1,2,1,3,2,50.0
+DEAL-0417,COMP-0280,Casa Grande Rezende Ltda.,Enterprise,Healthtech,760,Enterprise,Proposal,3,31992,2024-06-14,,False,False,0,,Em andamento,Q2 2024,2024-06,,True,8,0,4,1,1,5,1,62.5
+DEAL-0418,COMP-0264,Farias S/A,Mid-Market,Fintech,3265,Enterprise,Qualified,2,31992,2024-03-09,,False,False,0,,Em andamento,Q1 2024,2024-03,,True,9,2,0,1,3,0,4,0.0
+DEAL-0419,COMP-0096,Mendes da Luz e Filhos,Mid-Market,Healthtech,2699,Growth,Proposal,3,10183,2024-05-14,,False,False,0,,Em andamento,Q2 2024,2024-05,,True,6,2,0,3,0,3,2,50.0
+DEAL-0420,COMP-0104,Pires S/A,Enterprise,Edtech,1624,Pro,Closed Won,5,20986,2023-07-11,2023-09-28,True,True,20986,79,61 a 90 dias,Q3 2023,2023-07,Q3 2023,False,4,2,0,1,1,4,0,100.0
+DEAL-0421,COMP-0235,Pastor,Mid-Market,Fintech,622,Growth,Qualified,2,2995,2022-05-21,,False,False,0,,Em andamento,Q2 2022,2022-05,,True,3,1,0,0,1,2,0,66.7
+DEAL-0422,COMP-0108,Gonçalves - ME,SMB,Fintech,3454,Enterprise,Proposal,3,35991,2024-07-21,,False,False,0,,Em andamento,Q3 2024,2024-07,,True,3,1,0,0,2,0,2,0.0
+DEAL-0423,COMP-0044,Cirino,SMB,Edtech,4547,Pro,Closed Won,5,1499,2024-10-04,2024-11-28,True,True,1499,55,31 a 60 dias,Q4 2024,2024-10,Q4 2024,False,3,1,0,1,1,1,1,33.3
+DEAL-0424,COMP-0030,Pires,Mid-Market,Edtech,2195,Starter,Qualified,2,1194,2024-12-31,,False,False,0,,Em andamento,Q4 2024,2024-12,,True,8,3,1,1,1,1,5,12.5
+DEAL-0425,COMP-0213,Camargo S/A,SMB,Edtech,2973,Growth,Closed Lost,6,13777,2023-08-01,2023-10-15,True,False,0,75,61 a 90 dias,Q3 2023,2023-08,Q4 2023,False,2,1,1,0,0,0,0,0.0
+DEAL-0426,COMP-0208,da Cunha,Mid-Market,E-commerce,3382,Growth,Proposal,3,1797,2022-01-17,,False,False,0,,Em andamento,Q1 2022,2022-01,,True,4,1,1,1,1,2,0,50.0
+DEAL-0427,COMP-0109,Barros,Mid-Market,Fintech,4672,Growth,Qualified,2,6589,2024-10-07,,False,False,0,,Em andamento,Q4 2024,2024-10,,True,10,0,3,3,2,2,2,20.0
+DEAL-0428,COMP-0276,Moura e Filhos,SMB,E-commerce,1789,Pro,Proposal,3,22485,2024-10-17,,False,False,0,,Em andamento,Q4 2024,2024-10,,True,7,2,0,0,2,2,2,28.6
+DEAL-0429,COMP-0006,Santos - EI,SMB,E-commerce,63,Starter,Closed Won,5,995,2022-03-06,2022-06-05,True,True,995,91,Mais de 90 dias,Q1 2022,2022-03,Q2 2022,False,6,1,1,2,1,2,1,33.3
+DEAL-0430,COMP-0030,Pires,Mid-Market,Edtech,2195,Starter,Prospecting,1,3582,2024-03-14,,False,False,0,,Em andamento,Q1 2024,2024-03,,True,8,2,2,1,1,3,3,37.5
+DEAL-0431,COMP-0081,Pinto Ltda.,SMB,SaaS,766,Pro,Negotiation,4,19487,2023-01-29,,False,False,0,,Em andamento,Q1 2023,2023-01,,True,9,0,6,1,0,3,0,33.3
+DEAL-0432,COMP-0057,da Luz - ME,Enterprise,Fintech,1372,Enterprise,Closed Won,5,59985,2022-09-07,2022-11-16,True,True,59985,70,61 a 90 dias,Q3 2022,2022-09,Q4 2022,False,5,1,1,0,1,1,2,20.0
+DEAL-0433,COMP-0098,Ribeiro,SMB,Edtech,2722,Growth,Qualified,2,8985,2022-03-10,,False,False,0,,Em andamento,Q1 2022,2022-03,,True,8,0,0,4,2,1,4,12.5
+DEAL-0434,COMP-0044,Cirino,SMB,Edtech,4547,Growth,Closed Won,5,9584,2022-07-12,2022-11-29,True,True,9584,140,Mais de 90 dias,Q3 2022,2022-07,Q4 2022,False,3,1,0,1,0,2,0,66.7
+DEAL-0435,COMP-0242,da Conceição,SMB,SaaS,2413,Pro,Proposal,3,8994,2023-10-02,,False,False,0,,Em andamento,Q4 2023,2023-10,,True,9,1,1,2,3,2,1,22.2
+DEAL-0436,COMP-0230,Costa Macedo - EI,SMB,Healthtech,3133,Starter,Closed Won,5,1791,2022-03-28,2022-08-22,True,True,1791,147,Mais de 90 dias,Q1 2022,2022-03,Q3 2022,False,3,0,0,1,1,1,1,33.3
+DEAL-0437,COMP-0216,Aragão,SMB,Edtech,1970,Growth,Negotiation,4,7188,2023-09-04,,False,False,0,,Em andamento,Q3 2023,2023-09,,True,6,0,1,1,2,1,1,16.7
+DEAL-0438,COMP-0134,da Rosa,Enterprise,Edtech,170,Growth,Closed Lost,6,12579,2023-03-23,2023-04-27,True,False,0,35,31 a 60 dias,Q1 2023,2023-03,Q2 2023,False,9,5,1,1,0,2,1,22.2
+DEAL-0439,COMP-0035,Barros,SMB,Edtech,14,Growth,Proposal,3,5391,2022-01-31,,False,False,0,,Em andamento,Q1 2022,2022-01,,True,3,1,0,1,1,0,1,0.0
+DEAL-0440,COMP-0174,da Cruz,SMB,Healthtech,2275,Growth,Negotiation,4,599,2024-03-21,,False,False,0,,Em andamento,Q1 2024,2024-03,,True,4,1,2,0,1,0,2,0.0
+DEAL-0441,COMP-0227,Sampaio,SMB,Edtech,4461,Growth,Closed Lost,6,7188,2024-08-31,2025-02-06,True,False,0,159,Mais de 90 dias,Q3 2024,2024-08,Q1 2025,False,8,2,2,0,2,3,4,37.5
+DEAL-0442,COMP-0067,Mendes,Enterprise,Edtech,2026,Enterprise,Closed Won,5,11997,2023-05-25,2023-07-11,True,True,11997,47,31 a 60 dias,Q2 2023,2023-05,Q3 2023,False,7,4,1,1,0,2,3,28.6
+DEAL-0443,COMP-0292,Oliveira da Cunha S/A,SMB,Fintech,365,Starter,Closed Won,5,398,2023-11-25,2024-05-10,True,True,398,167,Mais de 90 dias,Q4 2023,2023-11,Q2 2024,False,9,2,3,0,4,4,5,44.4
+DEAL-0444,COMP-0104,Pires S/A,Enterprise,Edtech,1624,Starter,Proposal,3,995,2022-11-12,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,8,0,3,1,2,0,4,0.0
+DEAL-0445,COMP-0137,Leão Ltda.,SMB,E-commerce,3580,Pro,Negotiation,4,22485,2023-10-11,,False,False,0,,Em andamento,Q4 2023,2023-10,,True,3,2,0,0,0,1,0,33.3
+DEAL-0446,COMP-0147,Moreira Macedo Ltda.,Enterprise,Fintech,176,Pro,Closed Won,5,35976,2022-02-13,2022-05-27,True,True,35976,103,Mais de 90 dias,Q1 2022,2022-02,Q2 2022,False,7,3,0,3,1,1,3,14.3
+DEAL-0447,COMP-0226,Peixoto,Mid-Market,Healthtech,4422,Enterprise,Qualified,2,91977,2022-03-22,,False,False,0,,Em andamento,Q1 2022,2022-03,,True,6,2,0,3,0,3,2,50.0
+DEAL-0448,COMP-0055,Monteiro Sampaio - ME,Mid-Market,SaaS,3640,Enterprise,Proposal,3,27993,2023-08-27,,False,False,0,,Em andamento,Q3 2023,2023-08,,True,6,3,0,2,1,3,2,50.0
+DEAL-0449,COMP-0107,da Mota e Filhos,Mid-Market,E-commerce,3306,Pro,Negotiation,4,35976,2023-12-14,,False,False,0,,Em andamento,Q4 2023,2023-12,,True,4,0,0,1,0,2,1,50.0
+DEAL-0450,COMP-0064,Abreu Garcia e Filhos,SMB,Edtech,1299,Starter,Negotiation,4,3383,2022-11-25,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,4,0,0,0,1,0,2,0.0
+DEAL-0451,COMP-0300,Fernandes,Mid-Market,SaaS,4526,Pro,Qualified,2,26982,2023-08-29,,False,False,0,,Em andamento,Q3 2023,2023-08,,True,9,1,3,2,1,3,3,33.3
+DEAL-0452,COMP-0209,da Conceição Pires - EI,SMB,Healthtech,4516,Enterprise,Proposal,3,95976,2022-01-02,,False,False,0,,Em andamento,Q1 2022,2022-01,,True,5,0,1,3,1,0,4,0.0
+DEAL-0453,COMP-0101,Costela,Mid-Market,E-commerce,3584,Pro,Qualified,2,29980,2022-02-08,,False,False,0,,Em andamento,Q1 2022,2022-02,,True,5,4,0,0,0,2,1,40.0
+DEAL-0454,COMP-0019,Farias S/A,Mid-Market,SaaS,1886,Enterprise,Qualified,2,27993,2022-05-10,,False,False,0,,Em andamento,Q2 2022,2022-05,,True,4,1,0,0,1,2,1,50.0
+DEAL-0455,COMP-0055,Monteiro Sampaio - ME,Mid-Market,SaaS,3640,Growth,Negotiation,4,11980,2024-10-15,,False,False,0,,Em andamento,Q4 2024,2024-10,,True,2,1,0,1,0,0,1,0.0
+DEAL-0456,COMP-0119,Cirino Abreu - EI,SMB,Fintech,1218,Pro,Proposal,3,5996,2024-04-19,,False,False,0,,Em andamento,Q2 2024,2024-04,,True,9,2,4,0,0,1,3,11.1
+DEAL-0457,COMP-0108,Gonçalves - ME,SMB,Fintech,3454,Starter,Prospecting,1,995,2022-05-17,,False,False,0,,Em andamento,Q2 2022,2022-05,,True,10,1,1,5,2,3,4,30.0
+DEAL-0458,COMP-0135,Cardoso,SMB,E-commerce,2456,Growth,Qualified,2,2396,2022-03-06,,False,False,0,,Em andamento,Q1 2022,2022-03,,True,9,2,1,3,1,4,3,44.4
+DEAL-0459,COMP-0239,Campos,Mid-Market,Fintech,2364,Starter,Negotiation,4,3781,2022-07-22,,False,False,0,,Em andamento,Q3 2022,2022-07,,True,7,1,0,2,2,1,1,14.3
+DEAL-0460,COMP-0208,da Cunha,Mid-Market,E-commerce,3382,Enterprise,Closed Won,5,67983,2024-03-06,2024-08-28,True,True,67983,175,Mais de 90 dias,Q1 2024,2024-03,Q3 2024,False,8,2,2,3,1,1,3,12.5
+DEAL-0461,COMP-0112,Almeida - ME,SMB,Healthtech,1760,Pro,Closed Won,5,11992,2023-06-09,2023-06-28,True,True,11992,19,Ate 30 dias,Q2 2023,2023-06,Q2 2023,False,5,1,1,1,1,1,2,20.0
+DEAL-0462,COMP-0066,Moraes Siqueira Ltda.,SMB,Fintech,3317,Growth,Closed Won,5,12579,2022-05-26,2022-06-05,True,True,12579,10,Ate 30 dias,Q2 2022,2022-05,Q2 2022,False,8,1,1,4,1,3,3,37.5
+DEAL-0463,COMP-0030,Pires,Mid-Market,Edtech,2195,Enterprise,Negotiation,4,83979,2022-06-13,,False,False,0,,Em andamento,Q2 2022,2022-06,,True,4,1,1,1,0,1,2,25.0
+DEAL-0464,COMP-0134,da Rosa,Enterprise,Edtech,170,Pro,Prospecting,1,34477,2024-05-01,,False,False,0,,Em andamento,Q2 2024,2024-05,,True,6,2,0,2,1,2,3,33.3
+DEAL-0465,COMP-0234,Cunha Ltda.,Enterprise,SaaS,1190,Starter,Prospecting,1,4776,2023-06-29,,False,False,0,,Em andamento,Q2 2023,2023-06,,True,9,2,1,2,1,2,2,22.2
+DEAL-0466,COMP-0191,Duarte,SMB,Healthtech,4874,Starter,Prospecting,1,1393,2023-09-15,,False,False,0,,Em andamento,Q3 2023,2023-09,,True,9,1,2,1,3,3,5,33.3
+DEAL-0467,COMP-0032,Câmara Cunha S.A.,SMB,E-commerce,4110,Growth,Closed Lost,6,10782,2022-07-18,2022-08-19,True,False,0,32,31 a 60 dias,Q3 2022,2022-07,Q3 2022,False,7,0,2,0,1,3,1,42.9
+DEAL-0468,COMP-0206,Ramos Lima - ME,Mid-Market,Healthtech,757,Growth,Proposal,3,11381,2023-01-31,,False,False,0,,Em andamento,Q1 2023,2023-01,,True,8,4,0,0,0,3,3,37.5
+DEAL-0469,COMP-0261,Sampaio,SMB,E-commerce,1357,Enterprise,Closed Won,5,95976,2023-01-02,2023-05-31,True,True,95976,149,Mais de 90 dias,Q1 2023,2023-01,Q2 2023,False,4,2,0,1,0,1,0,25.0
+DEAL-0470,COMP-0103,Novaes,SMB,Healthtech,23,Enterprise,Qualified,2,91977,2024-01-04,,False,False,0,,Em andamento,Q1 2024,2024-01,,True,5,3,0,0,2,1,0,20.0
+DEAL-0471,COMP-0080,Costa,SMB,E-commerce,4150,Growth,Closed Won,5,10782,2022-08-02,2022-09-20,True,True,10782,49,31 a 60 dias,Q3 2022,2022-08,Q3 2022,False,5,2,1,0,0,3,1,60.0
+DEAL-0472,COMP-0241,Aparecida,SMB,E-commerce,247,Growth,Proposal,3,10782,2023-11-23,,False,False,0,,Em andamento,Q4 2023,2023-11,,True,7,1,1,3,1,3,0,42.9
+DEAL-0473,COMP-0024,Mendes S/A,Mid-Market,Healthtech,4790,Pro,Closed Lost,6,26982,2024-06-26,2024-10-01,True,False,0,97,Mais de 90 dias,Q2 2024,2024-06,Q4 2024,False,3,1,0,0,2,0,2,0.0
+DEAL-0474,COMP-0066,Moraes Siqueira Ltda.,SMB,Fintech,3317,Enterprise,Closed Lost,6,83979,2023-10-27,2024-02-06,True,False,0,102,Mais de 90 dias,Q4 2023,2023-10,Q1 2024,False,6,2,1,1,1,6,0,100.0
+DEAL-0475,COMP-0193,Pimenta,Mid-Market,Healthtech,593,Growth,Proposal,3,11381,2023-10-25,,False,False,0,,Em andamento,Q4 2023,2023-10,,True,6,5,0,1,0,1,2,16.7
+DEAL-0476,COMP-0206,Ramos Lima - ME,Mid-Market,Healthtech,757,Pro,Negotiation,4,17988,2024-02-08,,False,False,0,,Em andamento,Q1 2024,2024-02,,True,7,1,3,1,0,3,1,42.9
+DEAL-0477,COMP-0025,Rocha S.A.,SMB,Fintech,4184,Starter,Closed Lost,6,4776,2024-07-05,2024-10-21,True,False,0,108,Mais de 90 dias,Q3 2024,2024-07,Q4 2024,False,5,1,3,0,1,0,2,0.0
+DEAL-0478,COMP-0180,Jesus Fernandes S/A,SMB,Healthtech,3931,Starter,Prospecting,1,3383,2023-08-06,,False,False,0,,Em andamento,Q3 2023,2023-08,,True,9,4,1,2,1,4,3,44.4
+DEAL-0479,COMP-0235,Pastor,Mid-Market,Fintech,622,Starter,Qualified,2,1990,2023-09-11,,False,False,0,,Em andamento,Q3 2023,2023-09,,True,7,1,1,1,3,1,5,14.3
+DEAL-0480,COMP-0178,Rocha Rios S.A.,Enterprise,Edtech,2403,Starter,Closed Lost,6,4577,2023-03-16,2023-06-11,True,False,0,87,61 a 90 dias,Q1 2023,2023-03,Q2 2023,False,5,1,1,1,1,3,0,60.0
+DEAL-0481,COMP-0186,da Luz,Mid-Market,Healthtech,3700,Growth,Closed Won,5,2396,2024-11-13,2025-04-11,True,True,2396,149,Mais de 90 dias,Q4 2024,2024-11,Q2 2025,False,8,0,1,3,2,2,2,25.0
+DEAL-0482,COMP-0231,Vasconcelos,Enterprise,Fintech,4067,Growth,Prospecting,1,2995,2023-12-30,,False,False,0,,Em andamento,Q4 2023,2023-12,,True,10,3,1,3,1,5,2,50.0
+DEAL-0483,COMP-0207,Costa Ramos Ltda.,SMB,E-commerce,2640,Growth,Proposal,3,5391,2023-05-27,,False,False,0,,Em andamento,Q2 2023,2023-05,,True,5,0,2,0,0,2,3,40.0
+DEAL-0484,COMP-0218,Pastor - ME,SMB,SaaS,3790,Enterprise,Closed Won,5,75981,2022-07-08,2022-12-08,True,True,75981,153,Mais de 90 dias,Q3 2022,2022-07,Q4 2022,False,4,2,0,1,0,2,2,50.0
+DEAL-0485,COMP-0171,Fogaça,SMB,Healthtech,2229,Enterprise,Closed Lost,6,23994,2022-06-08,2022-09-06,True,False,0,90,61 a 90 dias,Q2 2022,2022-06,Q3 2022,False,8,3,1,0,2,1,3,12.5
+DEAL-0486,COMP-0299,Melo,SMB,Edtech,3534,Pro,Negotiation,4,2998,2022-07-15,,False,False,0,,Em andamento,Q3 2022,2022-07,,True,3,2,1,0,0,1,0,33.3
+DEAL-0487,COMP-0164,Lima Rios - ME,SMB,Edtech,2273,Starter,Closed Won,5,2189,2024-02-21,2024-03-19,True,True,2189,27,Ate 30 dias,Q1 2024,2024-02,Q1 2024,False,4,2,1,0,1,2,0,50.0
+DEAL-0488,COMP-0107,da Mota e Filhos,Mid-Market,E-commerce,3306,Enterprise,Proposal,3,15996,2024-06-08,,False,False,0,,Em andamento,Q2 2024,2024-06,,True,4,1,1,1,0,1,1,25.0
+DEAL-0489,COMP-0258,Oliveira,SMB,E-commerce,1086,Starter,Closed Lost,6,4179,2023-04-10,2023-10-01,True,False,0,174,Mais de 90 dias,Q2 2023,2023-04,Q4 2023,False,9,1,1,3,2,4,3,44.4
+DEAL-0490,COMP-0275,da Cruz,Mid-Market,Edtech,3353,Pro,Closed Won,5,25483,2024-02-23,2024-03-14,True,True,25483,20,Ate 30 dias,Q1 2024,2024-02,Q1 2024,False,7,1,2,3,1,1,3,14.3
+DEAL-0491,COMP-0029,Barbosa,SMB,Edtech,104,Pro,Prospecting,1,25483,2022-11-03,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,5,0,0,1,1,1,1,20.0
+DEAL-0492,COMP-0272,Albuquerque,SMB,Fintech,4413,Enterprise,Closed Won,5,59985,2022-11-10,2022-11-29,True,True,59985,19,Ate 30 dias,Q4 2022,2022-11,Q4 2022,False,10,0,4,0,3,3,4,30.0
+DEAL-0493,COMP-0154,da Mota,Mid-Market,Edtech,346,Growth,Closed Won,5,8386,2024-10-30,2024-11-29,True,True,8386,30,Ate 30 dias,Q4 2024,2024-10,Q4 2024,False,5,0,0,2,2,3,0,60.0
+DEAL-0494,COMP-0103,Novaes,SMB,Healthtech,23,Growth,Proposal,3,2995,2024-03-18,,False,False,0,,Em andamento,Q1 2024,2024-03,,True,5,1,0,2,1,1,1,20.0
+DEAL-0495,COMP-0287,Sá,Mid-Market,SaaS,221,Starter,Proposal,3,3582,2024-09-01,,False,False,0,,Em andamento,Q3 2024,2024-09,,True,9,2,2,4,0,1,4,11.1
+DEAL-0496,COMP-0046,Albuquerque,SMB,SaaS,2716,Enterprise,Proposal,3,67983,2022-06-24,,False,False,0,,Em andamento,Q2 2022,2022-06,,True,9,1,2,2,1,3,5,33.3
+DEAL-0497,COMP-0222,da Cruz Oliveira S/A,SMB,Edtech,4173,Growth,Proposal,3,9584,2022-09-25,,False,False,0,,Em andamento,Q3 2022,2022-09,,True,8,0,2,3,2,4,3,50.0
+DEAL-0498,COMP-0221,Rezende Costa Ltda.,Enterprise,Fintech,3751,Enterprise,Negotiation,4,83979,2024-09-26,,False,False,0,,Em andamento,Q3 2024,2024-09,,True,6,3,1,0,2,3,1,50.0
+DEAL-0499,COMP-0252,Araújo S/A,SMB,Healthtech,4695,Growth,Negotiation,4,4792,2024-12-09,,False,False,0,,Em andamento,Q4 2024,2024-12,,True,10,0,1,4,1,1,5,10.0
+DEAL-0500,COMP-0277,Leão,SMB,Fintech,2981,Pro,Prospecting,1,32978,2024-05-30,,False,False,0,,Em andamento,Q2 2024,2024-05,,True,3,0,0,0,0,1,1,33.3
+DEAL-0501,COMP-0004,Rios,SMB,Edtech,4941,Enterprise,Closed Lost,6,55986,2022-07-03,2022-08-07,True,False,0,35,31 a 60 dias,Q3 2022,2022-07,Q3 2022,False,7,0,2,1,2,2,3,28.6
+DEAL-0502,COMP-0082,Câmara S/A,Mid-Market,SaaS,39,Pro,Proposal,3,17988,2023-01-26,,False,False,0,,Em andamento,Q1 2023,2023-01,,True,7,1,2,0,2,0,3,0.0
+DEAL-0503,COMP-0242,da Conceição,SMB,SaaS,2413,Pro,Negotiation,4,8994,2022-02-19,,False,False,0,,Em andamento,Q1 2022,2022-02,,True,6,0,2,2,1,2,3,33.3
+DEAL-0504,COMP-0050,Sales,SMB,Healthtech,2912,Growth,Closed Lost,6,8985,2024-06-24,2024-12-07,True,False,0,166,Mais de 90 dias,Q2 2024,2024-06,Q4 2024,False,5,2,0,1,2,2,3,40.0
+DEAL-0505,COMP-0188,Martins S/A,SMB,SaaS,822,Growth,Prospecting,1,13178,2023-04-24,,False,False,0,,Em andamento,Q2 2023,2023-04,,True,8,4,2,1,1,1,1,12.5
+DEAL-0506,COMP-0149,Araújo - ME,SMB,E-commerce,3031,Starter,Proposal,3,4776,2022-06-25,,False,False,0,,Em andamento,Q2 2022,2022-06,,True,3,0,1,0,0,1,1,33.3
+DEAL-0507,COMP-0033,Marques - EI,SMB,SaaS,2454,Pro,Prospecting,1,1499,2022-10-30,,False,False,0,,Em andamento,Q4 2022,2022-10,,True,3,1,1,0,1,2,0,66.7
+DEAL-0508,COMP-0174,da Cruz,SMB,Healthtech,2275,Pro,Proposal,3,22485,2022-08-16,,False,False,0,,Em andamento,Q3 2022,2022-08,,True,7,2,2,0,0,2,2,28.6
+DEAL-0509,COMP-0007,Ramos,Mid-Market,E-commerce,2286,Growth,Negotiation,4,14376,2023-11-11,,False,False,0,,Em andamento,Q4 2023,2023-11,,True,9,0,2,3,0,2,3,22.2
+DEAL-0510,COMP-0269,Camargo,Enterprise,Fintech,527,Pro,Negotiation,4,26982,2023-02-22,,False,False,0,,Em andamento,Q1 2023,2023-02,,True,9,0,4,2,2,2,5,22.2
+DEAL-0511,COMP-0150,Andrade Ltda.,Mid-Market,SaaS,1351,Starter,Negotiation,4,2587,2022-10-17,,False,False,0,,Em andamento,Q4 2022,2022-10,,True,10,3,1,1,4,1,2,10.0
+DEAL-0512,COMP-0007,Ramos,Mid-Market,E-commerce,2286,Starter,Negotiation,4,1791,2024-12-14,,False,False,0,,Em andamento,Q4 2024,2024-12,,True,2,0,1,0,0,1,0,50.0
+DEAL-0513,COMP-0244,Gonçalves,SMB,Fintech,1402,Growth,Qualified,2,13777,2023-08-05,,False,False,0,,Em andamento,Q3 2023,2023-08,,True,4,0,0,3,0,1,2,25.0
+DEAL-0514,COMP-0194,Martins,Enterprise,Edtech,1630,Starter,Closed Won,5,597,2022-04-19,2022-08-23,True,True,597,126,Mais de 90 dias,Q2 2022,2022-04,Q3 2022,False,8,2,2,0,2,4,4,50.0
+DEAL-0515,COMP-0199,da Mata,Enterprise,Edtech,4433,Pro,Proposal,3,5996,2023-07-10,,False,False,0,,Em andamento,Q3 2023,2023-07,,True,8,3,1,2,1,4,3,50.0
+DEAL-0516,COMP-0143,Moreira,SMB,E-commerce,2774,Growth,Prospecting,1,7787,2024-03-02,,False,False,0,,Em andamento,Q1 2024,2024-03,,True,8,1,4,0,3,3,2,37.5
+DEAL-0517,COMP-0193,Pimenta,Mid-Market,Healthtech,593,Pro,Negotiation,4,23984,2022-07-23,,False,False,0,,Em andamento,Q3 2022,2022-07,,True,7,2,1,1,2,2,1,28.6
+DEAL-0518,COMP-0047,Gonçalves Gonçalves - EI,SMB,E-commerce,3986,Growth,Closed Lost,6,4193,2024-12-24,2025-01-22,True,False,0,29,Ate 30 dias,Q4 2024,2024-12,Q1 2025,False,10,2,4,1,2,3,3,30.0
+DEAL-0519,COMP-0181,Mendes Sá - ME,SMB,SaaS,2078,Starter,Negotiation,4,398,2024-07-26,,False,False,0,,Em andamento,Q3 2024,2024-07,,True,4,1,2,1,0,1,0,25.0
+DEAL-0520,COMP-0084,Souza,SMB,Healthtech,4604,Pro,Qualified,2,16489,2024-12-20,,False,False,0,,Em andamento,Q4 2024,2024-12,,True,5,1,1,1,1,3,1,60.0
+DEAL-0521,COMP-0117,Monteiro,SMB,Healthtech,606,Starter,Negotiation,4,2388,2022-11-18,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,7,1,4,1,0,3,2,42.9
+DEAL-0522,COMP-0181,Mendes Sá - ME,SMB,SaaS,2078,Pro,Closed Won,5,11992,2023-12-29,2024-06-13,True,True,11992,167,Mais de 90 dias,Q4 2023,2023-12,Q2 2024,False,2,1,0,0,1,0,2,0.0
+DEAL-0523,COMP-0081,Pinto Ltda.,SMB,SaaS,766,Starter,Closed Lost,6,4179,2024-10-23,2025-01-08,True,False,0,77,61 a 90 dias,Q4 2024,2024-10,Q1 2025,False,10,1,1,2,4,2,5,20.0
+DEAL-0524,COMP-0175,Aragão Mendes - ME,SMB,SaaS,1600,Starter,Proposal,3,3582,2024-03-03,,False,False,0,,Em andamento,Q1 2024,2024-03,,True,7,2,1,1,3,2,1,28.6
+DEAL-0525,COMP-0194,Martins,Enterprise,Edtech,1630,Pro,Closed Lost,6,19487,2023-04-07,2023-05-22,True,False,0,45,31 a 60 dias,Q2 2023,2023-04,Q2 2023,False,9,3,0,2,1,3,2,33.3
+DEAL-0526,COMP-0020,Moura - EI,Mid-Market,Healthtech,2203,Growth,Closed Won,5,8386,2022-06-29,2022-10-11,True,True,8386,104,Mais de 90 dias,Q2 2022,2022-06,Q4 2022,False,6,3,0,0,1,2,1,33.3
+DEAL-0527,COMP-0232,Dias Ltda.,SMB,Edtech,2729,Enterprise,Qualified,2,39990,2022-11-09,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,4,1,0,1,1,1,2,25.0
+DEAL-0528,COMP-0044,Cirino,SMB,Edtech,4547,Growth,Closed Lost,6,4193,2023-11-06,2024-03-06,True,False,0,121,Mais de 90 dias,Q4 2023,2023-11,Q1 2024,False,9,3,4,0,1,2,4,22.2
+DEAL-0529,COMP-0231,Vasconcelos,Enterprise,Fintech,4067,Pro,Closed Won,5,34477,2023-02-19,2023-04-02,True,True,34477,42,31 a 60 dias,Q1 2023,2023-02,Q2 2023,False,7,2,2,0,2,2,2,28.6
+DEAL-0530,COMP-0138,Peixoto,SMB,E-commerce,3322,Enterprise,Closed Won,5,19995,2024-12-08,2025-01-18,True,True,19995,41,31 a 60 dias,Q4 2024,2024-12,Q1 2025,False,10,3,2,1,2,4,1,40.0
+DEAL-0531,COMP-0143,Moreira,SMB,E-commerce,2774,Starter,Closed Won,5,3582,2022-11-20,2023-02-16,True,True,3582,88,61 a 90 dias,Q4 2022,2022-11,Q1 2023,False,3,1,0,1,1,2,1,66.7
+DEAL-0532,COMP-0204,Mendonça,Mid-Market,Fintech,3864,Growth,Negotiation,4,6589,2022-08-31,,False,False,0,,Em andamento,Q3 2022,2022-08,,True,5,0,1,2,1,1,0,20.0
+DEAL-0533,COMP-0279,Andrade e Filhos,SMB,E-commerce,1564,Pro,Closed Won,5,20986,2022-10-26,2022-11-09,True,True,20986,14,Ate 30 dias,Q4 2022,2022-10,Q4 2022,False,10,1,1,4,3,1,6,10.0
+DEAL-0534,COMP-0233,Silveira - ME,Mid-Market,Healthtech,826,Pro,Closed Lost,6,7495,2023-09-14,2024-01-12,True,False,0,120,Mais de 90 dias,Q3 2023,2023-09,Q1 2024,False,8,1,0,4,2,2,2,25.0
+DEAL-0535,COMP-0069,Freitas Cassiano Ltda.,SMB,E-commerce,1683,Growth,Closed Won,5,599,2022-08-07,2022-09-16,True,True,599,40,31 a 60 dias,Q3 2022,2022-08,Q3 2022,False,3,0,1,1,1,1,2,33.3
+DEAL-0536,COMP-0069,Freitas Cassiano Ltda.,SMB,E-commerce,1683,Growth,Closed Won,5,11980,2023-07-01,2023-12-10,True,True,11980,162,Mais de 90 dias,Q3 2023,2023-07,Q4 2023,False,3,1,0,1,0,3,0,100.0
+DEAL-0537,COMP-0133,Santos,SMB,Fintech,3451,Pro,Qualified,2,4497,2022-02-23,,False,False,0,,Em andamento,Q1 2022,2022-02,,True,3,1,1,1,0,0,3,0.0
+DEAL-0538,COMP-0234,Cunha Ltda.,Enterprise,SaaS,1190,Enterprise,Closed Won,5,91977,2024-09-03,2024-10-14,True,True,91977,41,31 a 60 dias,Q3 2024,2024-09,Q4 2024,False,7,2,5,0,0,3,3,42.9
+DEAL-0539,COMP-0161,Lopes,SMB,Healthtech,4678,Enterprise,Closed Won,5,63984,2023-01-12,2023-04-28,True,True,63984,106,Mais de 90 dias,Q1 2023,2023-01,Q2 2023,False,10,3,2,1,2,5,3,50.0
+DEAL-0540,COMP-0034,Novaes,Mid-Market,Fintech,3073,Growth,Qualified,2,1198,2023-01-31,,False,False,0,,Em andamento,Q1 2023,2023-01,,True,5,1,0,2,1,1,1,20.0
+DEAL-0541,COMP-0108,Gonçalves - ME,SMB,Fintech,3454,Pro,Proposal,3,20986,2022-01-31,,False,False,0,,Em andamento,Q1 2022,2022-01,,True,10,0,2,3,2,3,4,30.0
+DEAL-0542,COMP-0284,Jesus,Mid-Market,Fintech,2701,Growth,Qualified,2,1797,2023-02-20,,False,False,0,,Em andamento,Q1 2023,2023-02,,True,7,1,1,2,3,0,3,0.0
+DEAL-0543,COMP-0236,Mendonça,Mid-Market,E-commerce,2783,Enterprise,Qualified,2,91977,2024-06-18,,False,False,0,,Em andamento,Q2 2024,2024-06,,True,4,2,1,0,1,0,0,0.0
+DEAL-0544,COMP-0217,Guerra,SMB,SaaS,4534,Growth,Proposal,3,8386,2024-07-26,,False,False,0,,Em andamento,Q3 2024,2024-07,,True,4,2,0,1,1,1,1,25.0
+DEAL-0545,COMP-0009,Guerra Novaes Ltda.,SMB,E-commerce,2827,Enterprise,Proposal,3,95976,2022-03-27,,False,False,0,,Em andamento,Q1 2022,2022-03,,True,2,0,0,1,1,0,1,0.0
+DEAL-0546,COMP-0194,Martins,Enterprise,Edtech,1630,Starter,Proposal,3,3383,2024-12-11,,False,False,0,,Em andamento,Q4 2024,2024-12,,True,5,2,0,2,1,1,1,20.0
+DEAL-0547,COMP-0118,Rodrigues,SMB,Edtech,1602,Starter,Qualified,2,1592,2024-07-24,,False,False,0,,Em andamento,Q3 2024,2024-07,,True,6,2,1,0,2,3,1,50.0
+DEAL-0548,COMP-0068,Sampaio e Filhos,Mid-Market,Healthtech,4791,Starter,Negotiation,4,3582,2024-03-21,,False,False,0,,Em andamento,Q1 2024,2024-03,,True,10,3,1,4,0,1,3,10.0
+DEAL-0549,COMP-0008,Garcia Correia S.A.,SMB,E-commerce,847,Growth,Proposal,3,5990,2022-04-11,,False,False,0,,Em andamento,Q2 2022,2022-04,,True,5,1,3,0,1,0,3,0.0
+DEAL-0550,COMP-0236,Mendonça,Mid-Market,E-commerce,2783,Pro,Proposal,3,22485,2023-09-16,,False,False,0,,Em andamento,Q3 2023,2023-09,,True,9,4,2,1,0,0,2,0.0
+DEAL-0551,COMP-0001,Pinto,Mid-Market,SaaS,2263,Starter,Qualified,2,4577,2023-08-26,,False,False,0,,Em andamento,Q3 2023,2023-08,,True,9,2,3,1,1,1,4,11.1
+DEAL-0552,COMP-0274,Macedo Borges e Filhos,SMB,Fintech,3408,Enterprise,Negotiation,4,83979,2022-10-19,,False,False,0,,Em andamento,Q4 2022,2022-10,,True,5,1,1,0,3,2,2,40.0
+DEAL-0553,COMP-0243,Araújo Oliveira Ltda.,SMB,Fintech,2010,Starter,Negotiation,4,1194,2024-10-22,,False,False,0,,Em andamento,Q4 2024,2024-10,,True,9,1,1,3,2,3,2,33.3
+DEAL-0554,COMP-0082,Câmara S/A,Mid-Market,SaaS,39,Enterprise,Closed Won,5,43989,2022-10-05,2023-01-20,True,True,43989,107,Mais de 90 dias,Q4 2022,2022-10,Q1 2023,False,7,1,2,1,1,4,1,57.1
+DEAL-0555,COMP-0201,da Mota,Mid-Market,Edtech,2061,Enterprise,Negotiation,4,75981,2023-01-02,,False,False,0,,Em andamento,Q1 2023,2023-01,,True,3,0,1,1,0,2,0,66.7
+DEAL-0556,COMP-0195,Garcia,SMB,Fintech,1230,Starter,Closed Lost,6,1791,2023-02-18,2023-06-21,True,False,0,123,Mais de 90 dias,Q1 2023,2023-02,Q2 2023,False,7,3,2,0,1,2,2,28.6
+DEAL-0557,COMP-0192,Rodrigues,SMB,Fintech,2370,Starter,Proposal,3,597,2022-12-02,,False,False,0,,Em andamento,Q4 2022,2022-12,,True,10,2,4,2,2,6,1,60.0
+DEAL-0558,COMP-0111,da Paz - ME,SMB,Edtech,4979,Pro,Qualified,2,4497,2024-07-09,,False,False,0,,Em andamento,Q3 2024,2024-07,,True,9,3,1,0,1,1,1,11.1
+DEAL-0559,COMP-0099,Sousa,SMB,E-commerce,1472,Growth,Negotiation,4,7787,2024-02-26,,False,False,0,,Em andamento,Q1 2024,2024-02,,True,8,2,3,0,2,3,5,37.5
+DEAL-0560,COMP-0284,Jesus,Mid-Market,Fintech,2701,Growth,Negotiation,4,6589,2022-03-31,,False,False,0,,Em andamento,Q1 2022,2022-03,,True,7,2,1,2,2,4,2,57.1
+DEAL-0561,COMP-0200,Sales Castro S/A,SMB,Edtech,336,Growth,Negotiation,4,2995,2022-11-04,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,9,2,1,1,2,5,2,55.6
+DEAL-0562,COMP-0145,Marques - EI,SMB,Edtech,436,Enterprise,Qualified,2,39990,2022-04-16,,False,False,0,,Em andamento,Q2 2022,2022-04,,True,2,1,0,1,0,1,0,50.0
+DEAL-0563,COMP-0052,Dias,SMB,E-commerce,905,Pro,Proposal,3,31479,2024-07-02,,False,False,0,,Em andamento,Q3 2024,2024-07,,True,7,0,6,1,0,1,1,14.3
+DEAL-0564,COMP-0147,Moreira Macedo Ltda.,Enterprise,Fintech,176,Growth,Qualified,2,599,2022-09-27,,False,False,0,,Em andamento,Q3 2022,2022-09,,True,5,1,1,0,2,2,2,40.0
+DEAL-0565,COMP-0191,Duarte,SMB,Healthtech,4874,Enterprise,Closed Won,5,63984,2023-06-03,2023-06-13,True,True,63984,10,Ate 30 dias,Q2 2023,2023-06,Q2 2023,False,8,1,1,1,4,5,2,62.5
+DEAL-0566,COMP-0160,Gonçalves,Mid-Market,SaaS,2294,Enterprise,Closed Lost,6,31992,2022-01-12,2022-06-23,True,False,0,162,Mais de 90 dias,Q1 2022,2022-01,Q2 2022,False,2,0,1,0,0,0,2,0.0
+DEAL-0567,COMP-0049,Gonçalves,SMB,Healthtech,3344,Enterprise,Qualified,2,55986,2024-09-01,,False,False,0,,Em andamento,Q3 2024,2024-09,,True,5,1,2,1,1,0,2,0.0
+DEAL-0568,COMP-0054,Aparecida,SMB,E-commerce,3799,Growth,Proposal,3,10782,2022-01-14,,False,False,0,,Em andamento,Q1 2022,2022-01,,True,10,3,1,2,3,3,1,30.0
+DEAL-0569,COMP-0292,Oliveira da Cunha S/A,SMB,Fintech,365,Starter,Proposal,3,1194,2023-03-02,,False,False,0,,Em andamento,Q1 2023,2023-03,,True,10,3,2,2,0,1,5,10.0
+DEAL-0570,COMP-0263,Teixeira Vasconcelos S/A,Mid-Market,Healthtech,626,Starter,Qualified,2,995,2023-12-16,,False,False,0,,Em andamento,Q4 2023,2023-12,,True,8,4,0,1,2,4,4,50.0
+DEAL-0571,COMP-0072,Jesus - EI,Mid-Market,Edtech,829,Starter,Closed Lost,6,398,2023-09-04,2023-12-04,True,False,0,91,Mais de 90 dias,Q3 2023,2023-09,Q4 2023,False,6,1,4,0,1,5,1,83.3
+DEAL-0572,COMP-0037,Cavalcanti e Filhos,SMB,Fintech,4657,Growth,Qualified,2,13178,2023-01-01,,False,False,0,,Em andamento,Q1 2023,2023-01,,True,7,0,0,1,3,2,1,28.6
+DEAL-0573,COMP-0126,Marques,Mid-Market,Healthtech,3696,Enterprise,Proposal,3,95976,2022-12-30,,False,False,0,,Em andamento,Q4 2022,2022-12,,True,7,0,2,1,3,2,1,28.6
+DEAL-0574,COMP-0285,Costa e Filhos,Mid-Market,Edtech,33,Starter,Negotiation,4,1990,2022-03-15,,False,False,0,,Em andamento,Q1 2022,2022-03,,True,3,0,2,1,0,2,0,66.7
+DEAL-0575,COMP-0221,Rezende Costa Ltda.,Enterprise,Fintech,3751,Starter,Proposal,3,2786,2024-02-16,,False,False,0,,Em andamento,Q1 2024,2024-02,,True,9,1,2,1,1,2,5,22.2
+DEAL-0576,COMP-0059,Jesus - ME,SMB,SaaS,3208,Enterprise,Closed Won,5,19995,2022-05-13,2022-08-02,True,True,19995,81,61 a 90 dias,Q2 2022,2022-05,Q3 2022,False,6,1,1,0,1,2,1,33.3
+DEAL-0577,COMP-0196,Albuquerque e Filhos,Mid-Market,SaaS,498,Pro,Qualified,2,25483,2023-07-17,,False,False,0,,Em andamento,Q3 2023,2023-07,,True,3,3,0,0,0,1,0,33.3
+DEAL-0578,COMP-0016,da Conceição,SMB,E-commerce,594,Growth,Proposal,3,11980,2023-03-06,,False,False,0,,Em andamento,Q1 2023,2023-03,,True,6,2,1,0,1,3,2,50.0
+DEAL-0579,COMP-0251,Barbosa,Mid-Market,Fintech,3161,Starter,Prospecting,1,3184,2024-12-19,,False,False,0,,Em andamento,Q4 2024,2024-12,,True,9,0,4,3,1,1,5,11.1
+DEAL-0580,COMP-0135,Cardoso,SMB,E-commerce,2456,Pro,Closed Won,5,13491,2023-08-12,2023-12-06,True,True,13491,116,Mais de 90 dias,Q3 2023,2023-08,Q4 2023,False,5,3,0,1,1,2,3,40.0
+DEAL-0581,COMP-0226,Peixoto,Mid-Market,Healthtech,4422,Growth,Negotiation,4,11980,2023-12-26,,False,False,0,,Em andamento,Q4 2023,2023-12,,True,9,2,3,1,1,3,5,33.3
+DEAL-0582,COMP-0183,Santos,SMB,SaaS,1252,Enterprise,Negotiation,4,63984,2024-11-30,,False,False,0,,Em andamento,Q4 2024,2024-11,,True,2,1,0,1,0,1,0,50.0
+DEAL-0583,COMP-0125,Martins Vieira Ltda.,Mid-Market,Edtech,3662,Growth,Closed Won,5,599,2023-04-22,2023-07-12,True,True,599,81,61 a 90 dias,Q2 2023,2023-04,Q3 2023,False,5,1,1,0,2,3,1,60.0
+DEAL-0584,COMP-0181,Mendes Sá - ME,SMB,SaaS,2078,Starter,Qualified,2,4776,2024-08-10,,False,False,0,,Em andamento,Q3 2024,2024-08,,True,9,2,2,1,3,4,2,44.4
+DEAL-0585,COMP-0153,Cavalcanti,SMB,E-commerce,4928,Starter,Closed Won,5,2189,2024-04-29,2024-08-19,True,True,2189,112,Mais de 90 dias,Q2 2024,2024-04,Q3 2024,False,5,1,1,0,1,2,3,40.0
+DEAL-0586,COMP-0292,Oliveira da Cunha S/A,SMB,Fintech,365,Starter,Proposal,3,4179,2023-03-11,,False,False,0,,Em andamento,Q1 2023,2023-03,,True,7,0,0,3,1,0,4,0.0
+DEAL-0587,COMP-0265,Pereira,SMB,Healthtech,124,Pro,Qualified,2,4497,2023-07-31,,False,False,0,,Em andamento,Q3 2023,2023-07,,True,4,0,0,2,2,0,1,0.0
+DEAL-0588,COMP-0197,Pires,Mid-Market,Edtech,4672,Pro,Proposal,3,1499,2024-11-03,,False,False,0,,Em andamento,Q4 2024,2024-11,,True,7,4,0,1,1,1,2,14.3
+DEAL-0589,COMP-0094,Nunes,Mid-Market,Fintech,1644,Pro,Qualified,2,19487,2023-11-14,,False,False,0,,Em andamento,Q4 2023,2023-11,,True,5,1,0,2,1,1,3,20.0
+DEAL-0590,COMP-0057,da Luz - ME,Enterprise,Fintech,1372,Growth,Closed Won,5,6589,2022-03-01,2022-04-21,True,True,6589,51,31 a 60 dias,Q1 2022,2022-03,Q2 2022,False,5,1,0,1,1,1,3,20.0
+DEAL-0591,COMP-0288,Andrade das Neves S/A,SMB,Fintech,4833,Starter,Closed Won,5,4179,2024-09-08,2025-01-14,True,True,4179,128,Mais de 90 dias,Q3 2024,2024-09,Q1 2025,False,4,0,1,2,0,2,1,50.0
+DEAL-0592,COMP-0036,Souza,SMB,SaaS,2983,Enterprise,Qualified,2,71982,2022-11-15,,False,False,0,,Em andamento,Q4 2022,2022-11,,True,6,0,0,1,3,1,1,16.7
+DEAL-0593,COMP-0161,Lopes,SMB,Healthtech,4678,Starter,Closed Lost,6,3383,2024-08-05,2024-11-25,True,False,0,112,Mais de 90 dias,Q3 2024,2024-08,Q4 2024,False,7,0,4,1,1,5,1,71.4
+DEAL-0594,COMP-0063,Pires,Mid-Market,SaaS,420,Starter,Proposal,3,1393,2023-10-09,,False,False,0,,Em andamento,Q4 2023,2023-10,,True,3,1,0,2,0,1,1,33.3
+DEAL-0595,COMP-0145,Marques - EI,SMB,Edtech,436,Pro,Negotiation,4,4497,2023-11-11,,False,False,0,,Em andamento,Q4 2023,2023-11,,True,6,2,0,0,1,4,0,66.7
+DEAL-0596,COMP-0099,Sousa,SMB,E-commerce,1472,Pro,Closed Lost,6,19487,2023-07-29,2023-08-12,True,False,0,14,Ate 30 dias,Q3 2023,2023-07,Q3 2023,False,3,1,0,0,1,1,1,33.3
+DEAL-0597,COMP-0108,Gonçalves - ME,SMB,Fintech,3454,Enterprise,Closed Won,5,23994,2022-12-06,2023-05-08,True,True,23994,153,Mais de 90 dias,Q4 2022,2022-12,Q2 2023,False,5,1,1,1,1,2,1,40.0
+DEAL-0598,COMP-0266,da Paz Sampaio - EI,SMB,Healthtech,3029,Pro,Negotiation,4,34477,2023-09-24,,False,False,0,,Em andamento,Q3 2023,2023-09,,True,5,1,1,0,3,2,1,40.0
+DEAL-0599,COMP-0065,Silveira - ME,Enterprise,SaaS,1532,Starter,Prospecting,1,3184,2024-04-27,,False,False,0,,Em andamento,Q2 2024,2024-04,,True,6,1,0,2,2,2,4,33.3
+DEAL-0600,COMP-0057,da Luz - ME,Enterprise,Fintech,1372,Pro,Closed Lost,6,10493,2024-02-01,2024-06-02,True,False,0,122,Mais de 90 dias,Q1 2024,2024-02,Q2 2024,False,3,2,0,0,0,0,1,0.0
