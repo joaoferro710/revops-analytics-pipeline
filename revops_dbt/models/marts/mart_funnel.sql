@@ -68,6 +68,7 @@ funnel as (
         'Q' || quarter(d.created_at) || ' ' ||
         year(d.created_at)                              as deal_quarter,
         strftime(d.created_at, '%Y-%m')                as deal_month,
+        year(d.created_at)                              as deal_year,
         case
             when d.closed_at is not null
             then 'Q' || quarter(d.closed_at) || ' ' || year(d.closed_at)

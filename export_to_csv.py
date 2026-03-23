@@ -5,7 +5,16 @@ os.makedirs('data/marts', exist_ok=True)
 
 con = duckdb.connect('data/db/revops.duckdb', read_only=True)
 
-marts = ['mart_funnel', 'mart_churn', 'mart_mrr', 'mart_funnel_conversion']
+marts = [
+    'fact_deals',
+    'fact_funnel_conversion',
+    'dim_companies',
+    'dim_plans',
+    'dim_stages',
+    'dim_dates',
+    'mart_churn',
+    'mart_mrr',
+]
 
 print("Exportando marts para CSV...\n")
 for mart in marts:
