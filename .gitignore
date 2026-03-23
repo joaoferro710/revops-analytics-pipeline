@@ -9,3 +9,5 @@ __pycache__/
 Thumbs.db
 # Banco de dados
 data/db/
+# Marts exportados
+data/marts/
