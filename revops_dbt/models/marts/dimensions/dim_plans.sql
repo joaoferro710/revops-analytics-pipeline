@@ -1,5 +1,5 @@
 ﻿with plans as (
-    select distinct plan from main.stg_deals
+    select distinct plan from {{ ref('stg_deals') }}
 )
 
 select

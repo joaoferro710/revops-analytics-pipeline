@@ -1,25 +1,25 @@
 ﻿with stage_history as (
-    select * from main.stg_stage_history
+    select * from {{ ref('stg_stage_history') }}
 ),
 
 stage_order as (
-    select * from main.dim_stages
+    select * from {{ ref('dim_stages') }}
 ),
 
 dim_companies as (
-    select * from main.dim_companies
+    select * from {{ ref('dim_companies') }}
 ),
 
 dim_plans as (
-    select * from main.dim_plans
+    select * from {{ ref('dim_plans') }}
 ),
 
 dim_dates as (
-    select * from main.dim_dates
+    select * from {{ ref('dim_dates') }}
 ),
 
 deals as (
-    select * from main.stg_deals
+    select * from {{ ref('stg_deals') }}
 ),
 
 deal_attrs as (
@@ -43,7 +43,7 @@ history_enriched as (
         da.plan_key,
         da.date_key
     from stage_history sh
-    left join stage_order so on sh.stage  = so.stage_name
+    left join stage_order so on sh.stage   = so.stage_name
     left join deal_attrs  da on sh.deal_id = da.deal_id
     where sh.stage != 'Closed Lost'
 ),

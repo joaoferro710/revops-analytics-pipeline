@@ -8,12 +8,12 @@ con = duckdb.connect('data/db/revops.duckdb', read_only=True)
 marts = [
     'fact_deals',
     'fact_funnel_conversion',
+    'fact_subscriptions',
+    'fact_mrr_monthly',
     'dim_companies',
     'dim_plans',
     'dim_stages',
     'dim_dates',
-    'mart_churn',
-    'mart_mrr',
 ]
 
 print("Exportando marts para CSV...\n")

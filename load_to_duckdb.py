@@ -12,6 +12,7 @@ tables = {
     'raw_contacts':      'data/raw/contacts.csv',
     'raw_deals':         'data/raw/deals.csv',
     'raw_subscriptions': 'data/raw/subscriptions.csv',
+    'raw_plan_changes':  'data/raw/plan_changes.csv',
     'raw_activities':    'data/raw/activities.csv',
     'raw_stage_history': 'data/raw/stage_history.csv',
 }

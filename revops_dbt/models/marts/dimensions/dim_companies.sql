@@ -1,5 +1,5 @@
 ﻿with companies as (
-    select * from main.stg_companies
+    select * from {{ ref('stg_companies') }}
 )
 
 select
