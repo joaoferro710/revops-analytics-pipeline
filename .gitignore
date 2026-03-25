@@ -11,3 +11,5 @@ Thumbs.db
 data/db/
 # Marts exportados
 data/marts/
+# Credenciais
+credentials/
