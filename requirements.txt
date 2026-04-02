@@ -1,0 +1,6 @@
+faker
+dbt-bigquery
+google-cloud-bigquery
+numpy
+pandas
+pyarrow

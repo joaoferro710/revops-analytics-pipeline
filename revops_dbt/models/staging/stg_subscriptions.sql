@@ -1,7 +1,6 @@
 with source as (
-    select * from raw_subscriptions
+    select * from {{ source('revops_raw', 'subscriptions') }}
 ),
-
 renamed as (
     select
         subscription_id,
@@ -18,5 +17,4 @@ renamed as (
         end                             as is_churned
     from source
 )
-
 select * from renamed

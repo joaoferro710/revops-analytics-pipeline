@@ -1,7 +1,6 @@
 with source as (
-    select * from raw_deals
+    select * from {{ source('revops_raw', 'deals') }}
 ),
-
 renamed as (
     select
         deal_id,
@@ -22,5 +21,4 @@ renamed as (
         end                             as is_won
     from source
 )
-
 select * from renamed

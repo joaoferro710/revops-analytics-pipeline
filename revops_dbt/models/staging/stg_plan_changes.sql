@@ -1,7 +1,6 @@
-﻿with source as (
-    select * from raw_plan_changes
+with source as (
+    select * from {{ source('revops_raw', 'plan_changes') }}
 ),
-
 renamed as (
     select
         change_id,
@@ -16,5 +15,4 @@ renamed as (
         cast(change_date as date) as change_date
     from source
 )
-
 select * from renamed

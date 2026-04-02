@@ -4,12 +4,15 @@ __pycache__/
 *.pyc
 *.pyo
 .env
+airflow/.env
+airflow/dags/__pycache__/
+airflow/logs/
+logs/
+revops_dbt/logs/
+revops_dbt/target/
+revops_dbt/profiles/.user.yml
 .vscode/
 .DS_Store
 Thumbs.db
-# Banco de dados
-data/db/
-# Marts exportados
-data/marts/
 # Credenciais
 credentials/

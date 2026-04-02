@@ -1,27 +1,21 @@
-﻿with deals as (
+with deals as (
     select * from {{ ref('stg_deals') }}
 ),
-
 companies as (
     select * from {{ ref('stg_companies') }}
 ),
-
 dim_companies as (
     select * from {{ ref('dim_companies') }}
 ),
-
 dim_plans as (
     select * from {{ ref('dim_plans') }}
 ),
-
 dim_stages as (
     select * from {{ ref('dim_stages') }}
 ),
-
 dim_dates as (
     select * from {{ ref('dim_dates') }}
 ),
-
 fact as (
     select
         dc.company_key,
@@ -34,7 +28,7 @@ fact as (
         case when d.is_won then d.amount else 0 end as won_amount,
         case
             when d.closed_at is not null
-            then cast(d.closed_at - d.created_at as integer)
+            then date_diff(d.closed_at, d.created_at, DAY)
             else null
         end                                         as days_to_close,
         d.is_won,
@@ -49,8 +43,7 @@ fact as (
     left join dim_companies dc  on d.company_id  = dc.company_id
     left join dim_plans dp      on d.plan        = dp.plan_name
     left join dim_stages ds     on d.stage       = ds.stage_name
-    left join dim_dates dd_created on cast(strftime(d.created_at, '%Y%m%d') as integer) = dd_created.date_key
-    left join dim_dates dd_closed  on cast(strftime(d.closed_at,  '%Y%m%d') as integer) = dd_closed.date_key
+    left join dim_dates dd_created on cast(format_date('%Y%m%d', d.created_at) as int64) = dd_created.date_key
+    left join dim_dates dd_closed  on cast(format_date('%Y%m%d', d.closed_at)  as int64) = dd_closed.date_key
 )
-
 select * from fact

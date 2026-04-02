@@ -1,7 +1,6 @@
 with source as (
-    select * from raw_stage_history
+    select * from {{ source('revops_raw', 'stage_history') }}
 ),
-
 renamed as (
     select
         deal_id,
@@ -9,5 +8,4 @@ renamed as (
         cast(entered_at as date) as entered_at
     from source
 )
-
 select * from renamed

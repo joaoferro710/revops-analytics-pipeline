@@ -1,7 +1,6 @@
 with source as (
-    select * from raw_contacts
+    select * from {{ source('revops_raw', 'contacts') }}
 ),
-
 renamed as (
     select
         contact_id,
@@ -12,5 +11,4 @@ renamed as (
         cast(created_at as date)        as created_at
     from source
 )
-
 select * from renamed

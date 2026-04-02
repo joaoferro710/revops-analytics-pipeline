@@ -1,4 +1,4 @@
-﻿select
+select
     stage_order                                     as stage_key,
     stage                                           as stage_name,
     stage_order,

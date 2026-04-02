@@ -1,11 +1,9 @@
 with subs as (
-    select * from main.stg_subscriptions
+    select * from {{ ref('stg_subscriptions') }}
 ),
-
 companies as (
-    select * from main.stg_companies
+    select * from {{ ref('stg_companies') }}
 ),
-
 mrr as (
     select
         s.subscription_id,
@@ -18,7 +16,7 @@ mrr as (
         s.status,
         s.start_date,
         s.end_date,
-        date_trunc('month', s.start_date)           as cohort_month,
+        date_trunc(s.start_date, MONTH)             as cohort_month,
         case
             when s.status = 'Active' then s.mrr
             else 0
@@ -30,5 +28,4 @@ mrr as (
     from subs s
     left join companies c on s.company_id = c.company_id
 )
-
 select * from mrr

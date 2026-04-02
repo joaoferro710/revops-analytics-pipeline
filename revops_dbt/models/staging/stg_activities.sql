@@ -1,7 +1,6 @@
 with source as (
-    select * from raw_activities
+    select * from {{ source('revops_raw', 'activities') }}
 ),
-
 renamed as (
     select
         activity_id,
@@ -12,5 +11,4 @@ renamed as (
         cast(date as date)              as activity_date
     from source
 )
-
 select * from renamed

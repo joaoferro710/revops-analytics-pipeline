@@ -1,4 +1,4 @@
-﻿with companies as (
+with companies as (
     select * from {{ ref('stg_companies') }}
 )
 

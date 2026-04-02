@@ -1,0 +1,69 @@
+version: 2
+
+sources:
+  - name: revops_raw
+    database: revops-analytics-personal
+    schema: revops_raw
+    tables:
+      - name: companies
+        columns:
+          - name: company_id
+            tests:
+              - not_null
+              - unique
+      - name: contacts
+        columns:
+          - name: contact_id
+            tests:
+              - not_null
+              - unique
+          - name: company_id
+            tests:
+              - not_null
+      - name: deals
+        columns:
+          - name: deal_id
+            tests:
+              - not_null
+              - unique
+          - name: company_id
+            tests:
+              - not_null
+          - name: stage
+            tests:
+              - not_null
+      - name: subscriptions
+        columns:
+          - name: subscription_id
+            tests:
+              - not_null
+              - unique
+          - name: deal_id
+            tests:
+              - not_null
+      - name: plan_changes
+        columns:
+          - name: change_id
+            tests:
+              - not_null
+              - unique
+          - name: subscription_id
+            tests:
+              - not_null
+      - name: activities
+        columns:
+          - name: activity_id
+            tests:
+              - not_null
+              - unique
+          - name: deal_id
+            tests:
+              - not_null
+      - name: stage_history
+        columns:
+          - name: deal_id
+            tests:
+              - not_null
+          - name: stage
+            tests:
+              - not_null

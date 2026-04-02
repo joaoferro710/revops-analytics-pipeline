@@ -1,15 +1,16 @@
-﻿with plans as (
+with plans as (
     select distinct plan from {{ ref('stg_deals') }}
 )
 
 select
-    row_number() over (order by
-        case plan
-            when 'Starter'    then 1
-            when 'Growth'     then 2
-            when 'Pro'        then 3
-            when 'Enterprise' then 4
-        end
+    row_number() over (
+        order by
+            case plan
+                when 'Starter'    then 1
+                when 'Growth'     then 2
+                when 'Pro'        then 3
+                when 'Enterprise' then 4
+            end
     )                                               as plan_key,
     plan                                            as plan_name,
     case plan

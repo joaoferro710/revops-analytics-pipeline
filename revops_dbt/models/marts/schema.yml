@@ -1,0 +1,204 @@
+version: 2
+
+models:
+  - name: dim_companies
+    columns:
+      - name: company_key
+        tests:
+          - not_null
+          - unique
+      - name: company_id
+        tests:
+          - not_null
+          - unique
+      - name: company_size
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Micro', 'Small', 'Medium', 'Large']
+
+  - name: dim_plans
+    columns:
+      - name: plan_key
+        tests:
+          - not_null
+          - unique
+      - name: plan_name
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_stages
+    columns:
+      - name: stage_key
+        tests:
+          - not_null
+          - unique
+      - name: stage_name
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_dates
+    columns:
+      - name: date_key
+        tests:
+          - not_null
+          - unique
+      - name: full_date
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_deals
+    columns:
+      - name: deal_id
+        tests:
+          - not_null
+          - unique
+      - name: company_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_companies')
+                field: company_key
+      - name: plan_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_plans')
+                field: plan_key
+      - name: stage_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_stages')
+                field: stage_key
+      - name: created_date_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_dates')
+                field: date_key
+
+  - name: fact_subscriptions
+    columns:
+      - name: subscription_id
+        tests:
+          - not_null
+          - unique
+      - name: company_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_companies')
+                field: company_key
+      - name: plan_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_plans')
+                field: plan_key
+      - name: start_date_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_dates')
+                field: date_key
+
+  - name: fact_mrr_monthly
+    columns:
+      - name: company_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_companies')
+                field: company_key
+      - name: plan_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_plans')
+                field: plan_key
+      - name: mrr_type
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['New', 'Churned', 'Expansion', 'Contraction']
+      - name: month_start
+        tests:
+          - not_null
+
+  - name: fact_funnel_conversion
+    columns:
+      - name: from_stage_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_stages')
+                field: stage_key
+      - name: to_stage_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_stages')
+                field: stage_key
+      - name: company_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_companies')
+                field: company_key
+      - name: plan_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_plans')
+                field: plan_key
+      - name: date_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_dates')
+                field: date_key
+
+  - name: mart_churn
+    columns:
+      - name: subscription_id
+        tests:
+          - not_null
+          - unique
+      - name: company_id
+        tests:
+          - not_null
+      - name: plan
+        tests:
+          - not_null
+
+  - name: mart_funnel
+    columns:
+      - name: stage
+        tests:
+          - not_null
+
+  - name: mart_mrr
+    columns:
+      - name: cohort_month
+        tests:
+          - not_null

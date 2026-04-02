@@ -1,0 +1,185 @@
+version: 2
+
+models:
+  - name: stg_companies
+    columns:
+      - name: company_id
+        tests:
+          - not_null
+          - unique
+      - name: segment
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['SMB', 'Mid-Market', 'Enterprise']
+      - name: created_at
+        tests:
+          - not_null
+
+  - name: stg_contacts
+    columns:
+      - name: contact_id
+        tests:
+          - not_null
+          - unique
+      - name: company_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_companies')
+                field: company_id
+      - name: email
+        tests:
+          - not_null
+
+  - name: stg_deals
+    columns:
+      - name: deal_id
+        tests:
+          - not_null
+          - unique
+      - name: company_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_companies')
+                field: company_id
+      - name: plan
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Starter', 'Growth', 'Pro', 'Enterprise']
+      - name: stage
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Prospecting', 'Qualified', 'Proposal', 'Negotiation', 'Closed Won', 'Closed Lost']
+      - name: amount
+        tests:
+          - not_null
+      - name: created_at
+        tests:
+          - not_null
+
+  - name: stg_subscriptions
+    columns:
+      - name: subscription_id
+        tests:
+          - not_null
+          - unique
+      - name: company_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_companies')
+                field: company_id
+      - name: deal_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_deals')
+                field: deal_id
+      - name: plan
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Starter', 'Growth', 'Pro', 'Enterprise']
+      - name: status
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Active', 'Churned']
+      - name: start_date
+        tests:
+          - not_null
+
+  - name: stg_plan_changes
+    columns:
+      - name: change_id
+        tests:
+          - not_null
+          - unique
+      - name: subscription_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_subscriptions')
+                field: subscription_id
+      - name: company_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_companies')
+                field: company_id
+      - name: change_type
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Upgrade', 'Downgrade']
+      - name: change_date
+        tests:
+          - not_null
+
+  - name: stg_activities
+    columns:
+      - name: activity_id
+        tests:
+          - not_null
+          - unique
+      - name: deal_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_deals')
+                field: deal_id
+      - name: contact_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_contacts')
+                field: contact_id
+      - name: activity_type
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Email', 'Call', 'Meeting', 'Demo', 'Proposal Sent']
+      - name: outcome
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Positive', 'Neutral', 'Negative']
+
+  - name: stg_stage_history
+    columns:
+      - name: deal_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_deals')
+                field: deal_id
+      - name: stage
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Prospecting', 'Qualified', 'Proposal', 'Negotiation', 'Closed Won', 'Closed Lost']
+      - name: entered_at
+        tests:
+          - not_null

@@ -1,38 +1,33 @@
 with deals as (
-    select * from main.stg_deals
+    select * from {{ ref('stg_deals') }}
 ),
-
 companies as (
-    select * from main.stg_companies
+    select * from {{ ref('stg_companies') }}
 ),
-
 activities as (
-    select * from main.stg_activities
+    select * from {{ ref('stg_activities') }}
 ),
-
 deal_activities as (
     select
         deal_id,
         count(*)                                        as total_activities,
-        count(case when activity_type = 'Call'     then 1 end) as total_calls,
-        count(case when activity_type = 'Email'    then 1 end) as total_emails,
-        count(case when activity_type = 'Meeting'  then 1 end) as total_meetings,
-        count(case when activity_type = 'Demo'     then 1 end) as total_demos,
-        count(case when outcome = 'Positive'       then 1 end) as positive_outcomes,
-        count(case when outcome = 'Negative'       then 1 end) as negative_outcomes
+        count(case when activity_type = 'Call'    then 1 end) as total_calls,
+        count(case when activity_type = 'Email'   then 1 end) as total_emails,
+        count(case when activity_type = 'Meeting' then 1 end) as total_meetings,
+        count(case when activity_type = 'Demo'    then 1 end) as total_demos,
+        count(case when outcome = 'Positive'      then 1 end) as positive_outcomes,
+        count(case when outcome = 'Negative'      then 1 end) as negative_outcomes
     from activities
     group by deal_id
 ),
-
 stage_order as (
-    select 1 as order_num, 'Prospecting'  as stage union all
-    select 2,              'Qualified'             union all
-    select 3,              'Proposal'              union all
-    select 4,              'Negotiation'           union all
-    select 5,              'Closed Won'            union all
+    select 1 as order_num, 'Prospecting' as stage union all
+    select 2,              'Qualified'            union all
+    select 3,              'Proposal'             union all
+    select 4,              'Negotiation'          union all
+    select 5,              'Closed Won'           union all
     select 6,              'Closed Lost'
 ),
-
 funnel as (
     select
         d.deal_id,
@@ -55,23 +50,24 @@ funnel as (
         end                                             as won_amount,
         case
             when d.closed_at is not null
-            then cast(d.closed_at - d.created_at as integer)
+            then date_diff(d.closed_at, d.created_at, DAY)
             else null
         end                                             as days_to_close,
         case
-            when cast(d.closed_at - d.created_at as integer) <= 30  then 'Ate 30 dias'
-            when cast(d.closed_at - d.created_at as integer) <= 60  then '31 a 60 dias'
-            when cast(d.closed_at - d.created_at as integer) <= 90  then '61 a 90 dias'
-            when cast(d.closed_at - d.created_at as integer) > 90   then 'Mais de 90 dias'
+            when date_diff(d.closed_at, d.created_at, DAY) <= 30  then 'Ate 30 dias'
+            when date_diff(d.closed_at, d.created_at, DAY) <= 60  then '31 a 60 dias'
+            when date_diff(d.closed_at, d.created_at, DAY) <= 90  then '61 a 90 dias'
+            when date_diff(d.closed_at, d.created_at, DAY) > 90   then 'Mais de 90 dias'
             else 'Em andamento'
         end                                             as sales_cycle_bucket,
-        'Q' || quarter(d.created_at) || ' ' ||
-        year(d.created_at)                              as deal_quarter,
-        strftime(d.created_at, '%Y-%m')                as deal_month,
-        year(d.created_at)                              as deal_year,
+        'Q' || cast(extract(quarter from d.created_at) as string) || ' ' ||
+        cast(extract(year from d.created_at) as string)    as deal_quarter,
+        format_date('%Y-%m', d.created_at)                 as deal_month,
+        extract(year from d.created_at)                    as deal_year,
         case
             when d.closed_at is not null
-            then 'Q' || quarter(d.closed_at) || ' ' || year(d.closed_at)
+            then 'Q' || cast(extract(quarter from d.closed_at) as string) || ' ' ||
+                 cast(extract(year from d.closed_at) as string)
             else null
         end                                             as close_quarter,
         case
@@ -98,5 +94,4 @@ funnel as (
     left join stage_order so     on d.stage = so.stage
     left join deal_activities da on d.deal_id = da.deal_id
 )
-
 select * from funnel

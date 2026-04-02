@@ -1,11 +1,9 @@
 with subs as (
-    select * from main.stg_subscriptions
+    select * from {{ ref('stg_subscriptions') }}
 ),
-
 companies as (
-    select * from main.stg_companies
+    select * from {{ ref('stg_companies') }}
 ),
-
 churn as (
     select
         s.subscription_id,
@@ -25,11 +23,10 @@ churn as (
         end                                         as churned_mrr,
         case
             when s.end_date is not null
-            then cast(s.end_date - s.start_date as integer)
+            then date_diff(s.end_date, s.start_date, DAY)
             else null
         end                                         as days_active
     from subs s
     left join companies c on s.company_id = c.company_id
 )
-
 select * from churn
