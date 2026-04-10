@@ -1,5 +1,15 @@
 # RevOps Analytics Pipeline
 
+[🇧🇷 Português](README.md) | [🇺🇸 English](README.en.md)
+
+![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=flat&logo=pandas&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-GCP-4285F4?style=flat&logo=googlebigquery&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-Core%201.11-FF694B?style=flat&logo=dbt&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-3.x-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat&logo=docker&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=flat&logo=powerbi&logoColor=black)
+
 Projeto end-to-end de dados para uma empresa SaaS B2B fictícia, cobrindo geração de dados, ingestão em BigQuery, modelagem analítica com dbt, orquestração com Airflow e consumo no Power BI.
 
 O objetivo deste repositório é simular um fluxo de dados próximo de um cenário corporativo real de Revenue Operations, com foco em funil comercial, receita recorrente, churn, retenção e cohort analysis.
@@ -519,8 +529,3 @@ Evoluções naturais para uma próxima iteração:
 - separar credenciais e configurações sensíveis por ambiente
 - incluir monitoramento e alertas operacionais
 - ampliar a modelagem para NRR, GRR e forecasting
-
-## Observações importantes
-
-- Há logs de tentativas antigas do Airflow durante a fase de configuração inicial. As execuções mais recentes do pipeline estão consistentes e concluídas com sucesso.
-- O repositório possui um diretório `models/` legado fora do projeto dbt principal. A modelagem ativa usada no pipeline está em `revops_dbt/models/`.
